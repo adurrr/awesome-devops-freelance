@@ -1,4 +1,4 @@
-# AI for DevOps — Extended List (30+ Tools)
+# AI for DevOps → Extended List (30+ Tools)
 
 > **Full list of AI tools, agents, MCP servers, and resources for DevOps, SRE, and Platform Engineering. Based on awesome-devops-ai (hammadhaqqani) and 2026 market research.**
 
@@ -58,5 +58,5 @@
 | **AIOps platforms** | Various | Automated log pattern detection |
 
 ## References
-- [awesome-devops-ai](https://github.com/hammadhaqqani/awesome-devops-ai) — 314 tools across 20 categories
+- [awesome-devops-ai](https://github.com/hammadhaqqani/awesome-devops-ai) → 314 tools across 20 categories
 - CNCF Sandbox: kagent, HolmesGPT, K8sGPT, Runme

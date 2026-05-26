@@ -1,4 +1,4 @@
-# Observability & Monitoring Tools — Extended List
+# Observability & Monitoring Tools → Extended List
 
 > **Full comparison of observability and monitoring tools for DevOps freelancers.**
 
@@ -11,14 +11,14 @@
 | **Prometheus** | Metrics | 56k+ | Apache 2.0 | K8s metrics collection | Free (CNCF) |
 | **Grafana** | Visualization | 66k+ | AGPL v3 | Dashboards for any data | Free + Cloud |
 | **OpenTelemetry** | Framework | 15k+ | Apache 2.0 | Observability standard | Free (CNCF) |
-| **Datadog** | Full-stack | — | SaaS | Enterprise observability | From $15/host/mo |
+| **Datadog** | Full-stack | - | SaaS | Enterprise observability | From $15/host/mo |
 | **Grafana Loki** | Logs | 24k+ | AGPL v3 | Log aggregation | Free + Cloud |
-| **New Relic** | Full-stack | — | SaaS | APM + infra monitoring | Free 100GB/mo |
+| **New Relic** | Full-stack | - | SaaS | APM + infra monitoring | Free 100GB/mo |
 | **SigNoz** | Full-stack | 20k+ | MIT | OpenTelemetry-native | Open source + Cloud |
 | **ELK Stack** | Logs | ES: 72k+ | Elastic License | Log search & analytics | Free + Cloud |
 | **Jaeger** | Tracing | 21k+ | Apache 2.0 | Distributed tracing | Free (CNCF) |
 | **Thanos** | Metrics | 13k+ | Apache 2.0 | HA Prometheus | Free (CNCF) |
-| **Sentinel** | Metrics | — | — | Stream processing | Free + SaaS |
+| **Sentinel** | Metrics | - | → | Stream processing | Free + SaaS |
 
 ## Recommended Stacks
 

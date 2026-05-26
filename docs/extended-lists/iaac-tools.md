@@ -1,4 +1,4 @@
-# Infrastructure as Code Tools — Extended List
+# Infrastructure as Code Tools → Extended List
 
 > **Full comparison of IaC tools for DevOps freelancers.**
 
@@ -13,7 +13,7 @@
 | **Pulumi** | Python/TS/Go/C# | Apache 2.0 | 22k+ | Provisioning | ✅ | Medium-High | 🔥🔥🔥 Growing |
 | **Crossplane** | K8s CRDs (YAML) | Apache 2.0 | 10k+ | Control plane | ✅ | High | 🔥🔥 Niche premium |
 | **Ansible** | YAML | GPL | 63k+ | Config mgmt | ✅ | Low-Medium | 🔥🔥🔥🔥 Steady |
-| **CloudFormation** | JSON/YAML | AWS | — | Provisioning | ❌ (AWS) | Medium | 🔥🔥 AWS-only |
+| **CloudFormation** | JSON/YAML | AWS | - | Provisioning | ❌ (AWS) | Medium | 🔥🔥 AWS-only |
 | **Puppet** | DSL | Apache 2.0 | 8k+ | Config mgmt | ✅ | High | 🔥 Legacy |
 | **Chef** | Ruby DSL | Apache 2.0 | 8k+ | Config mgmt | ✅ | High | 🔥 Legacy |
 

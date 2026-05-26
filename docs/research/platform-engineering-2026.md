@@ -1,7 +1,9 @@
-# Platform Engineering 2026 — Research Document
+# Platform Engineering 2026 → Research Document
 
-> **Purpose**: Deep reference for Platform Engineering paradigm — Internal Developer Platforms (IDPs), Backstage, Crossplane, and the shift from traditional DevOps.
+> **Purpose**: Deep reference for Platform Engineering paradigm → Internal Developer Platforms (IDPs), Backstage, Crossplane, and the shift from traditional DevOps.
 
+
+**Last updated**: 2026-05-26
 ---
 
 ## 1. Definition and 2026 Context
@@ -64,8 +66,8 @@ In 2026, platform engineering is the **most significant trend** in the cloud-nat
 | **Backstage** | Developer portal | 30k+ | Graduated | The #1 choice for developer portals |
 | **Crossplane** | Control plane framework | 10k+ | Graduated | K8s-native cloud resource management |
 | **Kratix** | Platform orchestration | 1k+ | Sandbox | Building composable IDPs |
-| **Port** | Developer portal | — | — | SaaS alternative to Backstage |
-| **Humanitec** | Platform orchestrator | — | — | Commercial IDP platform |
+| **Port** | Developer portal | - | → | SaaS alternative to Backstage |
+| **Humanitec** | Platform orchestrator | - | → | Commercial IDP platform |
 
 ---
 

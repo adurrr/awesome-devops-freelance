@@ -1,7 +1,9 @@
-# Freelancer Profile Analysis — Top 50 DevOps Freelancers
+# Freelancer Profile Analysis → Top 50 DevOps Freelancers
 
 > **Purpose**: Analysis of 50 top-rated DevOps/DevSecOps freelancer profiles from Toptal, Upwork, Arc.dev, and Fiverr Pro. Identifies patterns in success, pricing, skills, portfolio, and positioning.
 
+
+**Last updated**: 2026-05-26
 ---
 
 ## 1. Methodology
@@ -141,10 +143,10 @@ Example: *"Kubernetes Security Engineer | Falco, OPA, Trivy | FinTech Focus"*
 | Step | Description | Time |
 |---|---|---|
 | 1. Discovery call | Understand problem, don't pitch. Ask: "What's broken?" | 30 min |
-| 2. 1-page proposal | Problem → Solution → Deliverables → Timeline → Price | — |
+| 2. 1-page proposal | Problem → Solution → Deliverables → Timeline → Price | - |
 | 3. Contract | 50% upfront, scope, IP, out-of-scope defined | Non-negotiable |
 | 4. Weekly check-ins | Over-communicate, document everything | Weekly |
-| 5. Delivery + handoff | Loom walkthrough + written docs → Happy client → Referral | — |
+| 5. Delivery + handoff | Loom walkthrough + written docs → Happy client → Referral | - |
 
 ### Top 5 Mistakes to Avoid
 1. ❌ Taking projects outside expertise (one failure kills reputation)
@@ -193,7 +195,7 @@ Example: *"Kubernetes Security Engineer | Falco, OPA, Trivy | FinTech Focus"*
 | **Arc.dev** | High (vetted) | $60–$160/hr | European clients | ~15% |
 | **Upwork** | Variable | $40–$150/hr | Starting out, flexibility | Open |
 | **Fiverr Pro** | Good | $500–$10K/project | Fixed-scope projects | Vetted |
-| **Independent** | — | $100–$300/hr | Established freelancers | — |
+| **Independent** | - | $100–$300/hr | Established freelancers | - |
 
 ---
 

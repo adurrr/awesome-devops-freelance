@@ -1,4 +1,4 @@
-# DevSecOps & Security Tools — Extended List
+# DevSecOps & Security Tools → Extended List
 
 > **Full comparison of DevSecOps and security tools for DevOps freelancers.**
 
@@ -16,9 +16,9 @@
 ### SCA / Dependency Scanning
 | Tool | Stars | License | Best For |
 |---|---|---|---|
-| **Snyk** | — | SaaS | Developer-first security |
+| **Snyk** | - | SaaS | Developer-first security |
 | **Trivy** | 25k+ | Apache 2.0 | All-in-one scanner (containers + deps + IaC) |
-| **Dependabot** | — | Built-in GitHub | Automated dependency updates |
+| **Dependabot** | - | Built-in GitHub | Automated dependency updates |
 | **OWASP Dependency-Check** | 7k+ | Apache 2.0 | Classic SCA tool |
 
 ### Container / Image Scanning
@@ -27,7 +27,7 @@
 | **Trivy** | 25k+ | Apache 2.0 | Comprehensive container scanning |
 | **Grype** | 9k+ | Apache 2.0 | Fast, Syft-integrated scanning |
 | **Clair** | 10k+ | Apache 2.0 | Open-source container scanner |
-| **Docker Scout** | — | Built-in Docker | Docker-native scanning |
+| **Docker Scout** | - | Built-in Docker | Docker-native scanning |
 
 ### IaC Security Scanning
 | Tool | Stars | License | Best For |

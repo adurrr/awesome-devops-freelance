@@ -1,6 +1,6 @@
 # Contributing to Awesome DevOps Freelance
 
-First off, thank you for considering contributing! This project aims to be the most comprehensive curated DevOps freelance resource — and that only works with community help.
+First off, thank you for considering contributing! This project aims to be the most comprehensive curated DevOps freelance resource → and that only works with community help.
 
 ## How to Contribute
 

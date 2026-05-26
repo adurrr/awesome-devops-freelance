@@ -1,4 +1,4 @@
-# Project Plan — Awesome DevOps Freelance
+# Project Plan → Awesome DevOps Freelance
 
 > **Complete development plan**: phases, tasks, specifications, justifications, and maintenance strategy.
 
@@ -16,11 +16,11 @@
 
 ## 🧭 Core Principles
 
-1. **Accuracy over breadth** — Fewer entries, higher quality, verified information
-2. **Freelancer-first** — Every entry answers "Why does this matter for freelancers?"
-3. **Progressive disclosure** — README = summary; docs/extended-lists = deep detail; docs/research = academic depth
-4. **Anti-hallucination** — Every claim traced to source; cross-referenced data; explicit uncertainty markers
-5. **Living document** — Monthly review cycle; community contributions welcome
+1. **Accuracy over breadth** → Fewer entries, higher quality, verified information
+2. **Freelancer-first** → Every entry answers "Why does this matter for freelancers?"
+3. **Progressive disclosure** → README = summary; docs/extended-lists = deep detail; docs/research = academic depth
+4. **Anti-hallucination** → Every claim traced to source; cross-referenced data; explicit uncertainty markers
+5. **Living document** → Monthly review cycle; community contributions welcome
 
 ---
 
@@ -93,42 +93,42 @@ awesome-devops-freelance/
 
 ## 🗓 Phases & Tasks
 
-### Phase 0: Foundation (Week 1)
+### Phase 0: Foundation (Week 1) ✅ Complete
 **Goal**: Establish project structure, methodology, and base content
 
-| # | Task | Duration | Dependencies | Deliverable | Justification |
-|---|---|---|---|---|---|
-| 0.1 | Define project scope & principles | 2 hours | None | Scope document | Prevents scope creep; establishes editorial standards |
-| 0.2 | Design directory structure | 1 hour | 0.1 | Folder structure | Ensures scalability and discoverability |
-| 0.3 | Create README framework | 3 hours | 0.2 | README skeleton | Primary entry point; must be well-structured |
-| 0.4 | Write methodology doc | 2 hours | 0.1 | `research/methodology.md` | Critical for anti-hallucination and trust |
-| 0.5 | Set up GitHub repo | 1 hour | 0.2 | Repository | The project home |
-| 0.6 | Create LICENSE (AGPLv3) | 0.5 hour | — | `LICENSE` | Enables community reuse |
-| 0.7 | Create CONTRIBUTING.md | 1.5 hours | 0.1 | `CONTRIBUTING.md` | Enables community contributions |
-| 0.8 | Set up GitHub templates | 1 hour | 0.2 | Issue/PR templates | Standardizes contributions |
-| 0.9 | Paradigm familiarization & knowledge acquisition | 2.5 hours | None | Reading list & notes | Build foundational understanding of all Ops paradigms before deep research; reduces ramp-up time in Phase 1 |
+| # | Task | Duration | Dependencies | Deliverable | Justification | Status |
+|---|---|---|---|---|---|---|
+| 0.1 | Define project scope & principles | 2 hours | None | Scope document | Prevents scope creep; establishes editorial standards | ✅ |
+| 0.2 | Design directory structure | 1 hour | 0.1 | Folder structure | Ensures scalability and discoverability | ✅ |
+| 0.3 | Create README framework | 3 hours | 0.2 | README skeleton | Primary entry point; must be well-structured | ✅ |
+| 0.4 | Write methodology doc | 2 hours | 0.1 | `research/methodology.md` | Critical for anti-hallucination and trust | ✅ |
+| 0.5 | Set up GitHub repo | 1 hour | 0.2 | Repository | The project home | ✅ |
+| 0.6 | Create LICENSE (AGPLv3) | 0.5 hour | - | `LICENSE` | Enables community reuse | ✅ |
+| 0.7 | Create CONTRIBUTING.md | 1.5 hours | 0.1 | `CONTRIBUTING.md` | Enables community contributions | ✅ |
+| 0.8 | Set up GitHub templates | 1 hour | 0.2 | Issue/PR templates | Standardizes contributions | ✅ |
+| 0.9 | Paradigm familiarization & knowledge acquisition | 2.5 hours | None | `research/paradigm-familiarization.md` | Build foundational understanding of all Ops paradigms before deep research; reduces ramp-up time in Phase 1 | ✅ |
 
 **Phase 0 Total**: ~14.5 hours
 
 ---
 
-### Phase 1: Core Research (Week 2-3)
+### Phase 1: Core Research (Week 2-3) ✅ Complete
 **Goal**: Produce all research documents for each Ops paradigm
 
-| # | Task | Duration | Dependencies | Deliverable | Justification |
-|---|---|---|---|---|---|
-| 1.1 | DevOps landscape research | 4 hours | 0.4 | `docs/research/devops-landscape-2026.md` | Foundation for all other research |
-| 1.2 | DevSecOps landscape research | 3 hours | 1.1 | `docs/research/devsecops-landscape-2026.md` | Critical for security-aware freelancers |
-| 1.3 | DataOps landscape research | 2 hours | 1.1 | `docs/research/dataops-landscape-2026.md` | Niche but growing demand |
-| 1.4 | MLOps landscape research | 4 hours | 1.1 | `docs/research/mlops-landscape-2026.md` | Highest premium skill |
-| 1.5 | AIOps landscape research | 3 hours | 1.1 | `docs/research/aiops-landscape-2026.md` | Rapidly evolving field |
-| 1.6 | FinOps landscape research | 2 hours | 1.1 | `docs/research/finops-landscape-2026.md` | Growing enterprise demand |
-| 1.7 | LLMOps landscape research | 3 hours | 1.1 | `docs/research/llmops-landscape-2026.md` | Cutting-edge, highest rates |
-| 1.8 | Platform Engineering research | 3 hours | 1.1 | `docs/research/platform-engineering-2026.md` | Fastest growing category |
-| 1.9 | CNCF landscape analysis | 4 hours | — | `docs/research/cncf-landscape-analysis.md` | Maps the entire cloud-native ecosystem |
-| 1.10 | Freelancer profile analysis | 6 hours | — | `docs/research/freelancer-profile-analysis.md` | 50 profiles analyzed for patterns |
-| 1.11 | Academic references compilation | 4 hours | 1.1-1.10 | `docs/research/academic-references.md` | Grounds project in literature |
-| 1.12 | Intermediate research review & consistency check | 1 hour | 1.1-1.11 | Review notes & updates | Ensure consistent depth, sourcing, and anti-hallucination compliance across all research docs |
+| # | Task | Duration | Dependencies | Deliverable | Justification | Status |
+|---|---|---|---|---|---|---|
+| 1.1 | DevOps landscape research | 4 hours | 0.4 | `docs/research/devops-landscape-2026.md` | Foundation for all other research | ✅ |
+| 1.2 | DevSecOps landscape research | 3 hours | 1.1 | `docs/research/devsecops-landscape-2026.md` | Critical for security-aware freelancers | ✅ |
+| 1.3 | DataOps landscape research | 2 hours | 1.1 | `docs/research/dataops-landscape-2026.md` | Niche but growing demand | ✅ |
+| 1.4 | MLOps landscape research | 4 hours | 1.1 | `docs/research/mlops-landscape-2026.md` | Highest premium skill | ✅ |
+| 1.5 | AIOps landscape research | 3 hours | 1.1 | `docs/research/aiops-landscape-2026.md` | Rapidly evolving field | ✅ |
+| 1.6 | FinOps landscape research | 2 hours | 1.1 | `docs/research/finops-landscape-2026.md` | Growing enterprise demand | ✅ |
+| 1.7 | LLMOps landscape research | 3 hours | 1.1 | `docs/research/llmops-landscape-2026.md` | Cutting-edge, highest rates | ✅ |
+| 1.8 | Platform Engineering research | 3 hours | 1.1 | `docs/research/platform-engineering-2026.md` | Fastest growing category | ✅ |
+| 1.9 | CNCF landscape analysis | 4 hours | - | `docs/research/cncf-landscape-analysis.md` | Maps the entire cloud-native ecosystem | ✅ |
+| 1.10 | Freelancer profile analysis | 6 hours | - | `docs/research/freelancer-profile-analysis.md` | 50 profiles analyzed for patterns | ✅ |
+| 1.11 | Academic references compilation | 4 hours | 1.1-1.10 | `docs/research/academic-references.md` | Grounds project in literature | ✅ |
+| 1.12 | Intermediate research review & consistency check | 1 hour | 1.1-1.11 | `docs/research/research-review-notes.md` | Ensure consistent depth, sourcing, and anti-hallucination compliance across all research docs | ✅ |
 
 **Phase 1 Total**: ~39 hours
 
@@ -136,22 +136,22 @@ awesome-devops-freelance/
 
 ---
 
-### Phase 2: Extended Lists (Week 3-4)
+### Phase 2: Extended Lists (Week 3-4) ✅ Complete
 **Goal**: Produce detailed tool comparison documents for each category
 
-| # | Task | Duration | Dependencies | Deliverable | Justification |
-|---|---|---|---|---|---|
-| 2.1 | CI/CD tools extended list | 2 hours | 1.1 | `docs/extended-lists/ci-cd-tools.md` | Core freelance service |
-| 2.2 | IaC tools extended list | 2 hours | 1.1 | `docs/extended-lists/iaac-tools.md` | 90% of contracts need IaC |
-| 2.3 | Container orchestration list | 2 hours | 1.1 | `docs/extended-lists/container-orchestration.md` | K8s = premium rates |
-| 2.4 | Observability & monitoring list | 2 hours | 1.1 | `docs/extended-lists/observability-monitoring.md` | Essential for SRE engagements |
-| 2.5 | DevSecOps tools extended list | 2 hours | 1.2 | `docs/extended-lists/security-devsecops.md` | Fastest growing |
-| 2.6 | GitOps tools list | 1.5 hours | 1.1 | `docs/extended-lists/gitops-tools.md` | Maturity differentiator |
-| 2.7 | Platform engineering tools list | 1.5 hours | 1.8 | `docs/extended-lists/platform-engineering.md` | Highest growth |
-| 2.8 | AI for DevOps list | 2 hours | 1.5 | `docs/extended-lists/ai-for-devops.md` | Cutting-edge premium |
-| 2.9 | Cost management / FinOps list | 1.5 hours | 1.6 | `docs/extended-lists/cost-management-finops.md` | Recurring optimization gigs |
-| 2.10 | MLOps / LLMOps tools list | 2 hours | 1.4, 1.7 | `docs/extended-lists/mlops-llmops-tools.md` | Highest rates |
-| 2.11 | Messaging & streaming list | 1 hour | 1.1 | `docs/extended-lists/messaging-streaming.md` | Event-driven architecture |
+| # | Task | Duration | Dependencies | Deliverable | Justification | Status |
+|---|---|---|---|---|---|---|
+| 2.1 | CI/CD tools extended list | 2 hours | 1.1 | `docs/extended-lists/ci-cd-tools.md` | Core freelance service | ✅ |
+| 2.2 | IaC tools extended list | 2 hours | 1.1 | `docs/extended-lists/iaac-tools.md` | 90% of contracts need IaC | ✅ |
+| 2.3 | Container orchestration list | 2 hours | 1.1 | `docs/extended-lists/container-orchestration.md` | K8s = premium rates | ✅ |
+| 2.4 | Observability & monitoring list | 2 hours | 1.1 | `docs/extended-lists/observability-monitoring.md` | Essential for SRE engagements | ✅ |
+| 2.5 | DevSecOps tools extended list | 2 hours | 1.2 | `docs/extended-lists/security-devsecops.md` | Fastest growing | ✅ |
+| 2.6 | GitOps tools list | 1.5 hours | 1.1 | `docs/extended-lists/gitops-tools.md` | Maturity differentiator | ✅ |
+| 2.7 | Platform engineering tools list | 1.5 hours | 1.8 | `docs/extended-lists/platform-engineering.md` | Highest growth | ✅ |
+| 2.8 | AI for DevOps list | 2 hours | 1.5 | `docs/extended-lists/ai-for-devops.md` | Cutting-edge premium | ✅ |
+| 2.9 | Cost management / FinOps list | 1.5 hours | 1.6 | `docs/extended-lists/cost-management-finops.md` | Recurring optimization gigs | ✅ |
+| 2.10 | MLOps / LLMOps tools list | 2 hours | 1.4, 1.7 | `docs/extended-lists/mlops-llmops-tools.md` | Highest rates | ✅ |
+| 2.11 | Messaging & streaming list | 1 hour | 1.1 | `docs/extended-lists/messaging-streaming.md` | Event-driven architecture | ✅ |
 
 **Phase 2 Total**: ~20 hours
 
@@ -168,7 +168,7 @@ awesome-devops-freelance/
 | 3.2 | Compile top tools summary tables | 3 hours | Phase 2 | README section |
 | 3.3 | Create CNCF projects map | 1.5 hours | 1.9 | README section |
 | 3.4 | Write freelance career patterns | 3 hours | 1.10 | README section |
-| 3.5 | Add navigation & badges | 1 hour | — | README polish |
+| 3.5 | Add navigation & badges | 1 hour | - | README polish |
 | 3.6 | Review, edit, cross-reference | 3 hours | 3.1-3.5 | Final README |
 
 **Phase 3 Total**: ~13.5 hours
@@ -280,11 +280,11 @@ awesome-devops-freelance/
 5. Respond to open issues and PRs
 
 ### Quarterly Tasks
-1. Major research review — update each research document
-2. Freelancer rate survey — refresh rate data
-3. CNCF landscape sync — update with new graduated/incubating projects
-4. Academic literature search — add new SLRs and papers
-5. Content audit — remove stale entries, add new ones
+1. Major research review → update each research document
+2. Freelancer rate survey → refresh rate data
+3. CNCF landscape sync → update with new graduated/incubating projects
+4. Academic literature search → add new SLRs and papers
+5. Content audit → remove stale entries, add new ones
 
 ### Annual Tasks
 1. Complete re-evaluation of all Ops paradigms
@@ -330,7 +330,8 @@ awesome-devops-freelance/
 │   │   ├── platform-engineering-2026.md  ← ✓ Created
 │   │   ├── cncf-landscape-analysis.md    ← ✓ Created
 │   │   ├── freelancer-profile-analysis.md← ✓ Created
-│   │   └── academic-references.md        ← ✓ Created
+│   │   ├── academic-references.md        ← ✓ Created
+│   │   └── research-review-notes.md      ← ✓ Created (Phase 1.12)
 │   ├── extended-lists/
 │   │   ├── ci-cd-tools.md               ← ✓ Created
 │   │   ├── ai-for-devops.md             ← ✓ Created
@@ -338,18 +339,19 @@ awesome-devops-freelance/
 │   │   ├── container-orchestration.md   ← ✓ Created
 │   │   ├── observability-monitoring.md  ← ✓ Created
 │   │   ├── security-devsecops.md        ← ✓ Created
-│   │   ├── gitops-tools.md             ← □ Pending
-│   │   ├── platform-engineering.md     ← □ Pending
-│   │   ├── cost-management-finops.md   ← □ Pending
-│   │   ├── mlops-llmops-tools.md       ← □ Pending
-│   │   └── messaging-streaming.md      ← □ Pending
+│   │   ├── gitops-tools.md             ← ✓ Created
+│   │   ├── platform-engineering.md     ← ✓ Created
+│   │   ├── cost-management-finops.md   ← ✓ Created
+│   │   ├── mlops-llmops-tools.md       ← ✓ Created
+│   │   └── messaging-streaming.md      ← ✓ Created
 │   └── guides/
 │       └── freelance-devops-roadmap.md  ← ✓ Created
 ├── data/
 │   ├── freelancer-profiles/
 │   └── cncf-landscape/
 ├── research/
-│   └── methodology.md                   ← ✓ Created
+│   ├── methodology.md                   ← ✓ Created
+│   └── paradigm-familiarization.md      ← ✓ Created (Phase 0.9)
 └── .github/
     ├── workflows/
     │   ├── validate-links.yml           ← ✓ Created
@@ -542,7 +544,7 @@ This project is estimated at **~105-115 hours of work** across 7 phases over 6-7
 - **~6-15 hours** for Phase 7 documentation site (Hugo or MkDocs)
 - **~9-10 hours** buffer for unexpected depth, intermediate reviews, and knowledge acquisition
 
-The result is the most comprehensive curated DevOps freelance resource available — combining:
+The result is the most comprehensive curated DevOps freelance resource available → combining:
 
 1. **Curated tools** organized by paradigm with freelance-specific context
 2. **Deep research** into each paradigm's 2026 state of the art

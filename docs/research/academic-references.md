@@ -1,7 +1,9 @@
-# Academic References — Ops Paradigms Research
+# Academic References → Ops Paradigms Research
 
 > **Purpose**: Comprehensive bibliography of academic literature for each Ops paradigm. Includes DOIs, arXiv IDs, and key findings. Use for further research, citations, and validation.
 
+
+**Last updated**: 2026-05-26
 ---
 
 ## 1. DevOps General
@@ -9,7 +11,7 @@
 | Title | Authors | Year | Venue | DOI / Link |
 |---|---|---|---|---|
 | Integration of AI and DevOps in Scalable and Agile Product Development: A Systematic Literature Review | Md Nur Hasan Mamun | 2024 | ASRC Procedia, 4(1) | DOI: 10.63125/exyqj773 |
-| AI for Infrastructure-as-Code — A Systematic Literature Review | Various | 2026 | Electronics, 15(4), 755 | DOI: 10.3390/electronics15040755 |
+| AI for Infrastructure-as-Code → A Systematic Literature Review | Various | 2026 | Electronics, 15(4), 755 | DOI: 10.3390/electronics15040755 |
 | A Systematic Literature Review on CI/CD for Secure Cloud Computing | Various | 2025 | arXiv | arXiv:2506.08055 |
 
 ### Key Findings (Integration of AI & DevOps SLR):
@@ -67,7 +69,7 @@
 | Title | Authors | Year | Venue | DOI / Link |
 |---|---|---|---|---|
 | Automation-powered AIOps | Various | 2024 | IBM Developer | ibm.com/developer |
-| AIOps vs MLOps vs DevOps vs SRE: Enterprise Comparison | — | 2026 | AIOps Community | aiopscommunity.com |
+| AIOps vs MLOps vs DevOps vs SRE: Enterprise Comparison | - | 2026 | AIOps Community | aiopscommunity.com |
 
 Relevant academic tracks: anomaly detection, root cause analysis, incident prediction. Research concentrated in IEEE/ACM conferences on software engineering (ICSE, ASE, FSE) and operations (IM, NOMS).
 
@@ -87,16 +89,16 @@ Relevant academic tracks: anomaly detection, root cause analysis, incident predi
 
 Based on systematic literature reviews analyzed:
 
-1. **Standardized MLOps lifecycle model** — No consensus in the literature
-2. **MLOps maturity models** — Not enough depth in existing proposals
-3. **AI for ALL DevSecOps steps** — Most research focuses on build/test/release; operate/monitor underrepresented
-4. **Closed-loop retraining** — Sparse evidence on autonomous retraining in production
-5. **Supply-chain integrity for data and models** — Under-researched
-6. **Measurable MLOps outcomes** — Heterogeneous study designs, uneven measurement depth
-7. **LLMOps-specific security frameworks** — Prompt injection, data poisoning, model theft — nascent field
-8. **Edge AI operations** — Compression, federated learning, OTA update management — emerging
-9. **FinOps for AI/GPU** — Cost attribution and optimization at scale — limited academic coverage
-10. **Quantified integration effort for tool combinations** — e.g., MLflow + DVC, Kubeflow + Feast
+1. **Standardized MLOps lifecycle model** → No consensus in the literature
+2. **MLOps maturity models** → Not enough depth in existing proposals
+3. **AI for ALL DevSecOps steps** → Most research focuses on build/test/release; operate/monitor underrepresented
+4. **Closed-loop retraining** → Sparse evidence on autonomous retraining in production
+5. **Supply-chain integrity for data and models** → Under-researched
+6. **Measurable MLOps outcomes** → Heterogeneous study designs, uneven measurement depth
+7. **LLMOps-specific security frameworks** → Prompt injection, data poisoning, model theft → nascent field
+8. **Edge AI operations** → Compression, federated learning, OTA update management → emerging
+9. **FinOps for AI/GPU** → Cost attribution and optimization at scale → limited academic coverage
+10. **Quantified integration effort for tool combinations** → e.g., MLflow + DVC, Kubeflow + Feast
 
 ---
 

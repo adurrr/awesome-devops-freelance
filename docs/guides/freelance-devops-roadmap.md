@@ -46,7 +46,7 @@
 |---|---|---|---|
 | **K8s Specialist** | K8s, Helm, ArgoCD, Istio | CKA, CKAD | $80-130/hr |
 | **DevSecOps** | Trivy, OPA, Falco, Vault | CKS | $90-140/hr |
-| **Platform Engineering** | Backstage, Crossplane, IDPs | — | $100-150/hr |
+| **Platform Engineering** | Backstage, Crossplane, IDPs | - | $100-150/hr |
 | **Cloud Migration** | AWS/Azure advanced | Azure Admin, GCP Architect | $80-130/hr |
 
 **Portfolio Projects**:
@@ -102,10 +102,10 @@
 | CI/CD | 🚧 | ✅ | ✅ | ✅ | ✅ |
 | Terraform | 🚧 | ✅ | ✅ | ✅ | ✅ |
 | Kubernetes | 🚧 | 🚧 | ✅ | ✅ | ✅ |
-| Observability | — | 🚧 | ✅ | ✅ | ✅ |
-| Security | — | 🚧 | 🚧 | ✅ | ✅ |
-| Niche skill | — | — | 🚧 | ✅ | ✅ |
-| AI/ML Ops | — | — | — | 🚧 | ✅ |
+| Observability | - | 🚧 | ✅ | ✅ | ✅ |
+| Security | - | 🚧 | 🚧 | ✅ | ✅ |
+| Niche skill | - | → | 🚧 | ✅ | ✅ |
+| AI/ML Ops | - | → | - | 🚧 | ✅ |
 
 ---
 
@@ -123,19 +123,19 @@ Month 11-12:  $130-200+    (expert, referral-only)
 ## Resources for Each Stage
 
 ### Stage 1 Resources
-- [KodeKloud](https://kodekloud.com/) — Hands-on DevOps labs
-- [Docker Mastery](https://www.udemy.com/course/docker-mastery/) — Udemy
-- [Terraform Up & Running](https://www.terraformupandrunning.com/) — Book
-- [AWS Free Tier](https://aws.amazon.com/free/) — Practice
+- [KodeKloud](https://kodekloud.com/) → Hands-on DevOps labs
+- [Docker Mastery](https://www.udemy.com/course/docker-mastery/) → Udemy
+- [Terraform Up & Running](https://www.terraformupandrunning.com/) → Book
+- [AWS Free Tier](https://aws.amazon.com/free/) → Practice
 
 ### Stage 2 Resources
-- [CKA Exam Prep](https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests/) — Udemy
-- [Kubernetes in Action](https://www.manning.com/books/kubernetes-in-action) — Book
-- [DevSecOps Course](https://kodekloud.com/courses/devsecops/) — KodeKloud
-- [Platform Engineering Guide](https://platformengineering.org/) — Community
+- [CKA Exam Prep](https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests/) → Udemy
+- [Kubernetes in Action](https://www.manning.com/books/kubernetes-in-action) → Book
+- [DevSecOps Course](https://kodekloud.com/courses/devsecops/) → KodeKloud
+- [Platform Engineering Guide](https://platformengineering.org/) → Community
 
 ### Stage 3 Resources
-- [MLflow Docs](https://mlflow.org/docs/latest/index.html) — Official
-- [Kubecost Docs](https://docs.kubecost.com/) — Official
-- [CNCF Landscape](https://landscape.cncf.io/) — Reference
-- [O'Reilly MLOps](https://www.oreilly.com/library/view/mlops/9781492093833/) — Book
+- [MLflow Docs](https://mlflow.org/docs/latest/index.html) → Official
+- [Kubecost Docs](https://docs.kubecost.com/) → Official
+- [CNCF Landscape](https://landscape.cncf.io/) → Reference
+- [O'Reilly MLOps](https://www.oreilly.com/library/view/mlops/9781492093833/) → Book
