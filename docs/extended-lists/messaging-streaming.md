@@ -4,7 +4,7 @@
 
 ---
 
-### Event Streaming Platforms
+## Event Streaming Platforms
 
 | Tool | Stars | License | Type | Best For |
 |------|-------|---------|------|----------|
@@ -14,7 +14,7 @@
 | WarpStream | Commercial | Kafka-compatible without disks | Cloud-native streaming |
 | Confluent Cloud | Commercial | Managed Kafka | Fully managed service |
 
-### Lightweight Messaging
+## Lightweight Messaging
 
 | Tool | Stars | License/Status | Best For |
 |------|-------|----------------|----------|
@@ -23,7 +23,7 @@
 | MQTT | Standard | IoT messaging protocol | IoT & edge messaging |
 | ZeroMQ | 10k+ | MPL 2.0 | Embedded messaging library |
 
-### Cloud-Native & K8s Messaging
+## Cloud-Native & K8s Messaging
 
 | Tool | Stars | Type | Best For |
 |------|-------|------|----------|
@@ -31,7 +31,7 @@
 | Knative Eventing | | CNCF Incubating | Event-driven serverless on K8s |
 | CloudEvents | | CNCF | Standard event format |
 
-### Comparison: Kafka vs Pulsar vs Redpanda vs NATS
+## Comparison: Kafka vs Pulsar vs Redpanda vs NATS
 
 | Feature | Kafka | Pulsar | Redpanda | NATS |
 |---------|-------|--------|----------|------|
@@ -43,7 +43,7 @@
 | Complexity | High | Medium | Low | Low |
 | Learning curve | Steep | Moderate | Moderate | Low |
 
-### Freelance Messaging Opportunities
+## Freelance Messaging Opportunities
 
 | Service | Rate Range | Key Tools |
 |---------|------------|-----------|
@@ -54,7 +54,7 @@
 | RabbitMQ modernization | $100-150/hr | RabbitMQ → Pulsar/Kafka |
 | Event-driven architecture | $120-200/hr | Kafka + Flink + KEDA |
 
-### Learning Resources
+## Learning Resources
 
 - [Kafka Docs](https://kafka.apache.org/documentation/)
 - [Pulsar Docs](https://pulsar.apache.org/docs/)

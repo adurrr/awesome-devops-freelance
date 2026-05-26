@@ -2,6 +2,8 @@
 
 > **Full comparison of IaC tools for DevOps freelancers.**
 
+
+**Last updated**: 2026-05-26
 ---
 
 ## Comparison Matrix
@@ -46,3 +48,13 @@
 3. Crossplane control plane for platform engineering
 4. Ansible playbooks for configuration management
 5. OpenTofu migration from Terraform
+
+## Learning Resources
+
+- [Terraform Docs](https://developer.hashicorp.com/terraform/docs)
+- [OpenTofu Docs](https://opentofu.org/docs/)
+- [Pulumi Learn](https://www.pulumi.com/learn/)
+- [Crossplane Docs](https://docs.crossplane.io/)
+- [Ansible Documentation](https://docs.ansible.com/)
+
+

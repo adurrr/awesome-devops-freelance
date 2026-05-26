@@ -2,6 +2,8 @@
 
 > **Full list of AI tools, agents, MCP servers, and resources for DevOps, SRE, and Platform Engineering. Based on awesome-devops-ai (hammadhaqqani) and 2026 market research.**
 
+
+**Last updated**: 2026-05-26
 ---
 
 ## AI-Powered Incident Management & SRE
@@ -56,6 +58,31 @@
 | **Grafana LLM** | Plugin | AI-powered log analysis in Grafana |
 | **Datadog Bits AI** | SaaS | Log analysis + anomaly detection |
 | **AIOps platforms** | Various | Automated log pattern detection |
+
+## Freelance AI for DevOps Opportunities
+
+| Service | Rate Range | Key Tools |
+|---|---|---|
+| AI incident investigation setup | $120-200/hr | HolmesGPT, K8sGPT, Aurora |
+| MCP server deployment & customization | $150-250/hr | K8s MCP, GitHub MCP, Prometheus MCP |
+| AI-powered IaC pipeline | $100-180/hr | Amazon Q, Pulumi AI, Digger |
+| AI observability & log analysis | $130-220/hr | Grafana LLM, Datadog Bits AI |
+| K8s AI agent implementation | $150-250/hr | Kagent, Claude MCP, Pydantic AI |
+| AI SRE strategy consulting | $150-300/hr | HolmesGPT + Datadog + PagerDuty |
+
+## Learning Resources
+
+- [HolmesGPT Docs](https://docs.holmesgpt.ai/)
+- [K8sGPT Docs](https://docs.k8sgpt.ai/)
+- [Kagent Docs](https://kagent.dev/docs/)
+- [MCP Specification](https://modelcontextprotocol.io/)
+- [Google ADK Docs](https://google.github.io/adk-docs/)
+- [Pydantic AI Docs](https://ai.pydantic.dev/)
+- [awesome-devops-ai](https://github.com/hammadhaqqani/awesome-devops-ai)
+
+## Market Context
+
+The AI for DevOps space is evolving rapidly. In 2026, the CNCF has sandboxed multiple AI-for-ops projects (HolmesGPT, K8sGPT, Kagent, Runme). MCP (Model Context Protocol) is becoming the standard for connecting AI agents to infrastructure tools. According to the Perforce State of DevOps 2026, 72% of high-maturity organizations have deeply embedded AI practices.
 
 ## References
 - [awesome-devops-ai](https://github.com/hammadhaqqani/awesome-devops-ai) → 314 tools across 20 categories
