@@ -2,6 +2,8 @@
 
 > **Purpose**: Deep reference for AIOps paradigm → AI for IT Operations, incident management, self-healing systems, and freelance opportunities.
 
+
+**Last updated**: 2026-05-26
 ---
 
 ## 1. Definition

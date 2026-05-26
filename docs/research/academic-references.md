@@ -2,6 +2,8 @@
 
 > **Purpose**: Comprehensive bibliography of academic literature for each Ops paradigm. Includes DOIs, arXiv IDs, and key findings. Use for further research, citations, and validation.
 
+
+**Last updated**: 2026-05-26
 ---
 
 ## 1. DevOps General

@@ -2,6 +2,8 @@
 
 > **Purpose**: Comprehensive mapping of CNCF projects relevant to DevOps freelancers. Organized by maturity level (Graduated, Incubating, Sandbox).
 
+
+**Last updated**: 2026-05-26
 ---
 
 ## 1. Overview

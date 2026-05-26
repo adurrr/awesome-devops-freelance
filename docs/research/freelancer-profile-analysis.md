@@ -2,6 +2,8 @@
 
 > **Purpose**: Analysis of 50 top-rated DevOps/DevSecOps freelancer profiles from Toptal, Upwork, Arc.dev, and Fiverr Pro. Identifies patterns in success, pricing, skills, portfolio, and positioning.
 
+
+**Last updated**: 2026-05-26
 ---
 
 ## 1. Methodology

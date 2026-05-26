@@ -2,6 +2,8 @@
 
 > **Purpose**: Deep reference for MLOps paradigm → lifecycle management, tools, trends, and premium freelance opportunities.
 
+
+**Last updated**: 2026-05-26
 ---
 
 ## 1. Definition and 2026 Context

@@ -2,6 +2,8 @@
 
 > **Purpose**: Deep reference for Platform Engineering paradigm → Internal Developer Platforms (IDPs), Backstage, Crossplane, and the shift from traditional DevOps.
 
+
+**Last updated**: 2026-05-26
 ---
 
 ## 1. Definition and 2026 Context
