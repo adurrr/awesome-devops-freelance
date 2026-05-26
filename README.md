@@ -37,6 +37,7 @@
 3. **Browse tools** → Use [Quick Navigation](#-quick-navigation-by-category) to find your category
 4. **Go deep** → Click any "Explore" link or "Full list →" for extended docs with comparisons, pricing, and learning resources
 5. **Explore careers** → See [Freelance Career Patterns](#-freelance-career-patterns) for rates, platform strategies, and portfolio tips
+6. **Get detailed guidance** → The [How to Use This List](./docs/guides/how-to-use-this-list.md) guide explains every layer of the project
 
 **Already know what you need?** Jump straight to [Top Tools by Category](#-top-tools-by-category).
 
@@ -407,6 +408,8 @@ Senior:    $130-200/hr (retainer clients, referrals, established brand)
 | [Messaging & Streaming](./docs/extended-lists/messaging-streaming.md) | 8+ | Comparison, Kafka alternatives |
 
 ### Guides
+- [How to Use This List](./docs/guides/how-to-use-this-list.md) → Navigation guide with progressive disclosure patterns
+- [How to Contribute](./docs/guides/how-to-contribute.md) → Detailed contribution guide with formatting and quality standards
 - [Freelance DevOps Roadmap](./docs/guides/freelance-devops-roadmap.md) → 12-month learning path to $150+/hr
 
 ---
