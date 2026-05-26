@@ -73,8 +73,14 @@ awesome-devops-freelance/
 │
 └── .github/                        ← GitHub automation
     ├── workflows/
+    │   ├── validate-links.yml          ← Monthly + PR link validation
+    │   ├── weekly-update-check.yml     ← Weekly stale content detection
+    │   └── stale.yml                   ← Auto-close stale issues/PRs
     ├── ISSUE_TEMPLATE/
-    └── PULL_REQUEST_TEMPLATE.md
+    │   ├── add-tool.md
+    │   └── update-resource.md
+    ├── PULL_REQUEST_TEMPLATE.md
+    └── dependabot.yml                  ← Weekly Action dependency updates
 ```
 
 ### Justification for Each Component
@@ -186,16 +192,16 @@ awesome-devops-freelance/
 
 ---
 
-### Phase 5: Automation & Quality (Week 5)
+### Phase 5: Automation & Quality (Week 5) ✅ Complete
 **Goal**: Set up quality assurance, link checking, community infrastructure
 
-| # | Task | Duration | Deliverable |
-|---|---|---|---|
-| 5.1 | GitHub Actions: link validator | 1 hour | `validate-links.yml` |
-| 5.2 | GitHub Actions: weekly check | 1 hour | `weekly-update-check.yml` |
-| 5.3 | Add stale issue/PR management | 0.5 hour | GitHub config |
-| 5.4 | Add Dependabot for deps | 0.5 hour | `dependabot.yml` |
-| 5.5 | Create issue labels | 0.5 hour | GitHub labels |
+| # | Task | Duration | Deliverable | Status |
+|---|---|---|---|---|
+| 5.1 | GitHub Actions: link validator | 1 hour | `validate-links.yml` + `.lychee.toml` | ✅ |
+| 5.2 | GitHub Actions: weekly check | 1 hour | `weekly-update-check.yml` | ✅ |
+| 5.3 | Add stale issue/PR management | 0.5 hour | `stale.yml` | ✅ |
+| 5.4 | Add Dependabot for deps | 0.5 hour | `dependabot.yml` | ✅ |
+| 5.5 | Create issue labels | 0.5 hour | `labels.yml` | ✅ |
 
 ---
 

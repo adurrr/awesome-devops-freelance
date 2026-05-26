@@ -10,24 +10,108 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - name: Check for stale content
+        id: stale-check
         run: |
-          echo "Checking for documents older than 90 days..."
-          find docs/ -name "*.md" -mtime +90 | while read file; do
-            echo "⚠️ STALE: $file (last mod: $(date -r "$file" '+%Y-%m-%d'))"
+          echo "### 📋 Stale Content Report" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Document | Last Modified | Days Since |" >> $GITHUB_STEP_SUMMARY
+          echo "|---|---|---|" >> $GITHUB_STEP_SUMMARY
+          
+          stale_count=0
+          report=""
+          
+          find docs/ research/ -name "*.md" -mtime +90 | while read file; do
+            modified=$(date -r "$file" '+%Y-%m-%d')
+            days=$(( ($(date +%s) - $(date -r "$file" +%s) ) / 86400 ))
+            echo "| \`$file\` | $modified | $days |" >> $GITHUB_STEP_SUMMARY
+            report="$report\n⚠️ $file (last modified: $modified, $days days ago)"
+            stale_count=$((stale_count + 1))
           done
-      - name: Create reminder issue
+          
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Total stale documents: $stale_count**" >> $GITHUB_STEP_SUMMARY
+          
+          # Output for next step
+          echo "count=$stale_count" >> $GITHUB_OUTPUT
+          if [ -n "$report" ]; then
+            echo "report<<EOF" >> $GITHUB_OUTPUT
+            echo -e "$report" >> $GITHUB_OUTPUT
+            echo "EOF" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Check for missing Last Updated headers
+        run: |
+          echo "### ⚠️ Documents Missing 'Last updated' Header" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          missing=0
+          find docs/ research/ -name "*.md" | while read file; do
+            if ! head -20 "$file" | grep -qi "last updated"; then
+              echo "- \`$file\`" >> $GITHUB_STEP_SUMMARY
+              missing=$((missing + 1))
+            fi
+          done
+          
+          if [ "$missing" -eq 0 ]; then
+            echo "✅ All documents have a 'Last updated' header" >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: GitHub Star collection (top repos)
+        run: |
+          echo "### ⭐ Top Tool GitHub Stars" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Run \`gh release create notes\` or manual check for star counts." >> $GITHUB_STEP_SUMMARY
+          echo "See: https://github.com/${GITHUB_REPOSITORY}/actions/workflows/weekly-update-check.yml" >> $GITHUB_STEP_SUMMARY
+
+      - name: Create reminder issue if stale content
+        if: steps.stale-check.outputs.count > 0
         uses: actions/github-script@v7
         with:
           script: |
-            const { execSync } = require('child_process');
-            const result = execSync('find docs/ -name "*.md" -mtime +90').toString().trim();
-            if (result) {
-              github.rest.issues.create({
+            const report = process.env.STALE_REPORT;
+            const count = parseInt(process.env.STALE_COUNT);
+            
+            // Check if an issue already exists
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'maintenance'
+            });
+            
+            // Close old reminder issues (keep only the latest)
+            const oldIssues = issues.data.filter(i =>
+              i.title.includes('Monthly Review Reminder') || i.title.includes('Stale Content')
+            );
+            for (const old of oldIssues.slice(1)) {
+              await github.rest.issues.update({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                title: '📋 Monthly Review Reminder',
-                body: `The following documents need review (last updated 90+ days ago):\n\n\`\`\`\n${result}\n\`\`\``,
+                issue_number: old.number,
+                state: 'closed'
+              });
+            }
+            
+            // Create or update the latest issue
+            if (oldIssues.length > 0) {
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: oldIssues[0].number,
+                title: '📋 Monthly Review Reminder — ' + new Date().toISOString().slice(0, 10),
+                body: `Stale content found (${count} documents 90+ days old):\n\n${report}`
+              });
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: '📋 Monthly Review Reminder — ' + new Date().toISOString().slice(0, 10),
+                body: `Stale content found (${count} documents 90+ days old):\n\n${report}`,
                 labels: ['maintenance']
               });
             }
+        env:
+          STALE_REPORT: ${{ steps.stale-check.outputs.report }}
+          STALE_COUNT: ${{ steps.stale-check.outputs.count }}

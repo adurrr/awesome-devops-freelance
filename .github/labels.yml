@@ -1,0 +1,78 @@
+# Repository labels configuration
+# Import via: gh label create --force < name  OR use github-label-sync
+
+- name: bug
+  description: Something isn't working
+  color: d73a4a
+
+- name: enhancement
+  description: New feature or request
+  color: a2eeef
+
+- name: documentation
+  description: Improvements or additions to documentation
+  color: 0075ca
+
+- name: question
+  description: Further information is requested
+  color: d876e3
+
+- name: maintenance
+  description: Repository maintenance and chores
+  color: fbca04
+
+- name: tool-suggestion
+  description: Suggestion for a new tool to add
+  color: 0e8a16
+
+- name: update
+  description: Update to existing content
+  color: 1d76db
+
+- name: new-category
+  description: Proposal for a new category
+  color: 5319e7
+
+- name: stale
+  description: Inactive issue or PR, will be closed soon
+  color: 7057ff
+
+- name: dependencies
+  description: Dependabot automated dependency updates
+  color: 0366d6
+
+- name: github-actions
+  description: Pull requests that update GitHub Actions
+  color: 000000
+
+- name: pinned
+  description: Important items that should not be auto-closed
+  color: 57ab5a
+
+- name: good-first-issue
+  description: Good for newcomers
+  color: 69cde9
+
+- name: help-wanted
+  description: Extra attention is needed
+  color: 008672
+
+- name: duplicate
+  description: This issue or PR already exists
+  color: cfd3d7
+
+- name: wontfix
+  description: This will not be worked on
+  color: ffffff
+
+- name: security
+  description: Security-related concerns
+  color: ee0701
+
+- name: data
+  description: Data and metrics contributions
+  color: 0e8a16
+
+- name: ci
+  description: CI/CD workflow changes
+  color: bfd4f2
