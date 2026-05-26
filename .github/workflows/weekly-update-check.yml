@@ -1,0 +1,33 @@
+name: Weekly Update Check
+
+on:
+  schedule:
+    - cron: '0 10 * * 1'  # Every Monday at 10:00 UTC
+  workflow_dispatch:
+
+jobs:
+  check-updates:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check for stale content
+        run: |
+          echo "Checking for documents older than 90 days..."
+          find docs/ -name "*.md" -mtime +90 | while read file; do
+            echo "⚠️ STALE: $file (last mod: $(date -r "$file" '+%Y-%m-%d'))"
+          done
+      - name: Create reminder issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { execSync } = require('child_process');
+            const result = execSync('find docs/ -name "*.md" -mtime +90').toString().trim();
+            if (result) {
+              github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: '📋 Monthly Review Reminder',
+                body: `The following documents need review (last updated 90+ days ago):\n\n\`\`\`\n${result}\n\`\`\``,
+                labels: ['maintenance']
+              });
+            }
