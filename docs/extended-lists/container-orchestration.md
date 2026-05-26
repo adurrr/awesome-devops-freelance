@@ -2,6 +2,8 @@
 
 > **Full comparison of container orchestration tools for DevOps freelancers.**
 
+
+**Last updated**: 2026-05-26
 ---
 
 ## Kubernetes Managed Services Comparison
@@ -46,3 +48,12 @@
 | Service mesh implementation (Istio/Linkerd) | $130-220/hr | Medium |
 | GitOps adoption (ArgoCD/Flux) | $100-180/hr | Growing |
 | Platform engineering on K8s | $130-200/hr | Very High |
+
+## Learning Resources
+
+- [Kubernetes Official Docs](https://kubernetes.io/docs/)
+- [Kubernetes the Hard Way (Kelsey Hightower)](https://github.com/kelseyhightower/kubernetes-the-hard-way)
+- [CKA Exam Curriculum](https://github.com/cncf/curriculum)
+- [K3s Docs](https://docs.k3s.io/)
+- [Helm Docs](https://helm.sh/docs/)
+- [KEDA Docs](https://keda.sh/docs/)

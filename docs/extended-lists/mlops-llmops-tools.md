@@ -1,6 +1,6 @@
 # MLOps & LLMOps Tools → Extended List
 
-> **Full comparison of MLOps and LLMOps tools for DevOps freelancers — covering the full AI lifecycle.**
+> **Full comparison of MLOps and LLMOps tools for DevOps freelancers  ->  covering the full AI lifecycle.**
 
 ---
 

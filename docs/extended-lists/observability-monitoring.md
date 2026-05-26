@@ -2,6 +2,8 @@
 
 > **Full comparison of observability and monitoring tools for DevOps freelancers.**
 
+
+**Last updated**: 2026-05-26
 ---
 
 ## Comparison Matrix
@@ -41,6 +43,7 @@ Cost: $2000+/month
 ```
 
 ## Freelance Opportunities
+
 | Service | Rate Range |
 |---|---|
 | Prometheus/Grafana setup & dashboards | $80-150/hr |
@@ -48,3 +51,12 @@ Cost: $2000+/month
 | Datadog cost optimization | $100-160/hr |
 | Observability strategy consulting | $150-250/hr |
 | Custom dashboards & alerting | $80-140/hr |
+
+## Learning Resources
+
+- [Prometheus Docs](https://prometheus.io/docs/)
+- [Grafana Docs](https://grafana.com/docs/)
+- [OpenTelemetry Docs](https://opentelemetry.io/docs/)
+- [Grafana Loki Docs](https://grafana.com/docs/loki/)
+- [Datadog Learning Center](https://learn.datadoghq.com/)
+- [SigNoz Docs](https://signoz.io/docs/)

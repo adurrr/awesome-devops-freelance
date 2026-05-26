@@ -2,6 +2,8 @@
 
 > **Full comparison of DevSecOps and security tools for DevOps freelancers.**
 
+
+**Last updated**: 2026-05-26
 ---
 
 ## Tool Categories (2026)
@@ -66,3 +68,12 @@
 | Secrets management migration | $100-150/hr | Vault + SOPS + External Secrets |
 | Supply chain security | $120-200/hr | Sigstore + SLSA + SBOM tools |
 | Runtime security monitoring | $120-180/hr | Falco + KubeArmor |
+
+## Learning Resources
+
+- [Semgrep Docs](https://semgrep.dev/docs/)
+- [Trivy Docs](https://trivy.dev/)
+- [OWASP Top 10](https://owasp.org/www-project-top-ten/)
+- [Falco Docs](https://falco.org/docs/)
+- [Kyverno Docs](https://kyverno.io/docs/)
+- [OPA/Gatekeeper Docs](https://open-policy-agent.github.io/gatekeeper/)
