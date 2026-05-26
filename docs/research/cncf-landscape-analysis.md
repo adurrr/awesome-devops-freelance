@@ -1,4 +1,4 @@
-# CNCF Landscape Analysis — 2026 Research Document
+# CNCF Landscape Analysis → 2026 Research Document
 
 > **Purpose**: Comprehensive mapping of CNCF projects relevant to DevOps freelancers. Organized by maturity level (Graduated, Incubating, Sandbox).
 
@@ -21,7 +21,7 @@ These are considered stable and used successfully in production environments.
 ### Scheduling & Orchestration
 | Project | Description | Stars | Freelance Relevance |
 |---|---|---|---|
-| **Kubernetes** | Container orchestration standard | 112k+ | Foundational — every K8s gig requires it |
+| **Kubernetes** | Container orchestration standard | 112k+ | Foundational → every K8s gig requires it |
 | **containerd** | Industry-standard container runtime | 18k+ | Core infra knowledge |
 | **etcd** | Distributed key-value store | 48k+ | K8s data store |
 
@@ -37,7 +37,7 @@ These are considered stable and used successfully in production environments.
 |---|---|---|---|
 | **Prometheus** | Monitoring & alerting | 56k+ | Standard for K8s monitoring |
 | **Grafana** | Visualization dashboards | 66k+ | Industry standard visualization |
-| **OpenTelemetry** | Observability framework | 15k+ | Future standard — learn it now |
+| **OpenTelemetry** | Observability framework | 15k+ | Future standard → learn it now |
 | **Thanos** | HA Prometheus with long-term storage | 13k+ | For multi-cluster setups |
 | **Jaeger** | Distributed tracing | 21k+ | Tracing for microservices |
 | **Fluentd** | Log collector | 29k+ | Data collection |
@@ -76,7 +76,7 @@ These are considered stable and used successfully in production environments.
 |---|---|---|---|
 | **Backstage** | Developer portals | 30k+ | #1 platform engineering tool |
 | **Helm** | K8s package manager | 27k+ | Standard for K8s packaging |
-| **Crossplane** | K8s-native control plane framework | 10k+ | Graduated Oct 2025 — cloud resource management |
+| **Crossplane** | K8s-native control plane framework | 10k+ | Graduated Oct 2025 → cloud resource management |
 | **KubeVirt** | Virtual machine management on K8s | 5k+ | VM + container workloads |
 
 ---
@@ -107,12 +107,12 @@ These are considered stable and used successfully in production environments.
 |---|---|---|---|
 | **HolmesGPT** | AI SRE | 3k+ | AI-powered incident investigation |
 | **K8sGPT** | AI Diagnostics | 6k+ | K8s diagnostics with AI |
-| **Kagent** | AI Agents in K8s | — | AI agents for DevOps (CNCF sandbox 2025) |
+| **Kagent** | AI Agents in K8s | - | AI agents for DevOps (CNCF sandbox 2025) |
 | **Runme** | DevOps Notebooks | 3k+ | Interactive DevOps documentation |
 
 ---
 
-## 5. CNCF Technology Radar Q1 2026 — Key Findings
+## 5. CNCF Technology Radar Q1 2026 → Key Findings
 
 Based on survey of 400+ developers:
 
@@ -161,5 +161,5 @@ Based on survey of 400+ developers:
 - CNCF Landscape: [https://landscape.cncf.io/](https://landscape.cncf.io/)
 - CNCF Projects: [https://www.cncf.io/projects/](https://www.cncf.io/projects/)
 - CNCF Technology Radar Q1 2026: [https://www.cncf.io/reports/q1-2026-the-cncf-technology-radar-report/](https://www.cncf.io/reports/q1-2026-the-cncf-technology-radar-report/)
-- GitHub: [cncf/landscape](https://github.com/CNCF/landscape) — 9.8k+ stars, 440+ contributors
+- GitHub: [cncf/landscape](https://github.com/CNCF/landscape) → 9.8k+ stars, 440+ contributors
 - Signisys. "CNCF Reports Nearly 20 Million Cloud-Native Developers." April 2026.

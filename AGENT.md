@@ -1,4 +1,4 @@
-# AGENT.md — AI Agent Instructions
+# AGENT.md → AI Agent Instructions
 
 > **Purpose**: Instructions for AI agents (including this one) working on the awesome-devops-freelance project. Ensures consistency, quality, and anti-hallucination compliance.
 
@@ -19,10 +19,10 @@
 ### When Adding a Tool
 
 **Required fields** (every tool entry must have):
-1. **Name + URL** — Link to official site or GitHub repo
-2. **Badges** — At minimum: GitHub stars (if applicable), license, CNCF status (if applicable)
-3. **One-line description** — What it does
-4. **Freelance use case** — Why it matters for freelancers (this is the differentiator)
+1. **Name + URL** → Link to official site or GitHub repo
+2. **Badges** → At minimum: GitHub stars (if applicable), license, CNCF status (if applicable)
+3. **One-line description** → What it does
+4. **Freelance use case** → Why it matters for freelancers (this is the differentiator)
 
 **Badge format** (use shields.io):
 ```markdown
@@ -35,7 +35,7 @@
 
 **Entry format**:
 ```markdown
-- **[Tool Name](URL)** ![badges] — One-line description. **Freelance use**: Why it matters.
+- **[Tool Name](URL)** ![badges] → One-line description. **Freelance use**: Why it matters.
 ```
 
 ### When Writing Research Docs

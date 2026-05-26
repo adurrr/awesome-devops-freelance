@@ -1,6 +1,6 @@
-# FinOps Landscape 2026 — Research Document
+# FinOps Landscape 2026 → Research Document
 
-> **Purpose**: Deep reference for FinOps paradigm — cloud cost management, financial accountability, and freelance optimization opportunities.
+> **Purpose**: Deep reference for FinOps paradigm → cloud cost management, financial accountability, and freelance optimization opportunities.
 
 ---
 

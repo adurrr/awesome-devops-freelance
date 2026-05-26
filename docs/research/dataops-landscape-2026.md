@@ -1,12 +1,12 @@
-# DataOps Landscape 2026 — Research Document
+# DataOps Landscape 2026 → Research Document
 
-> **Purpose**: Deep reference for DataOps paradigm — data pipeline operations, data quality, orchestration, and freelance opportunities.
+> **Purpose**: Deep reference for DataOps paradigm → data pipeline operations, data quality, orchestration, and freelance opportunities.
 
 ---
 
 ## 1. Definition
 
-**DataOps** is a methodology focused on data quality and flow, applying DevOps principles to data engineering pipelines. It emerged ~2014 when the DevOps toolchain couldn't handle the unique challenges of data — versioning datasets, ensuring data quality, managing schema changes.
+**DataOps** is a methodology focused on data quality and flow, applying DevOps principles to data engineering pipelines. It emerged ~2014 when the DevOps toolchain couldn't handle the unique challenges of data → versioning datasets, ensuring data quality, managing schema changes.
 
 ### Core DataOps Principles:
 - Data pipeline automation (CI/CD for data)
@@ -36,7 +36,7 @@
 |---|---|---|---|
 | **Orchestration** | Airflow, Dagster, Prefect | Astronomer, Dagster Cloud | Very High |
 | **Data Quality** | Great Expectations, Soda | Monte Carlo, Bigeye | High |
-| **Data Versioning** | DVC, LakeFS, Delta Lake | — | Growing |
+| **Data Versioning** | DVC, LakeFS, Delta Lake | - | Growing |
 | **Transformation** | dbt | dbt Cloud | Very High |
 | **Catalog & Lineage** | DataHub, Amundsen | Atlan, Collibra | Medium |
 | **Streaming** | Kafka, Flink, Pulsar | Confluent, Redpanda | High |

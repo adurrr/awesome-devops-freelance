@@ -1,6 +1,6 @@
-# LLMOps Landscape 2026 — Research Document
+# LLMOps Landscape 2026 → Research Document
 
-> **Purpose**: Deep reference for LLMOps paradigm — operating large language models in production, RAG systems, prompt engineering, guardrails.
+> **Purpose**: Deep reference for LLMOps paradigm → operating large language models in production, RAG systems, prompt engineering, guardrails.
 
 ---
 
@@ -53,4 +53,4 @@
 ## 5. References
 - Hyscaler. "MLOps in 2026" (LLMOps convergence section).
 - KodeKloud. "MLOps vs DevOps vs DataOps (2026)."
-- FullStackTechies. "DevSecOps Vs DevOps (2026) — LLMOps section."
+- FullStackTechies. "DevSecOps Vs DevOps (2026) → LLMOps section."

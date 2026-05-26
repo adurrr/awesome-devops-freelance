@@ -1,9 +1,9 @@
 # Awesome DevOps Freelance [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
 > A curated list of awesome DevOps platforms, tools, practices, and resources for freelancers.  
-> Covers **DevOps, DevSecOps, DataOps, MLOps, AIOps, FinOps, LLMOps** — all paradigms in the 2026 state of the art.
+> Covers **DevOps, DevSecOps, DataOps, MLOps, AIOps, FinOps, LLMOps** → all paradigms in the 2026 state of the art.
 
-**Why this list?** The "Ops" landscape has fragmented into a dozen specialized disciplines. Freelancers need to navigate tools, practices, platforms, and career patterns across all of them. This list is your single-entry point — curated, categorized, and justified.
+**Why this list?** The "Ops" landscape has fragmented into a dozen specialized disciplines. Freelancers need to navigate tools, practices, platforms, and career patterns across all of them. This list is your single-entry point → curated, categorized, and justified.
 
 ---
 
@@ -36,7 +36,7 @@
 | **GitOps** | Git repositories | Git as single source of truth for infra | ~2017 | ✅ Production proven |
 | **SRE** | Reliability metrics | Service reliability through SLIs/SLOs | ~2003 | ✅ Mature discipline |
 
-> **Key insight for freelancers (2026):** DevOps is no longer a differentiator — it's the baseline. The premium is in **MLOps + DevSecOps + FinOps** specialization. Platform engineering is the fastest-growing job category. ([Source: Perforce State of DevOps 2026](https://www.perforce.com/resources/state-of-devops))
+> **Key insight for freelancers (2026):** DevOps is no longer a differentiator → it's the baseline. The premium is in **MLOps + DevSecOps + FinOps** specialization. Platform engineering is the fastest-growing job category. ([Source: Perforce State of DevOps 2026](https://www.perforce.com/resources/state-of-devops))
 
 ---
 
@@ -94,130 +94,130 @@
 
 ### CI/CD & GitOps
 
-- **[GitHub Actions](https://github.com/features/actions)** ![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white) — Native CI/CD for GitHub. 33% market share. Free tier: 2000 min/mo. **Freelance use**: Standard for GitHub shops; easiest to sell.
-- **[GitLab CI/CD](https://docs.gitlab.com/ee/ci/)** ![GitLab](https://img.shields.io/badge/GitLab-FC6D26?logo=gitlab&logoColor=white) — Built-in CI/CD for GitLab. All-in-one DevSecOps platform. **Freelance use**: Enterprise clients love the integrated security.
-- **[Jenkins](https://www.jenkins.io/)** ![GitHub stars](https://img.shields.io/github/stars/jenkinsci/jenkins?style=flat-square) ![License](https://img.shields.io/badge/license-MIT-blue) — Open-source automation server. 1800+ plugins. **Freelance use**: Legacy modernization gigs; high customization demand.
-- **[ArgoCD](https://argoproj.github.io/cd/)** ![GitHub stars](https://img.shields.io/github/stars/argoproj/argo-cd?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Graduated-blue) — Declarative GitOps for Kubernetes. **Freelance use**: K8s GitOps standard; every K8s engagement should know this.
-- **[Flux](https://fluxcd.io)** ![GitHub stars](https://img.shields.io/github/stars/fluxcd/flux2?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Graduated-blue) — Lightweight GitOps toolkit for K8s. **Freelance use**: Simpler alternative to ArgoCD; great for smaller teams.
-- **[CircleCI](https://circleci.com/)** ![CircleCI](https://img.shields.io/badge/CircleCI-343434?logo=circleci&logoColor=white) — Cloud CI/CD with strong parallelism. **Freelance use**: Monorepo builds, fast feedback loops.
-- **[Tekton](https://tekton.dev/)** ![GitHub stars](https://img.shields.io/github/stars/tektoncd/pipeline?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Graduated-blue) — Kubernetes-native CI/CD pipelines. **Freelance use**: Cloud-native teams avoiding vendor lock-in.
+- **[GitHub Actions](https://github.com/features/actions)** ![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white) → Native CI/CD for GitHub. 33% market share. Free tier: 2000 min/mo. **Freelance use**: Standard for GitHub shops; easiest to sell.
+- **[GitLab CI/CD](https://docs.gitlab.com/ee/ci/)** ![GitLab](https://img.shields.io/badge/GitLab-FC6D26?logo=gitlab&logoColor=white) → Built-in CI/CD for GitLab. All-in-one DevSecOps platform. **Freelance use**: Enterprise clients love the integrated security.
+- **[Jenkins](https://www.jenkins.io/)** ![GitHub stars](https://img.shields.io/github/stars/jenkinsci/jenkins?style=flat-square) ![License](https://img.shields.io/badge/license-MIT-blue) → Open-source automation server. 1800+ plugins. **Freelance use**: Legacy modernization gigs; high customization demand.
+- **[ArgoCD](https://argoproj.github.io/cd/)** ![GitHub stars](https://img.shields.io/github/stars/argoproj/argo-cd?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Graduated-blue) → Declarative GitOps for Kubernetes. **Freelance use**: K8s GitOps standard; every K8s engagement should know this.
+- **[Flux](https://fluxcd.io)** ![GitHub stars](https://img.shields.io/github/stars/fluxcd/flux2?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Graduated-blue) → Lightweight GitOps toolkit for K8s. **Freelance use**: Simpler alternative to ArgoCD; great for smaller teams.
+- **[CircleCI](https://circleci.com/)** ![CircleCI](https://img.shields.io/badge/CircleCI-343434?logo=circleci&logoColor=white) → Cloud CI/CD with strong parallelism. **Freelance use**: Monorepo builds, fast feedback loops.
+- **[Tekton](https://tekton.dev/)** ![GitHub stars](https://img.shields.io/github/stars/tektoncd/pipeline?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Graduated-blue) → Kubernetes-native CI/CD pipelines. **Freelance use**: Cloud-native teams avoiding vendor lock-in.
 
 ---
 
 ### Infrastructure as Code
 
-- **[Terraform](https://www.terraform.io/)** ![GitHub stars](https://img.shields.io/github/stars/hashicorp/terraform?style=flat-square) ![License](https://img.shields.io/badge/license-BSL-lightgrey) — Multi-cloud IaC standard. 3000+ providers. **Freelance use**: 90% of infrastructure gigs need Terraform. Baseline skill.
-- **[OpenTofu](https://opentofu.org/)** ![GitHub stars](https://img.shields.io/github/stars/opentofu/opentofu?style=flat-square) ![License](https://img.shields.io/badge/license-MPL--2.0-green) — Linux Foundation fork of Terraform after BSL license change. **Freelance use**: Growing demand from clients avoiding BSL.
-- **[Pulumi](https://www.pulumi.com/)** ![GitHub stars](https://img.shields.io/github/stars/pulumi/pulumi?style=flat-square) ![License](https://img.shields.io/badge/license-Apache%202.0-green) — IaC in real programming languages (Python, TypeScript, Go). **Freelance use**: Niche premium for dev teams that hate HCL.
-- **[Crossplane](https://crossplane.io/)** ![GitHub stars](https://img.shields.io/github/stars/crossplane/crossplane?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Graduated-blue) — Kubernetes-native control plane for cloud resources. **Freelance use**: Platform engineering + K8s-centric orgs. +30-40% rate premium.
-- **[Ansible](https://www.ansible.com/)** ![GitHub stars](https://img.shields.io/github/stars/ansible/ansible?style=flat-square) ![License](https://img.shields.io/badge/license-GPLv3-blue) — Configuration management and app deployment. **Freelance use**: Server config, app deployment, hybrid cloud.
+- **[Terraform](https://www.terraform.io/)** ![GitHub stars](https://img.shields.io/github/stars/hashicorp/terraform?style=flat-square) ![License](https://img.shields.io/badge/license-BSL-lightgrey) → Multi-cloud IaC standard. 3000+ providers. **Freelance use**: 90% of infrastructure gigs need Terraform. Baseline skill.
+- **[OpenTofu](https://opentofu.org/)** ![GitHub stars](https://img.shields.io/github/stars/opentofu/opentofu?style=flat-square) ![License](https://img.shields.io/badge/license-MPL--2.0-green) → Linux Foundation fork of Terraform after BSL license change. **Freelance use**: Growing demand from clients avoiding BSL.
+- **[Pulumi](https://www.pulumi.com/)** ![GitHub stars](https://img.shields.io/github/stars/pulumi/pulumi?style=flat-square) ![License](https://img.shields.io/badge/license-Apache%202.0-green) → IaC in real programming languages (Python, TypeScript, Go). **Freelance use**: Niche premium for dev teams that hate HCL.
+- **[Crossplane](https://crossplane.io/)** ![GitHub stars](https://img.shields.io/github/stars/crossplane/crossplane?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Graduated-blue) → Kubernetes-native control plane for cloud resources. **Freelance use**: Platform engineering + K8s-centric orgs. +30-40% rate premium.
+- **[Ansible](https://www.ansible.com/)** ![GitHub stars](https://img.shields.io/github/stars/ansible/ansible?style=flat-square) ![License](https://img.shields.io/badge/license-GPLv3-blue) → Configuration management and app deployment. **Freelance use**: Server config, app deployment, hybrid cloud.
 
 ---
 
 ### Container Orchestration
 
-- **[Kubernetes](https://kubernetes.io/)** ![GitHub stars](https://img.shields.io/github/stars/kubernetes/kubernetes?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Graduated-blue) — Industry-standard container orchestration. **Freelance use**: Foundational. Use managed: EKS, GKE, AKS, DOKS.
-- **[Docker](https://www.docker.com/)** ![GitHub stars](https://img.shields.io/github/stars/moby/moby?style=flat-square) — Container standard. **Freelance use**: Every project starts here. Dockerize → orchestrate.
-- **[Helm](https://helm.sh/)** ![GitHub stars](https://img.shields.io/github/stars/helm/helm?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Graduated-blue) — Kubernetes package manager. **Freelance use**: Standard for K8s app packaging. Chart development = billable skill.
-- **[K3s](https://k3s.io/)** ![GitHub stars](https://img.shields.io/github/stars/k3s-io/k3s?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Incubating-orange) — Lightweight K8s for edge, IoT, CI. **Freelance use**: Edge computing, resource-constrained environments.
-- **[KEDA](https://keda.sh/)** ![GitHub stars](https://img.shields.io/github/stars/kedacore/keda?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Graduated-blue) — Event-driven autoscaling for K8s. **Freelance use**: Cost optimization, event-driven architectures.
-- **[Nomad](https://www.nomadproject.io/)** ![GitHub stars](https://img.shields.io/github/stars/hashicorp/nomad?style=flat-square) — Simple, flexible orchestrator for containers + VMs + batch. **Freelance use**: Multi-workload environments, HashiCorp stacks.
+- **[Kubernetes](https://kubernetes.io/)** ![GitHub stars](https://img.shields.io/github/stars/kubernetes/kubernetes?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Graduated-blue) → Industry-standard container orchestration. **Freelance use**: Foundational. Use managed: EKS, GKE, AKS, DOKS.
+- **[Docker](https://www.docker.com/)** ![GitHub stars](https://img.shields.io/github/stars/moby/moby?style=flat-square) → Container standard. **Freelance use**: Every project starts here. Dockerize → orchestrate.
+- **[Helm](https://helm.sh/)** ![GitHub stars](https://img.shields.io/github/stars/helm/helm?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Graduated-blue) → Kubernetes package manager. **Freelance use**: Standard for K8s app packaging. Chart development = billable skill.
+- **[K3s](https://k3s.io/)** ![GitHub stars](https://img.shields.io/github/stars/k3s-io/k3s?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Incubating-orange) → Lightweight K8s for edge, IoT, CI. **Freelance use**: Edge computing, resource-constrained environments.
+- **[KEDA](https://keda.sh/)** ![GitHub stars](https://img.shields.io/github/stars/kedacore/keda?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Graduated-blue) → Event-driven autoscaling for K8s. **Freelance use**: Cost optimization, event-driven architectures.
+- **[Nomad](https://www.nomadproject.io/)** ![GitHub stars](https://img.shields.io/github/stars/hashicorp/nomad?style=flat-square) → Simple, flexible orchestrator for containers + VMs + batch. **Freelance use**: Multi-workload environments, HashiCorp stacks.
 
 ---
 
 ### Observability & Monitoring
 
-- **[Prometheus](https://prometheus.io/)** ![GitHub stars](https://img.shields.io/github/stars/prometheus/prometheus?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Graduated-blue) — Monitoring and alerting toolkit. **Freelance use**: 80%+ of K8s clusters use it. Standard metric collection.
-- **[Grafana](https://grafana.com/)** ![GitHub stars](https://img.shields.io/github/stars/grafana/grafana?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Graduated-blue) — Visualization dashboards for any data source. **Freelance use**: Dashboard creation = recurring freelance work.
-- **[OpenTelemetry](https://opentelemetry.io/)** ![GitHub stars](https://img.shields.io/github/stars/open-telemetry/opentelemetry-specification?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Graduated-blue) — Observability framework (metrics, logs, traces). **Freelance use**: Future standard. Migration projects = high value.
-- **[Datadog](https://www.datadoghq.com/)** ![Datadog](https://img.shields.io/badge/Datadog-632CA6?logo=datadog&logoColor=white) — Full-stack enterprise observability. **Freelance use**: Enterprise clients; cost optimization = billable.
-- **[Grafana Loki](https://grafana.com/oss/loki/)** ![GitHub stars](https://img.shields.io/github/stars/grafana/loki?style=flat-square) — Log aggregation for cloud-native. **Freelance use**: Cost-effective ELK alternative for K8s.
-- **[SigNoz](https://signoz.io/)** ![GitHub stars](https://img.shields.io/github/stars/SigNoz/signoz?style=flat-square) ![License](https://img.shields.io/badge/license-MIT-green) — OpenTelemetry-native, self-hosted observability. **Freelance use**: Open-source alternative to Datadog/New Relic.
+- **[Prometheus](https://prometheus.io/)** ![GitHub stars](https://img.shields.io/github/stars/prometheus/prometheus?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Graduated-blue) → Monitoring and alerting toolkit. **Freelance use**: 80%+ of K8s clusters use it. Standard metric collection.
+- **[Grafana](https://grafana.com/)** ![GitHub stars](https://img.shields.io/github/stars/grafana/grafana?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Graduated-blue) → Visualization dashboards for any data source. **Freelance use**: Dashboard creation = recurring freelance work.
+- **[OpenTelemetry](https://opentelemetry.io/)** ![GitHub stars](https://img.shields.io/github/stars/open-telemetry/opentelemetry-specification?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Graduated-blue) → Observability framework (metrics, logs, traces). **Freelance use**: Future standard. Migration projects = high value.
+- **[Datadog](https://www.datadoghq.com/)** ![Datadog](https://img.shields.io/badge/Datadog-632CA6?logo=datadog&logoColor=white) → Full-stack enterprise observability. **Freelance use**: Enterprise clients; cost optimization = billable.
+- **[Grafana Loki](https://grafana.com/oss/loki/)** ![GitHub stars](https://img.shields.io/github/stars/grafana/loki?style=flat-square) → Log aggregation for cloud-native. **Freelance use**: Cost-effective ELK alternative for K8s.
+- **[SigNoz](https://signoz.io/)** ![GitHub stars](https://img.shields.io/github/stars/SigNoz/signoz?style=flat-square) ![License](https://img.shields.io/badge/license-MIT-green) → OpenTelemetry-native, self-hosted observability. **Freelance use**: Open-source alternative to Datadog/New Relic.
 
 ---
 
 ### DevSecOps & Security
 
 #### Static Analysis (SAST)
-- **[Semgrep](https://semgrep.dev/)** ![GitHub stars](https://img.shields.io/github/stars/returntocorp/semgrep?style=flat-square) ![License](https://img.shields.io/badge/license-LGPL%202.1-blue) — Fast, lightweight static analysis for 30+ languages. **Freelance use**: CI-native, custom rules, developer-friendly.
-- **[SonarQube](https://www.sonarqube.org/)** ![GitHub stars](https://img.shields.io/github/stars/SonarSource/sonarqube?style=flat-square) — Deep code quality and security analysis. **Freelance use**: Enterprise standard; tech debt quantification.
-- **[CodeQL](https://codeql.github.com/)** ![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white) — Semantic code analysis engine. **Freelance use**: GitHub Advanced Security integration.
+- **[Semgrep](https://semgrep.dev/)** ![GitHub stars](https://img.shields.io/github/stars/returntocorp/semgrep?style=flat-square) ![License](https://img.shields.io/badge/license-LGPL%202.1-blue) → Fast, lightweight static analysis for 30+ languages. **Freelance use**: CI-native, custom rules, developer-friendly.
+- **[SonarQube](https://www.sonarqube.org/)** ![GitHub stars](https://img.shields.io/github/stars/SonarSource/sonarqube?style=flat-square) → Deep code quality and security analysis. **Freelance use**: Enterprise standard; tech debt quantification.
+- **[CodeQL](https://codeql.github.com/)** ![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white) → Semantic code analysis engine. **Freelance use**: GitHub Advanced Security integration.
 
 #### Dependency & Container Scanning
-- **[Snyk](https://snyk.io/)** ![Snyk](https://img.shields.io/badge/Snyk-4C4A73?logo=snyk&logoColor=white) — Developer-first security platform. **Freelance use**: Easy sell to dev teams; great UI.
-- **[Trivy](https://github.com/aquasecurity/trivy)** ![GitHub stars](https://img.shields.io/github/stars/aquasecurity/trivy?style=flat-square) ![License](https://img.shields.io/badge/license-Apache%202.0-green) — All-in-one scanner: containers, dependencies, IaC, secrets. **Freelance use**: Swiss Army knife of security scanning. Free and comprehensive.
-- **[Grype](https://github.com/anchore/grype)** ![GitHub stars](https://img.shields.io/github/stars/anchore/grype?style=flat-square) ![License](https://img.shields.io/badge/license-Apache%202.0-green) — Fast vulnerability scanner for container images. **Freelance use**: Syft-integrated SBOM workflow.
+- **[Snyk](https://snyk.io/)** ![Snyk](https://img.shields.io/badge/Snyk-4C4A73?logo=snyk&logoColor=white) → Developer-first security platform. **Freelance use**: Easy sell to dev teams; great UI.
+- **[Trivy](https://github.com/aquasecurity/trivy)** ![GitHub stars](https://img.shields.io/github/stars/aquasecurity/trivy?style=flat-square) ![License](https://img.shields.io/badge/license-Apache%202.0-green) → All-in-one scanner: containers, dependencies, IaC, secrets. **Freelance use**: Swiss Army knife of security scanning. Free and comprehensive.
+- **[Grype](https://github.com/anchore/grype)** ![GitHub stars](https://img.shields.io/github/stars/anchore/grype?style=flat-square) ![License](https://img.shields.io/badge/license-Apache%202.0-green) → Fast vulnerability scanner for container images. **Freelance use**: Syft-integrated SBOM workflow.
 
 #### IaC & Secret Scanning
-- **[Checkov](https://www.checkov.io/)** ![GitHub stars](https://img.shields.io/github/stars/bridgecrewio/checkov?style=flat-square) ![License](https://img.shields.io/badge/license-Apache%202.0-green) — Static analysis for Terraform, CloudFormation, K8s, etc. **Freelance use**: Policy-as-code for infrastructure.
-- **[GitLeaks](https://github.com/gitleaks/gitleaks)** ![GitHub stars](https://img.shields.io/github/stars/gitleaks/gitleaks?style=flat-square) ![License](https://img.shields.io/badge/license-MIT-green) — Detect hardcoded secrets in Git history. **Freelance use**: Essential for every CI pipeline.
-- **[TruffleHog](https://github.com/trufflesecurity/trufflehog)** ![GitHub stars](https://img.shields.io/github/stars/trufflesecurity/trufflehog?style=flat-square) ![License](https://img.shields.io/badge/license-AGPL%20v3-blue) — Deep secret scanning with regex + entropy. **Freelance use**: More thorough than GitLeaks; enterprise preference.
+- **[Checkov](https://www.checkov.io/)** ![GitHub stars](https://img.shields.io/github/stars/bridgecrewio/checkov?style=flat-square) ![License](https://img.shields.io/badge/license-Apache%202.0-green) → Static analysis for Terraform, CloudFormation, K8s, etc. **Freelance use**: Policy-as-code for infrastructure.
+- **[GitLeaks](https://github.com/gitleaks/gitleaks)** ![GitHub stars](https://img.shields.io/github/stars/gitleaks/gitleaks?style=flat-square) ![License](https://img.shields.io/badge/license-MIT-green) → Detect hardcoded secrets in Git history. **Freelance use**: Essential for every CI pipeline.
+- **[TruffleHog](https://github.com/trufflesecurity/trufflehog)** ![GitHub stars](https://img.shields.io/github/stars/trufflesecurity/trufflehog?style=flat-square) ![License](https://img.shields.io/badge/license-AGPL%20v3-blue) → Deep secret scanning with regex + entropy. **Freelance use**: More thorough than GitLeaks; enterprise preference.
 
 #### Runtime Security & Policy
-- **[Falco](https://falco.org/)** ![GitHub stars](https://img.shields.io/github/stars/falcosecurity/falco?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Graduated-blue) — Cloud-native runtime security. **Freelance use**: Behavioral monitoring, threat detection in K8s.
-- **[Kyverno](https://kyverno.io/)** ![GitHub stars](https://img.shields.io/github/stars/kyverno/kyverno?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Incubating-orange) — Kubernetes-native policy management. **Freelance use**: Policy-as-code without learning Rego.
-- **[OPA/Gatekeeper](https://www.openpolicyagent.org/)** ![GitHub stars](https://img.shields.io/github/stars/open-policy-agent/opa?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Graduated-blue) — General-purpose policy engine. **Freelance use**: Advanced policy needs, multi-environment governance.
+- **[Falco](https://falco.org/)** ![GitHub stars](https://img.shields.io/github/stars/falcosecurity/falco?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Graduated-blue) → Cloud-native runtime security. **Freelance use**: Behavioral monitoring, threat detection in K8s.
+- **[Kyverno](https://kyverno.io/)** ![GitHub stars](https://img.shields.io/github/stars/kyverno/kyverno?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Incubating-orange) → Kubernetes-native policy management. **Freelance use**: Policy-as-code without learning Rego.
+- **[OPA/Gatekeeper](https://www.openpolicyagent.org/)** ![GitHub stars](https://img.shields.io/github/stars/open-policy-agent/opa?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Graduated-blue) → General-purpose policy engine. **Freelance use**: Advanced policy needs, multi-environment governance.
 
 ---
 
 ### Platform Engineering
 
-- **[Backstage](https://backstage.io/)** ![GitHub stars](https://img.shields.io/github/stars/backstage/backstage?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Graduated-blue) — Developer portal framework by Spotify. **Freelance use**: #1 platform engineering tool. Plugin development = billable.
-- **[Crossplane](https://crossplane.io/)** ![GitHub stars](https://img.shields.io/github/stars/crossplane/crossplane?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Graduated-blue) — Control plane framework for building IDPs. **Freelance use**: K8s-native cloud resource management.
-- **[Kratix](https://kratix.io/)** ![GitHub stars](https://img.shields.io/github/stars/syntasso/kratix?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Sandbox-yellow) — Framework for building composable internal platforms. **Freelance use**: Promise-based platform APIs.
-- **[Port](https://www.getport.io/)** ![Port](https://img.shields.io/badge/Port-Developer%20Portal-blue) — SaaS developer portal alternative to Backstage. **Freelance use**: Faster setup than Backstage; less maintenance.
-- **[Humanitec](https://humanitec.com/)** ![Humanitec](https://img.shields.io/badge/Humanitec-Platform%20Orchestrator-blue) — Internal platform orchestrator. **Freelance use**: Enterprise IDP implementation.
+- **[Backstage](https://backstage.io/)** ![GitHub stars](https://img.shields.io/github/stars/backstage/backstage?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Graduated-blue) → Developer portal framework by Spotify. **Freelance use**: #1 platform engineering tool. Plugin development = billable.
+- **[Crossplane](https://crossplane.io/)** ![GitHub stars](https://img.shields.io/github/stars/crossplane/crossplane?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Graduated-blue) → Control plane framework for building IDPs. **Freelance use**: K8s-native cloud resource management.
+- **[Kratix](https://kratix.io/)** ![GitHub stars](https://img.shields.io/github/stars/syntasso/kratix?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Sandbox-yellow) → Framework for building composable internal platforms. **Freelance use**: Promise-based platform APIs.
+- **[Port](https://www.getport.io/)** ![Port](https://img.shields.io/badge/Port-Developer%20Portal-blue) → SaaS developer portal alternative to Backstage. **Freelance use**: Faster setup than Backstage; less maintenance.
+- **[Humanitec](https://humanitec.com/)** ![Humanitec](https://img.shields.io/badge/Humanitec-Platform%20Orchestrator-blue) → Internal platform orchestrator. **Freelance use**: Enterprise IDP implementation.
 
 ---
 
 ### AI for DevOps
 
-- **[HolmesGPT](https://github.com/robusta-dev/holmesgpt)** ![GitHub stars](https://img.shields.io/github/stars/robusta-dev/holmesgpt?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Sandbox-yellow) ![License](https://img.shields.io/badge/license-Apache%202.0-green) — AI-powered incident investigation for Kubernetes. **Freelance use**: Cutting-edge SRE tool; CNCF-backed.
-- **[K8sGPT](https://github.com/k8sgpt-ai/k8sgpt)** ![GitHub stars](https://img.shields.io/github/stars/k8sgpt-ai/k8sgpt?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Sandbox-yellow) ![License](https://img.shields.io/badge/license-Apache%202.0-green) — Kubernetes diagnostics with AI. **Freelance use**: AI-powered troubleshooting; impressive client demos.
-- **[Aurora](https://github.com/arvo-ai/aurora)** ![GitHub stars](https://img.shields.io/github/stars/arvo-ai/aurora?style=flat-square) ![License](https://img.shields.io/badge/license-Apache%202.0-green) — Multi-cloud AI incident investigation. **Freelance use**: Highest-scoring AI SRE tool (15/15 capability matrix).
-- **[Kagent](https://kagent.dev/)** ![CNCF](https://img.shields.io/badge/CNCF-Sandbox-yellow) — AI agents for Kubernetes operations. **Freelance use**: Agentic AI in K8s; early adopter advantage.
-- **[Runme](https://runme.dev/)** ![GitHub stars](https://img.shields.io/github/stars/stateful/runme?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Sandbox-yellow) — Interactive DevOps notebooks from Markdown. **Freelance use**: Documentation + executable runbooks.
+- **[HolmesGPT](https://github.com/robusta-dev/holmesgpt)** ![GitHub stars](https://img.shields.io/github/stars/robusta-dev/holmesgpt?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Sandbox-yellow) ![License](https://img.shields.io/badge/license-Apache%202.0-green) → AI-powered incident investigation for Kubernetes. **Freelance use**: Cutting-edge SRE tool; CNCF-backed.
+- **[K8sGPT](https://github.com/k8sgpt-ai/k8sgpt)** ![GitHub stars](https://img.shields.io/github/stars/k8sgpt-ai/k8sgpt?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Sandbox-yellow) ![License](https://img.shields.io/badge/license-Apache%202.0-green) → Kubernetes diagnostics with AI. **Freelance use**: AI-powered troubleshooting; impressive client demos.
+- **[Aurora](https://github.com/arvo-ai/aurora)** ![GitHub stars](https://img.shields.io/github/stars/arvo-ai/aurora?style=flat-square) ![License](https://img.shields.io/badge/license-Apache%202.0-green) → Multi-cloud AI incident investigation. **Freelance use**: Highest-scoring AI SRE tool (15/15 capability matrix).
+- **[Kagent](https://kagent.dev/)** ![CNCF](https://img.shields.io/badge/CNCF-Sandbox-yellow) → AI agents for Kubernetes operations. **Freelance use**: Agentic AI in K8s; early adopter advantage.
+- **[Runme](https://runme.dev/)** ![GitHub stars](https://img.shields.io/github/stars/stateful/runme?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Sandbox-yellow) → Interactive DevOps notebooks from Markdown. **Freelance use**: Documentation + executable runbooks.
 
 ---
 
 ### MLOps & LLMOps
 
 #### Experiment Tracking & Model Registry
-- **[MLflow](https://mlflow.org/)** ![GitHub stars](https://img.shields.io/github/stars/mlflow/mlflow?style=flat-square) ![License](https://img.shields.io/badge/license-Apache%202.0-green) — Experiment tracking, model registry, deployment. **Freelance use**: Most popular open-source MLOps tool.
-- **[Weights & Biases](https://wandb.ai/)** ![Weights & Biases](https://img.shields.io/badge/W%26B-Experiment%20Tracking-yellow) — ML experiment tracking and visualization. **Freelance use**: Teams that want managed SaaS.
+- **[MLflow](https://mlflow.org/)** ![GitHub stars](https://img.shields.io/github/stars/mlflow/mlflow?style=flat-square) ![License](https://img.shields.io/badge/license-Apache%202.0-green) → Experiment tracking, model registry, deployment. **Freelance use**: Most popular open-source MLOps tool.
+- **[Weights & Biases](https://wandb.ai/)** ![Weights & Biases](https://img.shields.io/badge/W%26B-Experiment%20Tracking-yellow) → ML experiment tracking and visualization. **Freelance use**: Teams that want managed SaaS.
 
 #### Pipeline Orchestration
-- **[Kubeflow](https://www.kubeflow.org/)** ![GitHub stars](https://img.shields.io/github/stars/kubeflow/kubeflow?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Incubating-orange) — ML toolkit for Kubernetes. **Freelance use**: End-to-end ML pipelines on K8s.
-- **[Prefect](https://www.prefect.io/)** ![GitHub stars](https://img.shields.io/github/stars/PrefectHQ/prefect?style=flat-square) ![License](https://img.shields.io/badge/license-Apache%202.0-green) — Modern workflow orchestration. **Freelance use**: Python-native, hybrid execution.
-- **[ZenML](https://zenml.io/)** ![GitHub stars](https://img.shields.io/github/stars/zenml-io/zenml?style=flat-square) ![License](https://img.shields.io/badge/license-Apache%202.0-green) — MLOps pipeline framework. **Freelance use**: Portable pipelines across orchestrators.
+- **[Kubeflow](https://www.kubeflow.org/)** ![GitHub stars](https://img.shields.io/github/stars/kubeflow/kubeflow?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Incubating-orange) → ML toolkit for Kubernetes. **Freelance use**: End-to-end ML pipelines on K8s.
+- **[Prefect](https://www.prefect.io/)** ![GitHub stars](https://img.shields.io/github/stars/PrefectHQ/prefect?style=flat-square) ![License](https://img.shields.io/badge/license-Apache%202.0-green) → Modern workflow orchestration. **Freelance use**: Python-native, hybrid execution.
+- **[ZenML](https://zenml.io/)** ![GitHub stars](https://img.shields.io/github/stars/zenml-io/zenml?style=flat-square) ![License](https://img.shields.io/badge/license-Apache%202.0-green) → MLOps pipeline framework. **Freelance use**: Portable pipelines across orchestrators.
 
 #### Model Serving
-- **[KServe](https://kserve.github.io/)** ![GitHub stars](https://img.shields.io/github/stars/kserve/kserve?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Incubating-orange) — Kubernetes-native model serving. **Freelance use**: Standard for K8s model inference.
-- **[Seldon Core](https://www.seldon.io/)** ![GitHub stars](https://img.shields.io/github/stars/SeldonIO/seldon-core?style=flat-square) ![License](https://img.shields.io/badge/license-Apache%202.0-green) — ML deployment and monitoring. **Freelance use**: Advanced deployment strategies (canary, A/B testing).
+- **[KServe](https://kserve.github.io/)** ![GitHub stars](https://img.shields.io/github/stars/kserve/kserve?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Incubating-orange) → Kubernetes-native model serving. **Freelance use**: Standard for K8s model inference.
+- **[Seldon Core](https://www.seldon.io/)** ![GitHub stars](https://img.shields.io/github/stars/SeldonIO/seldon-core?style=flat-square) ![License](https://img.shields.io/badge/license-Apache%202.0-green) → ML deployment and monitoring. **Freelance use**: Advanced deployment strategies (canary, A/B testing).
 
 #### LLMOps
-- **[LangChain](https://www.langchain.com/)** ![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=flat-square) ![License](https://img.shields.io/badge/license-MIT-green) — LLM application development framework. **Freelance use**: RAG pipelines, agent workflows.
-- **[LangSmith](https://www.langchain.com/langsmith)** ![LangSmith](https://img.shields.io/badge/LangSmith-LLM%20Observability-yellow) — LLM tracing and evaluation. **Freelance use**: Production LLM monitoring.
-- **[Guardrails AI](https://www.guardrailsai.com/)** ![Guardrails](https://img.shields.io/badge/Guardrails-LLM%20Safety-blue) — Input/output validation for LLMs. **Freelance use**: Compliance-critical LLM deployments.
+- **[LangChain](https://www.langchain.com/)** ![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=flat-square) ![License](https://img.shields.io/badge/license-MIT-green) → LLM application development framework. **Freelance use**: RAG pipelines, agent workflows.
+- **[LangSmith](https://www.langchain.com/langsmith)** ![LangSmith](https://img.shields.io/badge/LangSmith-LLM%20Observability-yellow) → LLM tracing and evaluation. **Freelance use**: Production LLM monitoring.
+- **[Guardrails AI](https://www.guardrailsai.com/)** ![Guardrails](https://img.shields.io/badge/Guardrails-LLM%20Safety-blue) → Input/output validation for LLMs. **Freelance use**: Compliance-critical LLM deployments.
 
 ---
 
 ### Cost Management & FinOps
 
-- **[Kubecost](https://www.kubecost.com/)** ![GitHub stars](https://img.shields.io/github/stars/kubecost/cost-model?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Incubating-orange) ![License](https://img.shields.io/badge/license-Apache%202.0-green) — Kubernetes cost monitoring and optimization. **Freelance use**: K8s cost optimization = recurring freelance revenue.
-- **[Infracost](https://www.infracost.io/)** ![GitHub stars](https://img.shields.io/github/stars/infracost/infracost?style=flat-square) ![License](https://img.shields.io/badge/license-Apache%202.0-green) — Cloud cost estimates in CI/CD. **Freelance use**: Shift-left cost visibility; prevents bill shock.
-- **[Vantage](https://www.vantage.sh/)** ![Vantage](https://img.shields.io/badge/Vantage-Cloud%20Cost%20Visibility-blue) — Multi-cloud cost management. **Freelance use**: Cross-cloud cost analysis for enterprise clients.
-- **[AWS Cost Explorer](https://aws.amazon.com/aws-cost-management/)** ![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazon-aws&logoColor=white) — Native AWS cost analysis. **Freelance use**: Every AWS engagement starts here.
+- **[Kubecost](https://www.kubecost.com/)** ![GitHub stars](https://img.shields.io/github/stars/kubecost/cost-model?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Incubating-orange) ![License](https://img.shields.io/badge/license-Apache%202.0-green) → Kubernetes cost monitoring and optimization. **Freelance use**: K8s cost optimization = recurring freelance revenue.
+- **[Infracost](https://www.infracost.io/)** ![GitHub stars](https://img.shields.io/github/stars/infracost/infracost?style=flat-square) ![License](https://img.shields.io/badge/license-Apache%202.0-green) → Cloud cost estimates in CI/CD. **Freelance use**: Shift-left cost visibility; prevents bill shock.
+- **[Vantage](https://www.vantage.sh/)** ![Vantage](https://img.shields.io/badge/Vantage-Cloud%20Cost%20Visibility-blue) → Multi-cloud cost management. **Freelance use**: Cross-cloud cost analysis for enterprise clients.
+- **[AWS Cost Explorer](https://aws.amazon.com/aws-cost-management/)** ![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazon-aws&logoColor=white) → Native AWS cost analysis. **Freelance use**: Every AWS engagement starts here.
 
 ---
 
 ### Messaging & Streaming
 
-- **[Apache Kafka](https://kafka.apache.org/)** ![GitHub stars](https://img.shields.io/github/stars/apache/kafka?style=flat-square) ![License](https://img.shields.io/badge/license-Apache%202.0-green) — Distributed event streaming platform. **Freelance use**: Event-driven architecture backbone.
-- **[Apache Pulsar](https://pulsar.apache.org/)** ![GitHub stars](https://img.shields.io/github/stars/apache/pulsar?style=flat-square) ![License](https://img.shields.io/badge/license-Apache%202.0-green) — Cloud-native distributed messaging. **Freelance use**: Multi-tenant, geo-replication needs.
-- **[NATS](https://nats.io/)** ![GitHub stars](https://img.shields.io/github/stars/nats-io/nats-server?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Incubating-orange) — Lightweight, high-performance messaging. **Freelance use**: IoT, microservices, edge.
-- **[Redpanda](https://redpanda.com/)** ![Redpanda](https://img.shields.io/badge/Redpanda-Kafka%20Compatible-blue) — Kafka-compatible streaming without ZooKeeper. **Freelance use**: Simpler ops, lower latency.
-- **[RabbitMQ](https://www.rabbitmq.com/)** ![GitHub stars](https://img.shields.io/github/stars/rabbitmq/rabbitmq-server?style=flat-square) ![License](https://img.shields.io/badge/license-MPL%202.0-green) — Reliable message broker. **Freelance use**: Traditional queuing, AMQP compatibility.
+- **[Apache Kafka](https://kafka.apache.org/)** ![GitHub stars](https://img.shields.io/github/stars/apache/kafka?style=flat-square) ![License](https://img.shields.io/badge/license-Apache%202.0-green) → Distributed event streaming platform. **Freelance use**: Event-driven architecture backbone.
+- **[Apache Pulsar](https://pulsar.apache.org/)** ![GitHub stars](https://img.shields.io/github/stars/apache/pulsar?style=flat-square) ![License](https://img.shields.io/badge/license-Apache%202.0-green) → Cloud-native distributed messaging. **Freelance use**: Multi-tenant, geo-replication needs.
+- **[NATS](https://nats.io/)** ![GitHub stars](https://img.shields.io/github/stars/nats-io/nats-server?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Incubating-orange) → Lightweight, high-performance messaging. **Freelance use**: IoT, microservices, edge.
+- **[Redpanda](https://redpanda.com/)** ![Redpanda](https://img.shields.io/badge/Redpanda-Kafka%20Compatible-blue) → Kafka-compatible streaming without ZooKeeper. **Freelance use**: Simpler ops, lower latency.
+- **[RabbitMQ](https://www.rabbitmq.com/)** ![GitHub stars](https://img.shields.io/github/stars/rabbitmq/rabbitmq-server?style=flat-square) ![License](https://img.shields.io/badge/license-MPL%202.0-green) → Reliable message broker. **Freelance use**: Traditional queuing, AMQP compatibility.
 
 ---
 
@@ -228,15 +228,15 @@
 | Category | Graduated (Production Ready) | Incubating (Growing) |
 |---|---|---|
 | **Orchestration** | Kubernetes, containerd, etcd | K3s, KEDA, Volcano |
-| **CI/CD** | ArgoCD, Flux, Tekton | — |
-| **Observability** | Prometheus, Grafana, OpenTelemetry, Thanos | — |
+| **CI/CD** | ArgoCD, Flux, Tekton | - |
+| **Observability** | Prometheus, Grafana, OpenTelemetry, Thanos | - |
 | **Security** | Falco, OPA/Gatekeeper, SPIRE, TUF | KubeArmor, Kubescape, Paralus |
-| **Service Mesh** | Istio, Linkerd | — |
+| **Service Mesh** | Istio, Linkerd | - |
 | **Storage** | Rook, Vitess | CubeFS, Longhorn |
 | **Networking** | Cilium, CoreDNS, Envoy, Flannel | Kube-OVN, Submariner |
 | **Platform** | Backstage | Crossplane (Graduated Oct 2025), Kratix |
-| **ML/AI** | — | KServe, Kubeflow |
-| **Cost** | — | Kubecost |
+| **ML/AI** | - | KServe, Kubeflow |
+| **Cost** | - | Kubecost |
 | **Runtime** | Docker, Podman, containerd | Inclavare, WasmEdge |
 
 > **Source:** [CNCF Landscape](https://landscape.cncf.io/) • [CNCF Projects](https://www.cncf.io/projects/) • Q1 2026 Technology Radar Report
@@ -253,7 +253,7 @@
 | [Toptal](https://www.toptal.com/developers/devops) | Top 3% vetted | $100–$200/hr | Enterprise clients | None (client pays premium) |
 | [Arc.dev](https://arc.dev/) | 12K+ vetted engineers | $60–$160/hr | European clients | 11% service fee |
 | [Fiverr Pro](https://www.fiverr.com/) | Vetted pros | $500–$10K/project | Fixed-scope projects | Platform fee |
-| [Gun.io](https://gun.io/) | Curated network | $80–$150/hr | Senior contracts | — |
+| [Gun.io](https://gun.io/) | Curated network | $80–$150/hr | Senior contracts | - |
 
 ### Top-Converting Freelancer Profile Patterns
 
@@ -268,11 +268,11 @@ Analysis of **50 top-rated DevOps freelancers** reveals these common success pat
 - ❌ "DevOps Engineer" (too generic)
 
 **2. Portfolio Must-Haves (in order of conversion impact)**
-1. **Case study with metrics** — "Client X → I built Y → Result Z" with numbers
-2. **GitHub with real projects** — Terraform modules, CI pipeline, architecture diagram
-3. **Live demo / architecture diagram** — Visual proof of complex systems
-4. **Client testimonials with business impact** — Not "great work" but "saved $30K/month"
-5. **Blog posts / technical content** — Demonstrates communication skills
+1. **Case study with metrics** → "Client X → I built Y → Result Z" with numbers
+2. **GitHub with real projects** → Terraform modules, CI pipeline, architecture diagram
+3. **Live demo / architecture diagram** → Visual proof of complex systems
+4. **Client testimonials with business impact** → Not "great work" but "saved $30K/month"
+5. **Blog posts / technical content** → Demonstrates communication skills
 
 **3. Certifications that Convert (2026)**
 
@@ -292,10 +292,10 @@ Senior:    $130-200/hr (retainer clients, referrals, established brand)
 ```
 
 **5. Engagement Process (from top performers)**
-1. Discovery call (30 min) — Understand problem, don't pitch
-2. 1-page proposal — Problem → Solution → Deliverables → Timeline → Price
-3. Contract with 50% upfront — Scope, IP ownership, out-of-scope
-4. Weekly check-ins with documentation — Over-communicate
+1. Discovery call (30 min) → Understand problem, don't pitch
+2. 1-page proposal → Problem → Solution → Deliverables → Timeline → Price
+3. Contract with 50% upfront → Scope, IP ownership, out-of-scope
+4. Weekly check-ins with documentation → Over-communicate
 5. Delivery with Loom walkthrough + written docs → Referrals
 
 ### Strongest Portfolio Projects for 2026
@@ -342,9 +342,9 @@ Senior:    $130-200/hr (retainer clients, referrals, established brand)
 | [Messaging & Streaming](./docs/extended-lists/messaging-streaming.md) | 8+ | Comparison, Kafka alternatives |
 
 ### Guides
-- [How to Use This List](./docs/guides/how-to-use-this-list.md) — Navigation and query patterns
-- [How to Contribute](./docs/guides/how-to-contribute.md) — Contribution guidelines and standards
-- [Freelance DevOps Roadmap](./docs/guides/freelance-devops-roadmap.md) — 12-month learning path to $150+/hr
+- [How to Use This List](./docs/guides/how-to-use-this-list.md) → Navigation and query patterns
+- [How to Contribute](./docs/guides/how-to-contribute.md) → Contribution guidelines and standards
+- [Freelance DevOps Roadmap](./docs/guides/freelance-devops-roadmap.md) → 12-month learning path to $150+/hr
 
 ---
 
@@ -372,7 +372,7 @@ Contributions are welcome! See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelin
 
 - **Add a tool**: Open an issue or PR with tool name, category, description, and why it's awesome for freelancers
 - **Update a resource**: Noticed something outdated? Open a PR with the update
-- **Suggest a category**: The Ops landscape evolves fast — suggest new categories
+- **Suggest a category**: The Ops landscape evolves fast → suggest new categories
 
 **Quality standards:**
 - Tools must have 500+ GitHub stars OR be CNCF projects OR be commercially proven
@@ -392,4 +392,4 @@ Because this is a curated knowledge resource, AGPL ensures that anyone who modif
 
 ## 🌟 Star History
 
-If you find this useful, **star the repo** — it helps other freelancers discover it. Updated weekly.
+If you find this useful, **star the repo** → it helps other freelancers discover it. Updated weekly.

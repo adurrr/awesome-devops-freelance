@@ -1,4 +1,4 @@
-# Cloud Native & Container Orchestration — Extended List
+# Cloud Native & Container Orchestration → Extended List
 
 > **Full comparison of container orchestration tools for DevOps freelancers.**
 
@@ -20,12 +20,12 @@
 | Tool | Stars | Type | Best For |
 |---|---|---|---|
 | **Kubernetes** | 112k+ | Orchestration | Standard for container orchestration |
-| **Docker Swarm** | — | Orchestration | Simple single-server deployments |
+| **Docker Swarm** | - | Orchestration | Simple single-server deployments |
 | **Nomad** | 20k+ | Orchestration | Multi-workload (containers + VMs + batch) |
 | **K3s** | 28k+ | Lightweight K8s | Edge, IoT, resource-constrained |
 | **K0s** | 5k+ | Lightweight K8s | Minimal K8s distribution |
 | **MicroK8s** | 7k+ | Lightweight K8s | Local dev, IoT |
-| **OpenShift** | — | Enterprise K8s | Enterprise, Red Hat ecosystem |
+| **OpenShift** | - | Enterprise K8s | Enterprise, Red Hat ecosystem |
 
 ## Kubernetes Cluster API Providers
 

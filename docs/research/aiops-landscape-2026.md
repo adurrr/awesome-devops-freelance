@@ -1,12 +1,12 @@
-# AIOps Landscape 2026 — Research Document
+# AIOps Landscape 2026 → Research Document
 
-> **Purpose**: Deep reference for AIOps paradigm — AI for IT Operations, incident management, self-healing systems, and freelance opportunities.
+> **Purpose**: Deep reference for AIOps paradigm → AI for IT Operations, incident management, self-healing systems, and freelance opportunities.
 
 ---
 
 ## 1. Definition
 
-**AIOps (Artificial Intelligence for IT Operations)** uses machine learning and advanced analytics to automate and enhance IT operations processes — monitoring, event correlation, anomaly detection, and root cause analysis.
+**AIOps (Artificial Intelligence for IT Operations)** uses machine learning and advanced analytics to automate and enhance IT operations processes → monitoring, event correlation, anomaly detection, and root cause analysis.
 
 In 2026, AIOps is transitioning from a buzzword to a practical operational necessity, especially for enterprises running complex multi-cloud environments.
 
@@ -34,7 +34,7 @@ In 2026, AIOps is transitioning from a buzzword to a practical operational neces
 
 ## 3. AI SRE Tools Landscape (2026)
 
-Based on analysis by Siddharth Singh (DEV, May 2026), tools are scored on 5 axes (Investigation, Remediation, Postmortem, Deployment Flexibility, Source Availability) — max 15.
+Based on analysis by Siddharth Singh (DEV, May 2026), tools are scored on 5 axes (Investigation, Remediation, Postmortem, Deployment Flexibility, Source Availability) → max 15.
 
 ### Top AI SRE Tools
 
@@ -87,5 +87,5 @@ Open-source tools (Aurora, HolmesGPT, K8sGPT) lead in deployment flexibility. Co
 - Singh, S. "Top 15 AI SRE Tools in 2026." DEV Community, May 2026.
 - Requirement Guide. "DevOps Trends 2026." (AIOps section)
 - DigitalMara. "Observability 2.0 in DevSecOps 2026."
-- CNCF. Technology Radar Q1 2026 — Workflow Orchestration, App Delivery, Security.
+- CNCF. Technology Radar Q1 2026 → Workflow Orchestration, App Delivery, Security.
 - Gartner. "Top Strategic Technology Trends for 2026: Multiagent Systems."

@@ -1,6 +1,6 @@
-# MLOps Landscape 2026 — Research Document
+# MLOps Landscape 2026 → Research Document
 
-> **Purpose**: Deep reference for MLOps paradigm — lifecycle management, tools, trends, and premium freelance opportunities.
+> **Purpose**: Deep reference for MLOps paradigm → lifecycle management, tools, trends, and premium freelance opportunities.
 
 ---
 
@@ -68,7 +68,7 @@ Unified platforms managing XGBoost classifiers and fine-tuned LLaMA models throu
 Models running on edge devices at scale (autonomous systems, manufacturing QC, mobile apps). Adds compression, federated learning, and OTA update management.
 
 ### 4.4 Autonomous Retraining
-Closed-loop systems that detect drift, evaluate retraining cost-benefit, retrain, validate, and deploy — humans review policies and exceptions only.
+Closed-loop systems that detect drift, evaluate retraining cost-benefit, retrain, validate, and deploy → humans review policies and exceptions only.
 
 ### 4.5 FinOps for AI
 - GPU spending management without accountability spirals
@@ -84,16 +84,16 @@ Closed-loop systems that detect drift, evaluate retraining cost-benefit, retrain
 ### Open Source Stack
 | Tool | Category | GitHub Stars | CNCF Status |
 |---|---|---|---|
-| MLflow | Experiment tracking + Registry | 20k+ | — |
+| MLflow | Experiment tracking + Registry | 20k+ | - |
 | Kubeflow | Training pipelines | 14k+ | Incubating |
 | KServe | Model serving | 4k+ | Incubating |
-| Seldon Core | Model deployment | 4k+ | — |
-| Prefect | Workflow orchestration | 18k+ | — |
-| Airflow | Workflow orchestration | 37k+ | — |
-| Feast | Feature store | 6k+ | — |
-| DVC | Data versioning | 15k+ | — |
-| ZenML | Pipeline framework | 4k+ | — |
-| Evidently AI | Model monitoring | 5k+ | — |
+| Seldon Core | Model deployment | 4k+ | - |
+| Prefect | Workflow orchestration | 18k+ | - |
+| Airflow | Workflow orchestration | 37k+ | - |
+| Feast | Feature store | 6k+ | - |
+| DVC | Data versioning | 15k+ | - |
+| ZenML | Pipeline framework | 4k+ | - |
+| Evidently AI | Model monitoring | 5k+ | - |
 
 ### Cloud-Native Platforms
 | Platform | Best For | Pricing |
@@ -109,7 +109,7 @@ Closed-loop systems that detect drift, evaluate retraining cost-benefit, retrain
 
 ## 6. Academic References
 
-- MLOps: Practices, Maturity Models, Roles, Tools, and Challenges — A Systematic Literature Review. *Semantic Scholar/PDF*
+- MLOps: Practices, Maturity Models, Roles, Tools, and Challenges → A Systematic Literature Review. *Semantic Scholar/PDF*
 - "A Systematic Review of MLOps Tools: Tool Adoption, Lifecycle Coverage, and Critical Insights." arXiv:2604.16371v1 (2026)
 - "Security Risks and Best Practices of MLOps: A Multivocal Literature Review." CEUR-WS Vol-3731
 - "Industrial MLOps: a systematic review of architectures and implementation challenges." *Chalmers Research*, 2025
