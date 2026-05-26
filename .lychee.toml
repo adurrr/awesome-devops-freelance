@@ -1,0 +1,60 @@
+# Lychee link checker configuration
+# https://github.com/lycheeverse/lychee
+
+# Cache results to avoid re-checking same URLs
+cache = true
+max_cache_age = "7d"
+
+# Request settings
+timeout = 30
+retry_wait_time = 5
+max_retries = 3
+max_concurrency = 8
+
+# Exclude patterns (URLs that are known to be flaky or require auth)
+exclude = [
+  # Badge URLs (dynamic, often rate-limited)
+  "https://img.shields.io/",
+  "https://camo.githubusercontent.com/",
+
+  # GitHub search URLs
+  "^https://github.com/search",
+  "^https://github.com/.*/compare",
+
+  # Social media / login-gated
+  "https://linkedin.com/",
+  "https://www.linkedin.com/",
+
+  # Marketplace / signup-required
+  "https://www.getport.io/",
+  "https://humanitec.com/",
+  "https://www.vantage.sh/",
+  "https://gun.io/",
+  "https://www.getdbt.com/",
+
+  # API URLs
+  "https://formulae.brew.sh/",
+
+  # SVG images (non-link assets)
+  ".*\\.svg$",
+
+  # Mailto links
+  "^mailto:",
+]
+
+# Acceptable response codes (200, 201, 204, 206, 301, 302, 303, 307, 308)
+accept = [200, 201, 204, 206, 301, 302, 303, 307, 308]
+
+# Skip checking file:// URLs
+exclude_paths = [
+  "file://",
+]
+
+# File extensions to check
+include = ["*.md", "*.yaml", "*.yml", "*.toml"]
+
+# Verbose output for debugging
+verbose = false
+
+# Output format
+format = "markdown"
