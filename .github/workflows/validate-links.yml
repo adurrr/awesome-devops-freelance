@@ -24,9 +24,10 @@ jobs:
           args: >-
             --config .lychee.toml
             --no-progress
-            --output lychee/out.md
             .
+          output: lychee/out.md
           fail: false
+          jobSummary: true
 
       - name: Upload lychee report
         uses: actions/upload-artifact@v4
