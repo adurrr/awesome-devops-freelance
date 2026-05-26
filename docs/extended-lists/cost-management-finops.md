@@ -4,6 +4,8 @@
 
 ---
 
+**Last updated**: 2026-05-26
+
 ## K8s Cost Monitoring
 
 | Tool | Stars | License (CNCF) | Best For |

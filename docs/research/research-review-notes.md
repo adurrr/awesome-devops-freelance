@@ -63,7 +63,7 @@ Each doc was checked against these standards (from AGENT.md):
 **Legend**: ✅ Meets | ⚠️ Partial/Weak | ❌ Missing | N/A Not applicable
 
 **Key findings**:
-- 11/11 docs missing "Last updated" (100% failure — **critical**)
+- 11/11 docs missing "Last updated" (100% failure → **critical**)
 - 3 paradigm docs (dataops, finops, llmops) missing academic references
 - 3 paradigm docs missing key structure sections (Key Trends, Freelance Opportunities)
 - Inline source tagging weak or absent in 7/11 docs

@@ -1,10 +1,11 @@
 # MLOps & LLMOps Tools → Extended List
 
-> **Full comparison of MLOps and LLMOps tools for DevOps freelancers  ->  covering the full AI lifecycle.**
+> **Full comparison of MLOps and LLMOps tools for DevOps freelancers → covering the full AI lifecycle.**
 
 ---
 
-## Experiment Tracking & Model Registry
+**Last updated**: 2026-05-26
+
 
 | Tool | Stars | License | Best For |
 |---|---|---|---|

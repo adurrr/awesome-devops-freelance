@@ -4,7 +4,8 @@
 
 ---
 
-## 1. Research Sources
+**Last updated**: 2026-05-26
+
 
 ### Tier 1: Primary Sources (Highest Trust)
 - Official documentation (project docs, READMEs, official websites)

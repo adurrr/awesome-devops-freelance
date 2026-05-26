@@ -70,11 +70,11 @@
 
 ## 6. Academic References
 
-- arXiv:2305.19074 — "Data Contracts: From Theory to Practice"
-- ACM Computing Surveys 2023 — "A Survey of Data Quality Measurement"
-- arXiv:2208.09085 — "Data Observability: Concepts and Techniques"
-- IEEE BigData 2024 — "Real-Time Data Quality Assurance in Streaming Pipelines"
-- ACM SIGMOD 2023 — "Data Mesh: Principles and Implementation Patterns"
+- arXiv:2305.19074 → "Data Contracts: From Theory to Practice"
+- ACM Computing Surveys 2023 → "A Survey of Data Quality Measurement"
+- arXiv:2208.09085 → "Data Observability: Concepts and Techniques"
+- IEEE BigData 2024 → "Real-Time Data Quality Assurance in Streaming Pipelines"
+- ACM SIGMOD 2023 → "Data Mesh: Principles and Implementation Patterns"
 
 ---
 
