@@ -10,8 +10,8 @@
 
 If you only have 5 minutes, start here:
 
-1. **New to the landscape?** → Read the [Paradigms Overview](../README.md#-paradigms-overview) to understand the 10 Ops paradigms
-2. **Looking for tools?** → Use the [Quick Navigation by Category](../README.md#-quick-navigation-by-category) table to jump to your area
+1. **New to the landscape?** → Read the [Paradigms Overview](../../README.md#-paradigms-overview) to understand the 10 Ops paradigms
+2. **Looking for tools?** → Use the [Quick Navigation by Category](../../README.md#-quick-navigation-by-category) table to jump to your area
 3. **Need a learning plan?** → Check the [12-Month Freelance DevOps Roadmap](./freelance-devops-roadmap.md)
 4. **Want to go deep?** → Pick a paradigm from the [Research Papers](#research-papers-deep-dives) section
 5. **Ready to contribute?** → See [How to Contribute](./how-to-contribute.md)
@@ -20,7 +20,7 @@ If you only have 5 minutes, start here:
 
 ## 🏗 Project Architecture
 
-The project follows a **progressive disclosure** model — each layer adds more depth:
+The project follows a **progressive disclosure** model → each layer adds more depth:
 
 ```
 README.md                     ← Summary + top tools + navigation (5 minute read)
@@ -32,7 +32,7 @@ README.md                     ← Summary + top tools + navigation (5 minute rea
 
 ### Layer 1: README (Entry Point)
 
-The [README](../README.md) is the front door. It contains:
+The [README](../../README.md) is the front door. It contains:
 
 | Section | What You'll Find |
 |---|---|
@@ -47,32 +47,32 @@ The [README](../README.md) is the front door. It contains:
 
 ### Layer 2: Extended Lists (Tool Deep Dives)
 
-Each [extended list](../README.md#-extended-tool-lists-full-details) covers one tool category with:
+Each [extended list](../../README.md#-extended-tool-lists-full-details) covers one tool category with:
 
-- **Comparison tables** — side-by-side feature, pricing, and licensing
-- **Freelance opportunities** — specific contract types and rate ranges
-- **Learning resources** — courses, books, and certifications for each tool
-- **Migration guidance** — when and how to migrate between tools
+- **Comparison tables** → side-by-side feature, pricing, and licensing
+- **Freelance opportunities** → specific contract types and rate ranges
+- **Learning resources** → courses, books, and certifications for each tool
+- **Migration guidance** → when and how to migrate between tools
 
 Use extended lists when you need to **compare tools** for a specific project or decide which one to learn next.
 
 ### Layer 3: Research Papers (Paradigm Deep Dives)
 
-Each [research document](../README.md#-research-papers-deep-dives) covers one paradigm with:
+Each [research document](../../README.md#-research-papers-deep-dives) covers one paradigm with:
 
-- **2026 state of the art** — current trends and technology landscape
-- **Market data** — adoption rates, growth projections, salary data
-- **Academic grounding** — references to SLRs and papers with DOI/arXiv
-- **Source tagging** — every claim traced to its origin
-- **Uncertainty markers** — clear indication when data is approximate
+- **2026 state of the art** → current trends and technology landscape
+- **Market data** → adoption rates, growth projections, salary data
+- **Academic grounding** → references to SLRs and papers with DOI/arXiv
+- **Source tagging** → every claim traced to its origin
+- **Uncertainty markers** → clear indication when data is approximate
 
 Use research papers when you need to **understand a paradigm** deeply or write proposals with authoritative references.
 
 ### Layer 4: Freelance Career Resources
 
-- **[Freelance DevOps Roadmap](./freelance-devops-roadmap.md)** — 12-month structured plan from $40/hr to $150+/hr
-- **[Freelancer Profile Analysis](../docs/research/freelancer-profile-analysis.md)** — patterns from 50 top-rated freelancers
-- **[Freelance Career Patterns](../README.md#-freelance-career-patterns)** — platforms, certifications, engagement process
+- **[Freelance DevOps Roadmap](./freelance-devops-roadmap.md)** → 12-month structured plan from $40/hr to $150+/hr
+- **[Freelancer Profile Analysis](../research/freelancer-profile-analysis.md)** → patterns from 50 top-rated freelancers
+- **[Freelance Career Patterns](../../README.md#-freelance-career-patterns)** → platforms, certifications, engagement process
 
 ---
 
@@ -80,22 +80,22 @@ Use research papers when you need to **understand a paradigm** deeply or write p
 
 ### I Know the Paradigm I Need
 
-1. Go to [Top Tools by Category](../README.md#-top-tools-by-category) in the README
+1. Go to [Top Tools by Category](../../README.md#-top-tools-by-category) in the README
 2. Find your category heading (CI/CD, GitOps, IaC, etc.)
 3. Read the top 5-10 curated tools with freelance relevance notes
 4. Click the **Full list →** link to open the extended comparison
 
 ### I Want to Explore a New Paradigm
 
-1. Start with the [Paradigms Overview](../README.md#-paradigms-overview) table
+1. Start with the [Paradigms Overview](../../README.md#-paradigms-overview) table
 2. Read the corresponding **research paper** for depth
 3. Browse the **extended list** for tool recommendations
 4. Check the **roadmap** for learning path guidance
 
 ### I'm Planning a Freelance Career
 
-1. Study the [Freelance Career Patterns](../README.md#-freelance-career-patterns) section
-2. Read the [Freelancer Profile Analysis](../docs/research/freelancer-profile-analysis.md)
+1. Study the [Freelance Career Patterns](../../README.md#-freelance-career-patterns) section
+2. Read the [Freelancer Profile Analysis](../research/freelancer-profile-analysis.md)
 3. Follow the [12-Month DevOps Roadmap](./freelance-devops-roadmap.md)
 4. Build portfolio projects listed in the roadmap
 
@@ -134,4 +134,4 @@ Throughout this project, claims are tagged with sources:
 
 ## ❓ Got Questions?
 
-Open an issue on GitHub with the `question` label — we're here to help.
+Open an issue on GitHub with the `question` label → we're here to help.

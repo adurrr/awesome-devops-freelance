@@ -4,6 +4,8 @@
 
 ---
 
+**Last updated**: 2026-05-26
+
 ## GitOps CD Tools
 
 | Tool | Stars | CNCF Status | Approach | Best For |

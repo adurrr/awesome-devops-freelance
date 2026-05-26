@@ -4,6 +4,8 @@
 
 ---
 
+**Last updated**: 2026-05-26
+
 ## Event Streaming Platforms
 
 | Tool | Stars | License | Type | Best For |

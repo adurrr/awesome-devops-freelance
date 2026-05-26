@@ -1,6 +1,6 @@
 # 🤝 How to Contribute
 
-> A detailed guide for contributing to Awesome DevOps Freelance — beyond the quick start in [`CONTRIBUTING.md`](../../CONTRIBUTING.md).
+> A detailed guide for contributing to Awesome DevOps Freelance → beyond the quick start in [`CONTRIBUTING.md`](../../CONTRIBUTING.md).
 
 **Last updated**: 2026-05-26
 
@@ -25,7 +25,7 @@ A tool qualifies if it meets **at least one** of:
 
 - **500+ GitHub stars** (verified at time of submission)
 - **CNCF project** (any stage: sandbox, incubating, or graduated)
-- **Commercially proven** (significant enterprise adoption — provide evidence)
+- **Commercially proven** (significant enterprise adoption → provide evidence)
 
 AND is **relevant to DevOps freelancers** (used in client work, proposals, or operations).
 
@@ -96,9 +96,9 @@ The DevOps landscape evolves quickly. To suggest a new category:
 3. **Wait for community discussion** before implementing
 
 Categories are accepted based on:
-- **Freelance demand** — Is there paid work in this area?
-- **Tool ecosystem maturity** — Are there enough tools to warrant a category?
-- **Community interest** — Are others asking for this?
+- **Freelance demand** → Is there paid work in this area?
+- **Tool ecosystem maturity** → Are there enough tools to warrant a category?
+- **Community interest** → Are others asking for this?
 
 ---
 
@@ -114,7 +114,7 @@ Help ground the project in research by contributing academic references:
    - Which paradigm(s) it relates to
    - Whether it's open access or paywalled
 
-**Preferred sources**: ACM, IEEE, arXiv, MDPI, Springer, Elsevier — published within 2017-2026.
+**Preferred sources**: ACM, IEEE, arXiv, MDPI, Springer, Elsevier → published within 2017-2026.
 
 ---
 
@@ -142,13 +142,13 @@ Noticed a pattern we missed in the top-50 analysis? Open an issue or PR with:
 
 Before submitting any contribution, verify:
 
-- [ ] **No AI-generated content** — all claims are traceable to real sources
-- [ ] **No duplicate entries** — check existing content first
-- [ ] **All URLs work** — test every link
-- [ ] **Formatting matches** — consistent with surrounding content
-- [ ] **Sources included** — for all factual claims, market data, and pricing
-- [ ] **Freelance value stated** — every entry answers "why this matters"
-- [ ] **No promotional language** — factual, not marketing
+- [ ] **No AI-generated content** → all claims are traceable to real sources
+- [ ] **No duplicate entries** → check existing content first
+- [ ] **All URLs work** → test every link
+- [ ] **Formatting matches** → consistent with surrounding content
+- [ ] **Sources included** → for all factual claims, market data, and pricing
+- [ ] **Freelance value stated** → every entry answers "why this matters"
+- [ ] **No promotional language** → factual, not marketing
 
 ---
 
