@@ -1,0 +1,70 @@
+baseURL = 'https://adurrr.github.io/awesome-devops-freelance/'
+title = 'Awesome DevOps Freelance'
+theme = 'hugo-book'
+
+# Book configuration
+disablePathToLower = true
+enableGitInfo = true
+
+copyright = '[AGPL v3](https://www.gnu.org/licenses/agpl-3.0)'
+
+[outputFormats]
+[outputFormats.txt]
+  mediaType = 'text/plain'
+  baseName = 'source'
+  isPlainText = true
+
+[outputs]
+  home = ['html', 'txt', 'rss']
+  page = ['html', 'txt']
+  section = ['html', 'txt']
+
+[markup]
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.tableOfContents]
+  startLevel = 1
+
+[markup.highlight]
+  style = 'base16-snazzy'
+
+[menu]
+[[menu.home]]
+  name = 'Home'
+  pageRef = '/'
+  weight = 1
+
+[[menu.home]]
+  name = 'Research'
+  pageRef = '/docs/research/'
+  weight = 2
+
+[[menu.home]]
+  name = 'Tools'
+  pageRef = '/docs/tools/'
+  weight = 3
+
+[[menu.home]]
+  name = 'Guides'
+  pageRef = '/docs/guides/'
+  weight = 4
+
+[[menu.home]]
+  name = 'Career'
+  pageRef = '/career/'
+  weight = 5
+
+[[menu.home]]
+  name = 'GitHub'
+  url = 'https://github.com/adurrr/awesome-devops-freelance'
+  weight = 6
+
+[params]
+  BookTheme = 'auto'
+  BookSearch = true
+  BookRepo = 'https://github.com/adurrr/awesome-devops-freelance'
+  BookEditLink = '{{ .Site.Params.BookRepo }}/edit/main/site/content/{{ .Path }}'
+  BookDateFormat = 'January 2, 2006'
+  BookPortableLinks = 'warning'
+  BookServiceWorker = 'precache'

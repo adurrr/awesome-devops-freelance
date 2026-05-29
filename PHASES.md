@@ -71,8 +71,18 @@ awesome-devops-freelance/
 ├── research/
 │   └── methodology.md              ← Research methodology & validation
 │
+├── site/                           ← Hugo documentation site
+│   ├── content/docs/
+│   │   ├── research/               ← 14 research docs (all paradigms + analysis)
+│   │   ├── tools/                  ← 11 extended tool lists
+│   │   └── guides/                 ← 3 user-facing guides
+│   ├── assets/_custom.scss         ← Custom styling
+│   ├── hugo.toml                   ← Site configuration
+│   └── themes/hugo-book/           ← Book theme (git submodule)
+│
 └── .github/                        ← GitHub automation
     ├── workflows/
+    │   ├── deploy-site.yml             ← Hugo → GitHub Pages deploy
     │   ├── validate-links.yml          ← Monthly + PR link validation
     │   ├── weekly-update-check.yml     ← Weekly stale content detection
     │   └── stale.yml                   ← Auto-close stale issues/PRs
@@ -370,90 +380,52 @@ awesome-devops-freelance/
 
 ---
 
-## 🌐 Phase 7: Documentation Site (Hugo / MkDocs)
+## 🌐 Phase 7: Documentation Site (Hugo) ✅ Complete
 
 **Goal**: Convert markdown docs into a searchable, navigable static site for better UX and discoverability.
 
-### Option A: Hugo (Recommended)
+### Implementation
 
-**Why Hugo**: Fast build times, excellent Markdown support, built-in search, themes designed for documentation.
+**Approach**: Hugo with Book theme — fast builds, excellent search, auto-deploy to GitHub Pages.
 
-**Implementation Plan**:
-
-| Step | Task | Duration | Details |
+| Step | Task | Deliverable | Status |
 |---|---|---|---|
-| 7.1 | Initialize Hugo site | 1 hour | `hugo new site docs-site`; add to repo as `site/` or separate branch |
-| 7.2 | Choose theme | 2 hours | **Book** (docs-like), **Docsy** (Google's docs theme), or **Blowfish** (modern) |
-| 7.3 | Configure navigation | 2 hours | Map `docs/research/` → Research section; `docs/extended-lists/` → Tools section |
-| 7.4 | Migrate content | 4 hours | Copy/adjust frontmatter for Hugo; fix relative links |
-| 7.5 | Add search | 1 hour | Fuse.js or Algolia DocSearch (free for open source) |
-| 7.6 | GitHub Actions deploy | 2 hours | Auto-deploy to GitHub Pages on every push to main |
-| 7.7 | Custom styling | 3 hours | Match project branding, badge rendering, dark mode |
+| 7.1 | Initialize Hugo site | `site/` directory with Hugo 0.158.0 | ✅ |
+| 7.2 | Install Book theme | `site/themes/hugo-book` (git submodule) | ✅ |
+| 7.3 | Configure navigation | `site/hugo.toml` with top menu (Research, Tools, Guides, Career, GitHub) | ✅ |
+| 7.4 | Migrate content | 28 markdown files copied with Hugo front matter; internal links fixed | ✅ |
+| 7.5 | Add search | Built-in Fuse.js search via Book theme (`BookSearch = true`) | ✅ |
+| 7.6 | GitHub Actions deploy | `.github/workflows/deploy-site.yml` → auto-deploy to Pages on `main` push | ✅ |
+| 7.7 | Custom styling | `site/assets/_custom.scss` with brand colors, dark mode support, table styling | ✅ |
 
-**Hugo Configuration** (`hugo.toml`):
-```toml
-baseURL = 'https://yourusername.github.io/awesome-devops-freelance'
-languageCode = 'en-us'
-title = 'Awesome DevOps Freelance'
-theme = 'book'
+**Site configuration**: `site/hugo.toml`
+**Theme**: [hugo-book](https://github.com/alex-shpak/hugo-book) (git submodule at `site/themes/hugo-book`)
+**Deploy URL**: `https://adurrr.github.io/awesome-devops-freelance/`
 
-[params]
-  BookSearch = true
-  BookRepo = 'https://github.com/yourusername/awesome-devops-freelance'
-  BookEditPath = 'edit/main/docs'
-```
-
-**Content structure in Hugo**:
+**Content structure**:
 ```
 site/
 ├── content/
-│   ├── _index.md              ← Homepage (from README)
-│   ├── research/
-│   │   ├── _index.md
-│   │   ├── devops-landscape-2026.md
-│   │   └── ... (all research docs)
-│   ├── tools/
-│   │   ├── _index.md
-│   │   ├── ci-cd-tools.md
-│   │   └── ... (all extended lists)
-│   └── guides/
-│       ├── _index.md
-│       └── freelance-devops-roadmap.md
-├── static/
-│   └── images/                ← Screenshots, diagrams
-└── hugo.toml
+│   ├── _index.md                ← Homepage (project overview)
+│   ├── docs/
+│   │   ├── _index.md            ← Documentation overview
+│   │   ├── research/            ← 14 research docs (all paradigms + analysis)
+│   │   │   ├── _index.md
+│   │   │   ├── devops-landscape-2026.md
+│   │   │   └── ...
+│   │   ├── tools/               ← 11 extended tool lists
+│   │   │   ├── _index.md
+│   │   │   ├── ci-cd-tools.md
+│   │   │   └── ...
+│   │   └── guides/              ← 3 user-facing guides
+│   │       ├── _index.md
+│   │       ├── how-to-use-this-list.md
+│   │       └── ...
+│   ├── assets/
+│   │   └── _custom.scss         ← Custom styling
+│   ├── hugo.toml
+│   └── themes/hugo-book/        ← Git submodule
 ```
-
-### Option B: MkDocs (Alternative)
-
-**Why MkDocs**: Simpler than Hugo, Python-based, Material theme is excellent for technical docs.
-
-**Implementation Plan**:
-
-| Step | Task | Duration |
-|---|---|---|
-| 7.1 | Install MkDocs + Material | 0.5 hour |
-| 7.2 | Configure `mkdocs.yml` | 1 hour |
-| 7.3 | Organize docs in `docs/` | 2 hours |
-| 7.4 | Enable search, dark mode, badges | 1 hour |
-| 7.5 | GitHub Actions deploy to Pages | 1 hour |
-
-**MkDocs Configuration** (`mkdocs.yml`):
-```yaml
-site_name: Awesome DevOps Freelance
-site_url: https://yourusername.github.io/awesome-devops-freelance
-theme:
-  name: material
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - search.highlight
-    - search.share
-    - content.code.copy
-  palette:
-    - scheme: default
-      primary: indigo
-      accent: indigo
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode

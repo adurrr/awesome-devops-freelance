@@ -1,0 +1,121 @@
+/* Custom styling for Awesome DevOps Freelance */
+
+/* Brand colors */
+:root {
+  --brand-primary: #2563eb;
+  --brand-primary-dark: #1d4ed8;
+  --brand-accent: #10b981;
+  --brand-highlight: #f59e0b;
+}
+
+/* Header branding */
+.book-brand {
+  padding: 0.5rem 1rem;
+}
+
+.book-brand h1 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--brand-primary);
+}
+
+.book-brand .subtitle {
+  font-size: 0.75rem;
+  opacity: 0.7;
+  margin-top: 0.25rem;
+}
+
+/* Section navigation styling */
+.book-menu nav ul li {
+  border-left: 2px solid transparent;
+  transition: border-color 0.2s;
+}
+
+.book-menu nav ul li.active,
+.book-menu nav ul li:hover {
+  border-left-color: var(--brand-primary);
+}
+
+/* Table styling */
+.book-page table {
+  font-size: 0.85rem;
+}
+
+.book-page table th {
+  background: var(--brand-primary);
+  color: white;
+  font-weight: 600;
+}
+
+/* Badge/emoji sizing */
+.book-page img[src*="img.shields.io"] {
+  display: inline;
+  vertical-align: middle;
+  margin: 0 0.1rem;
+}
+
+/* Mark styling for inline emoji badges */
+.book-page .emoji-badge {
+  display: inline-block;
+  padding: 0.1rem 0.3rem;
+  border-radius: 3px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+/* Code blocks */
+.book-page pre {
+  border-left: 3px solid var(--brand-primary);
+  border-radius: 0;
+}
+
+/* Blockquote styling */
+.book-page blockquote {
+  border-left: 4px solid var(--brand-accent);
+  background: rgba(16, 185, 129, 0.05);
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+}
+
+/* Heading anchors */
+.book-page h2 {
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 0.3rem;
+  margin-top: 2rem;
+}
+
+.book-page h3 {
+  margin-top: 1.5rem;
+  color: var(--brand-primary-dark);
+}
+
+/* Markdown table of contents */
+.book-page .table-of-contents {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  padding: 1rem 1.5rem;
+  margin: 1rem 0;
+}
+
+.book-page .table-of-contents ul {
+  margin-bottom: 0;
+}
+
+/* Dark mode overrides */
+body[data-theme="dark"] .book-page table th {
+  background: var(--brand-primary-dark);
+}
+
+body[data-theme="dark"] .book-page blockquote {
+  background: rgba(16, 185, 129, 0.1);
+}
+
+body[data-theme="dark"] .book-page .table-of-contents {
+  background: #1f2937;
+  border-color: #374151;
+}
+
+body[data-theme="dark"] .book-page h2 {
+  border-bottom-color: #374151;
+}
