@@ -38,7 +38,7 @@ The [README](https://github.com/adurrr/awesome-devops-freelance) is the front do
 |---|---|
 | **Quick Start** | 5-step newcomer path |
 | **Paradigms Overview** | All 10 Ops paradigms in one table with 2026 maturity |
-| **The Ops Spectrum** | Visual map of how paradigms relate and converge |
+| **The Ops Landscape** | Visual map of how paradigms relate and converge |
 | **Quick Navigation** | 12 category rows with tool counts and freelance relevance |
 | **Top Tools by Category** | Curated tool picks with freelance-specific "why it matters" |
 | **CNCF Projects Map** | All graduated and incubating CNCF projects |

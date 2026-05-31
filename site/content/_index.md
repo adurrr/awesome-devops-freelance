@@ -19,7 +19,7 @@ title: "Awesome DevOps Freelance"
 
 - [Quick Start](#-quick-start)
 - [Paradigms Overview](#-paradigms-overview)
-- [The Ops Spectrum](#-the-ops-spectrum)
+- [The Ops Landscape](#-the-ops-landscape)
 - [Quick Navigation by Category](#-quick-navigation-by-category)
 - [Top Tools by Category](#-top-tools-by-category)
 - [CNCF Projects Map](#-cncf-projects-map)
@@ -37,7 +37,7 @@ title: "Awesome DevOps Freelance"
 **New to the Ops landscape?** Here's how to navigate this resource:
 
 1. **Start here** → Read the [Paradigms Overview](#-paradigms-overview) to understand the landscape
-2. **Study the map** → The [Ops Spectrum](#-the-ops-spectrum) shows how paradigms relate
+2. **Study the map** → The [Ops Landscape](#-the-ops-landscape) shows how paradigms relate
 3. **Browse tools** → Use [Quick Navigation](#-quick-navigation-by-category) to find your category
 4. **Go deep** → Click any "Explore" link or "Full list →" for extended docs with comparisons, pricing, and learning resources
 5. **Explore careers** → See [Freelance Career Patterns](#-freelance-career-patterns) for rates, platform strategies, and portfolio tips
@@ -66,28 +66,22 @@ title: "Awesome DevOps Freelance"
 
 ---
 
-## 🔬 The Ops Spectrum
+## 🔬 The Ops Landscape
 
-```
-                        ┌─────────────────────────────────────┐
-                        │         PLATFORM ENGINEERING        │
-                        │   (The unifying abstraction layer)   │
-                        └─────────────────────────────────────┘
-                                    ▲        ▲        ▲
-                    ┌───────────────┘        │        └───────────────┐
-                    ▼                        ▼                        ▼
-           ┌────────────────┐     ┌──────────────────┐     ┌──────────────────┐
-           │    DevSecOps   │     │   DataOps/MLOps  │     │   FinOps/AIOps   │
-           │  (Security)    │     │   (Data + AI)    │     │   (Cost + Ops)   │
-           └────────────────┘     └──────────────────┘     └──────────────────┘
-                    ▲                        ▲                        ▲
-                    └───────────────┬────────┘───────────────────────┘
-                                    ▼
-                          ┌──────────────────┐
-                          │   CORE DEVOPS    │
-                          │  (CI/CD + IaC +  │
-                          │   Containers)    │
-                          └──────────────────┘
+```mermaid
+flowchart BT
+    A["🏗️ Core DevOps Foundation<br/>CI/CD • IaC • K8s • GitOps • SRE • Observability"]
+    B["🔒 DevSecOps<br/>Policy-as-Code • SAST/DAST • Trivy • Falco"]
+    C["🤖 Data + AI Ops<br/>DataOps • MLOps • LLMOps • MLflow • LangChain"]
+    D["💰 FinOps + AIOps<br/>Cloud Cost • Auto-remediation • Kubecost"]
+    E["🎯 Platform Engineering<br/>Backstage • Crossplane • Port • Internal Developer Platforms"]
+
+    A --> B
+    A --> C
+    A --> D
+    B --> E
+    C --> E
+    D --> E
 ```
 
 **The convergence in 2026:**

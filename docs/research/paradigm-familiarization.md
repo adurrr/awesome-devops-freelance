@@ -358,28 +358,22 @@ Site Reliability Engineering applies software engineering to operations problems
 
 ---
 
-## 🧭 The Ops Spectrum → How They Relate
+## 🧭 The Ops Landscape → How They Relate
 
-```
-                         ┌─────────────────────────────────────┐
-                         │         PLATFORM ENGINEERING        │
-                         │   (The unifying abstraction layer)   │
-                         └─────────────────────────────────────┘
-                                     ▲        ▲        ▲
-                     ┌───────────────┘        │        └───────────────┐
-                     ▼                        ▼                        ▼
-            ┌────────────────┐     ┌──────────────────┐     ┌──────────────────┐
-            │    DevSecOps   │     │   DataOps/MLOps  │     │   FinOps/AIOps   │
-            │  (Security)    │     │   (Data + AI)    │     │   (Cost + Ops)   │
-            └────────────────┘     └──────────────────┘     └──────────────────┘
-                     ▲                        ▲                        ▲
-                     └───────────────┬────────┘───────────────────────┘
-                                     ▼
-                           ┌──────────────────┐
-                           │   CORE DEVOPS    │
-                           │  (CI/CD + IaC +  │
-                           │   Containers)    │
-                           └──────────────────┘
+```mermaid
+flowchart BT
+    A["🏗️ Core DevOps Foundation<br/>CI/CD • IaC • K8s • GitOps • SRE • Observability"]
+    B["🔒 DevSecOps<br/>Policy-as-Code • SAST/DAST • Trivy • Falco"]
+    C["🤖 Data + AI Ops<br/>DataOps • MLOps • LLMOps • MLflow • LangChain"]
+    D["💰 FinOps + AIOps<br/>Cloud Cost • Auto-remediation • Kubecost"]
+    E["🎯 Platform Engineering<br/>Backstage • Crossplane • Port • Internal Developer Platforms"]
+
+    A --> B
+    A --> C
+    A --> D
+    B --> E
+    C --> E
+    D --> E
 ```
 
 **2026 convergence trends:**
