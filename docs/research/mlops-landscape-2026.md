@@ -33,14 +33,17 @@
 
 ## 3. MLOps Lifecycle
 
-```
-Data Engineering → Experiment → Training → Evaluation → Deployment → Monitoring → Retraining
-      │                │           │           │            │            │            │
-  ┌────┴────┐    ┌─────┴─────┐ ┌──┴───┐  ┌────┴─────┐ ┌────┴─────┐ ┌────┴────┐ ┌────┴─────┐
-  │ Feast   │    │ MLflow    │ │Kube- │  │ Evidently│ │ KServe   │ │ Arize   │ │ ZenML    │
-  │ DVC     │    │ W&B       │ │flow  │  │ Deep-    │ │ Seldon   │ │ WhyLabs │ │ Kubeflow │
-  │ LakeFS  │    │ DVC       │ │      │  │ checks   │ │ BentoML  │ │ Evidently│ │          │
-  └─────────┘    └───────────┘ └──────┘  └──────────┘ └──────────┘ └─────────┘ └──────────┘
+```mermaid
+flowchart LR
+    DE["📥 Data Engineering<br/>Feast • DVC • LakeFS"]
+    EX["🔬 Experiment Tracking<br/>MLflow • Weights & Biases"]
+    TR["⚙️ Training<br/>Kubeflow • ZenML"]
+    EV["✅ Evaluation<br/>Evidently • DeepChecks"]
+    DP["🚀 Deployment<br/>KServe • Seldon • BentoML"]
+    MO["📊 Monitoring<br/>Arize • WhyLabs • Evidently"]
+    RE["🔄 Retraining<br/>ZenML • Kubeflow • Prefect"]
+
+    DE --> EX --> TR --> EV --> DP --> MO --> RE
 ```
 
 ### Key Components:

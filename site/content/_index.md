@@ -68,32 +68,20 @@ title: "Awesome DevOps Freelance"
 
 ## 🔬 The Ops Landscape
 
-```
-                  ┌───────────────────────────────────┐
-                  │       PLATFORM ENGINEERING        │
-                  │   Developer portals • IDPs        │
-                  │   Backstage • Crossplane • Port   │
-                  └──────────────┬────────────────────┘
-                                │ unifies
-          ┌─────────────────────┼──────────────────────┐
-          │                     │                      │
-    ┌─────▼──────────┐  ┌──────▼─────────┐  ┌────────▼──────┐
-    │   DevSecOps    │  │  Data + AI Ops │  │ Cost + Auto   │
-    │                │  │                │  │               │
-    │ Policy-as-Code │  │ DataOps        │  │ FinOps        │
-    │ SAST • DAST    │  │ MLOps • LLMOps │  │ AIOps         │
-    │ Trivy • Falco  │  │ MLflow • Lang  │  │ Kubecost      │
-    └─────┬──────────┘  └──────┬─────────┘  └────────┬──────┘
-          │                    │                      │
-          └────────────────────┼──────────────────────┘
-                               │
-                    ┌──────────▼───────────┐
-                    │     CORE DEVOPS      │
-                    │   Foundation Layer   │
-                    │                      │
-                    │ CI/CD • IaC • K8s    │
-                    │ GitOps • SRE • Obs   │
-                    └──────────────────────┘
+```mermaid
+flowchart BT
+    A["🏗️ Core DevOps Foundation<br/>CI/CD • IaC • K8s • GitOps • SRE • Observability"]
+    B["🔒 DevSecOps<br/>Policy-as-Code • SAST/DAST • Trivy • Falco"]
+    C["🤖 Data + AI Ops<br/>DataOps • MLOps • LLMOps • MLflow • LangChain"]
+    D["💰 FinOps + AIOps<br/>Cloud Cost • Auto-remediation • Kubecost"]
+    E["🎯 Platform Engineering<br/>Backstage • Crossplane • Port • Internal Developer Platforms"]
+
+    A --> B
+    A --> C
+    A --> D
+    B --> E
+    C --> E
+    D --> E
 ```
 
 **The convergence in 2026:**

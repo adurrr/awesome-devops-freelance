@@ -33,28 +33,13 @@ In 2026, platform engineering is the **most significant trend** in the cloud-nat
 
 ## 3. IDP Architecture (2026 Reference)
 
-```
-┌─────────────────────────────────────────────────────┐
-│                 Developer Interface                   │
-│  (Backstage / Port / Custom Portal / CLI / API)      │
-└─────────────────────────┬───────────────────────────┘
-                          │
-┌─────────────────────────▼───────────────────────────┐
-│              Platform Orchestrator                    │
-│  (Crossplane / Kratix / Humanitec)                   │
-│  - Resource provisioning                              │
-│  - Environment templates                              │
-│  - Service catalogs                                   │
-└─────────────────────────┬───────────────────────────┘
-                          │
-┌─────────────────────────▼───────────────────────────┐
-│            Infrastructure Layer                       │
-│  (Kubernetes / Terraform / Pulumi / Cloud APIs)      │
-│  - Compute, storage, networking                        │
-│  - Security guardrails (OPA/Kyverno)                  │
-│  - Observability (Prometheus/Grafana/OTel)            │
-│  - Cost tracking (Kubecost)                           │
-└─────────────────────────────────────────────────────┘
+```mermaid
+flowchart BT
+    Infra["Infrastructure Layer<br/>Kubernetes • Terraform • Pulumi<br/>Cloud APIs • Security (OPA/Kyverno)<br/>Observability (Prometheus/Grafana/OTel)<br/>Cost Tracking (Kubecost)"]
+    Orch["Platform Orchestrator<br/>Crossplane • Kratix • Humanitec<br/>Resource Provisioning • Environment Templates<br/>Service Catalogs"]
+    UI["Developer Interface<br/>Backstage • Port • Custom Portal<br/>CLI • API"]
+
+    Infra --> Orch --> UI
 ```
 
 ---
