@@ -3,7 +3,7 @@
 > **Purpose**: Analysis of 50 top-rated DevOps/DevSecOps freelancer profiles from Toptal, Upwork, Arc.dev, and Fiverr Pro. Identifies patterns in success, pricing, skills, portfolio, and positioning.
 
 
-**Last updated**: 2026-05-26
+**Last updated**: 2026-05-29
 ---
 
 ## 1. Methodology
@@ -219,3 +219,10 @@ Example: *"Kubernetes Security Engineer | Falco, OPA, Trivy | FinTech Focus"*
 - DevOpsBoys. "How to Freelance as a DevOps Engineer in 2026."
 - CloudWebSchool. "DevOps Engineer CV Guide 2026."
 - Various personal portfolios (stephengachoka.co.ke, gabo-devops-ai, chadalanlester/showcase)
+
+---
+
+**Structured data**: See `data/freelancer-profiles/` for:
+- `profiles.json` — machine-readable dataset (skills, rates, certifications, platforms)
+- `profiles.csv` — tabular format for spreadsheet/analysis tools
+- `README.md` — visual reference card / cheat sheet

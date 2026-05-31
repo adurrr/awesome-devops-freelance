@@ -85,7 +85,32 @@ Relevant academic tracks: anomaly detection, root cause analysis, incident predi
 
 ---
 
-## 6. Key Open Research Areas
+## 6. SRE (Site Reliability Engineering)
+
+| Title | Authors | Year | Venue | DOI / Link |
+|---|---|---|---|---|
+| The SRE Report 2026 | Catchpoint / LogicMonitor | 2026 | Industry report | logicmonitor.com |
+| Site Reliability Engineering (Google SRE Book) | Beyer, Jones, Petoff, Murphy | 2016 | O'Reilly / Google | sre.google/books |
+| The Site Reliability Workbook | Beyer et al. | 2018 | O'Reilly / Google | sre.google/workbook |
+| Incident Management Guide | Google SRE Team | 2023 | Google | sre.google/resources |
+| Chaos Engineering (O'Reilly) | Rosenthal et al. | 2017 | O'Reilly | oreilly.com |
+
+### Key SRE Sources:
+- **Google SRE Book** → Foundational reference for SLI/SLO/error budget framework
+- **SRE Report 2026** → 8th edition; covers AI toil reduction, chaos adoption, tool integration effort
+- **Incident Management Guide** → Google's structured approach to incident response (Incident Commander model)
+- **Chaos Engineering** → Principles of resilience testing in production
+
+### Research Gaps:
+1. **AI/ML reliability monitoring** → Only 13% confident in monitoring AI/ML reliability
+2. **Chaos engineering adoption** → Only 17% run experiments in production regularly
+3. **SRE team effectiveness metrics** → No standardized framework for measuring SROI
+4. **AI SRE tooling validation** → Limited independent benchmarks of AI SRE efficacy
+5. **SRE in non-Google orgs** → Most literature assumes Google-scale infrastructure
+
+---
+
+## 7. Key Open Research Areas
 
 Based on systematic literature reviews analyzed:
 
@@ -102,7 +127,7 @@ Based on systematic literature reviews analyzed:
 
 ---
 
-## 7. How to Validate Claims
+## 8. How to Validate Claims
 
 This project uses a layered validation approach:
 - **Wikipedia-level claims**: Cross-verified with 2+ sources
@@ -113,7 +138,7 @@ This project uses a layered validation approach:
 
 ---
 
-## 8. Recommended Search Queries for Further Research
+## 9. Recommended Search Queries for Further Research
 
 - `Google Scholar`: "MLOps systematic literature review", "DevSecOps AI security", "AIOps anomaly detection"
 - `arXiv`: "MLOps", "DevOps", "software engineering AI"
@@ -123,7 +148,7 @@ This project uses a layered validation approach:
 
 ---
 
-## 9. Disclaimer
+## 10. Disclaimer
 
 Academic literature on emerging Ops paradigms (LLMOps, FinOps, Platform Engineering) is sparse. Where academic papers are lacking, this project relies on:
 - Industry reports (Perforce, CNCF, Gartner)
