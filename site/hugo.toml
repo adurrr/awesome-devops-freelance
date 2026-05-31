@@ -2,6 +2,16 @@ baseURL = 'https://adurrr.github.io/awesome-devops-freelance/'
 title = 'Awesome DevOps Freelance'
 theme = 'hugo-book'
 
+# Content mounts — site/content/docs/ is mounted from the root docs/ directory
+# to eliminate duplication and drift between docs/ and site/content/docs/
+[module]
+[[module.mounts]]
+  source = 'content'
+  target = 'content'
+[[module.mounts]]
+  source = '../docs'
+  target = 'content/docs'
+
 # Book configuration
 disablePathToLower = true
 enableGitInfo = true
@@ -42,7 +52,7 @@ copyright = '[AGPL v3](https://www.gnu.org/licenses/agpl-3.0)'
 
 [[menu.home]]
   name = 'Tools'
-  pageRef = '/docs/tools/'
+  pageRef = '/docs/extended-lists/'
   weight = 3
 
 [[menu.home]]
@@ -64,7 +74,7 @@ copyright = '[AGPL v3](https://www.gnu.org/licenses/agpl-3.0)'
   BookTheme = 'auto'
   BookSearch = true
   BookRepo = 'https://github.com/adurrr/awesome-devops-freelance'
-  BookEditLink = '{{ .Site.Params.BookRepo }}/edit/main/site/content/{{ .Path }}'
+  BookEditLink = '{{ .Site.Params.BookRepo }}/edit/main/{{ .File.Path }}'
   BookDateFormat = 'January 2, 2006'
   BookPortableLinks = 'warning'
   BookServiceWorker = 'precache'
