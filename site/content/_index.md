@@ -168,7 +168,7 @@ flowchart BT
 - **[DVC](https://dvc.org/)** ![GitHub stars](https://img.shields.io/github/stars/iterative/dvc?style=flat-square) ![License](https://img.shields.io/badge/license-Apache%202.0-green) → Data and ML experiment version control. **Freelance use**: Data versioning for MLOps teams.
 - **[LakeFS](https://lakefs.io/)** ![GitHub stars](https://img.shields.io/github/stars/treeverse/lakeFS?style=flat-square) ![License](https://img.shields.io/badge/license-Apache%202.0-green) → Git-like version control for data lakes. **Freelance use**: Data lake management, rollback, branching.
 
-> [DataOps research →](./docs/paradigms/dataops-landscape-2026.md) • [Data pipeline tools →](./docs/tools/ci-cd-tools.md) (CI/CD) • [MLOps tools →](./docs/tools/mlops-llmops-tools.md)
+> [DataOps research →](./docs/paradigms/landscape/dataops.md) • [Data pipeline tools →](./docs/tools/ci-cd-tools.md) (CI/CD) • [MLOps tools →](./docs/tools/mlops-llmops-tools.md)
 
 ---
 
@@ -194,7 +194,7 @@ flowchart BT
 - **[Prometheus](https://prometheus.io/)** ![GitHub stars](https://img.shields.io/github/stars/prometheus/prometheus?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Graduated-blue) → Monitoring + alerting. PromQL for SLO calculations. **Freelance use**: Baseline SLI instrumentation.
 - **[Squadcast](https://squadcast.com/)** → Incident response + SLO monitoring in one platform. **Freelance use**: Mid-market SRE teams wanting unified incident + SLO platform.
 
-> [SRE research: practices, trends, maturity →](./docs/paradigms/sre-landscape-2026.md) • [Full SRE tools comparison →](./docs/tools/sre-tools.md)
+> [SRE research: practices, trends, maturity →](./docs/paradigms/landscape/sre.md) • [Full SRE tools comparison →](./docs/tools/sre-tools.md)
 
 ---
 
@@ -389,15 +389,15 @@ Senior:    $130-200/hr (retainer clients, referrals, established brand)
 | Document | Covers |
 |---|---|
 | [Paradigm Familiarization](./docs/paradigms/paradigm-familiarization.md) | Entry-level overview of all 10 Ops paradigms with reading paths |
-| [DevOps Landscape 2026](./docs/paradigms/devops-landscape-2026.md) | Core DevOps trends, platform engineering, GitOps, IaC |
-| [DevSecOps Landscape 2026](./docs/paradigms/devsecops-landscape-2026.md) | Shift-smart security, AI-driven preemptive security, supply chain |
-| [DataOps Landscape 2026](./docs/paradigms/dataops-landscape-2026.md) | Data pipelines, data versioning, quality, orchestration |
-| [MLOps Landscape 2026](./docs/paradigms/mlops-landscape-2026.md) | ML lifecycle management, model registry, drift monitoring |
-| [AIOps Landscape 2026](./docs/paradigms/aiops-landscape-2026.md) | AI for IT operations, incident correlation, self-healing |
-| [FinOps Landscape 2026](./docs/paradigms/finops-landscape-2026.md) | Cloud cost management, chargeback, reserved capacity |
-| [LLMOps Landscape 2026](./docs/paradigms/llmops-landscape-2026.md) | LLM operations, RAG systems, prompt security, guardrails |
-| [SRE Landscape 2026](./docs/paradigms/sre-landscape-2026.md) | SLI/SLO frameworks, error budgets, incident management, chaos engineering |
-| [Platform Engineering 2026](./docs/paradigms/platform-engineering-2026.md) | Internal developer platforms, Backstage, Crossplane |
+| [DevOps Landscape 2026](./docs/paradigms/landscape/devops.md) | Core DevOps trends, platform engineering, GitOps, IaC |
+| [DevSecOps Landscape 2026](./docs/paradigms/landscape/devsecops.md) | Shift-smart security, AI-driven preemptive security, supply chain |
+| [DataOps Landscape 2026](./docs/paradigms/landscape/dataops.md) | Data pipelines, data versioning, quality, orchestration |
+| [MLOps Landscape 2026](./docs/paradigms/landscape/mlops.md) | ML lifecycle management, model registry, drift monitoring |
+| [AIOps Landscape 2026](./docs/paradigms/landscape/aiops.md) | AI for IT operations, incident correlation, self-healing |
+| [FinOps Landscape 2026](./docs/paradigms/landscape/finops.md) | Cloud cost management, chargeback, reserved capacity |
+| [LLMOps Landscape 2026](./docs/paradigms/landscape/llmops.md) | LLM operations, RAG systems, prompt security, guardrails |
+| [SRE Landscape 2026](./docs/paradigms/landscape/sre.md) | SLI/SLO frameworks, error budgets, incident management, chaos engineering |
+| [Platform Engineering 2026](./docs/paradigms/landscape/platform-engineering.md) | Internal developer platforms, Backstage, Crossplane |
 | [CNCF Landscape Analysis](./docs/paradigms/cncf-landscape-analysis.md) | All CNCF projects mapped with maturity levels |
 | [Freelancer Profile Analysis](./docs/careers/freelancer-profile-analysis.md) | Top 50 profiles analyzed: patterns, rates, strategies |
 | [Academic References](./docs/paradigms/academic-references.md) | SLRs, papers, and academic sources for each paradigm |

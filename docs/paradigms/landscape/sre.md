@@ -219,7 +219,7 @@ Assess your client's SRE maturity to scope engagements:
 | **Runbook Automation** | Rundeck, PagerDuty Operations Cloud, FireHydrant | SaaS / OSS |
 | **Status Pages** | Atlassian Statuspage, incident.io, Checkly, Better Stack | SaaS |
 
-> [Full SRE tools comparison →](../tools/sre-tools.md)
+> [Full SRE tools comparison →](../../tools/sre-tools.md)
 
 ---
 
