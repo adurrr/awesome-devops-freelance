@@ -8,7 +8,7 @@
 
 ## Review Scope
 
-All 11 research documents in `docs/research/` were audited against the AGENT.md quality standards:
+All 11 research documents in `../paradigms/` were audited against the AGENT.md quality standards:
 
 | # | File | Lines Reviewed |
 |---|------|---------------|

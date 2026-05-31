@@ -4,7 +4,7 @@
 
 **Last updated**: 2026-05-26
 
-> **📚 Related resources**: [How to Use This List](./how-to-use-this-list.md) • [Freelancer Profile Analysis](../research/freelancer-profile-analysis.md) • [Freelance Career Patterns](https://github.com/adurrr/awesome-devops-freelance#-freelance-career-patterns)
+> **📚 Related resources**: [How to Use This List](./how-to-use-this-list.md) • [Freelancer Profile Analysis](../careers/freelancer-profile-analysis.md) • [Freelance Career Patterns](https://github.com/adurrr/awesome-devops-freelance#-freelance-career-patterns)
 
 ---
 
@@ -40,10 +40,10 @@
 **Monthly Commitment**: ~60 hours study + 20 hours applying
 
 **📘 Internal resources for this stage**:
-- [DevOps Landscape 2026](../research/devops-landscape-2026.md) → Understand the DevOps ecosystem
-- [Paradigm Familiarization](../research/paradigm-familiarization.md) → Foundational overview of all Ops paradigms
-- [CI/CD extended list](../extended-lists/ci-cd-tools.md) → Compare CI/CD tools
-- [IaC extended list](../extended-lists/iaac-tools.md) → Compare Terraform, OpenTofu, Pulumi, Crossplane
+- [DevOps Landscape 2026](../paradigms/devops-landscape-2026.md) → Understand the DevOps ecosystem
+- [Paradigm Familiarization](../paradigms/paradigm-familiarization.md) → Foundational overview of all Ops paradigms
+- [CI/CD extended list](../tools/ci-cd-tools.md) → Compare CI/CD tools
+- [IaC extended list](../tools/iaac-tools.md) → Compare Terraform, OpenTofu, Pulumi, Crossplane
 
 ---
 
@@ -73,12 +73,12 @@
 **Monthly Commitment**: ~40 hours study + 30 hours client work
 
 **📘 Internal resources for this stage**:
-- [K8s extended list](../extended-lists/container-orchestration.md) → Compare Kubernetes distributions
-- [GitOps extended list](../extended-lists/gitops-tools.md) → ArgoCD vs Flux deep comparison
-- [DevSecOps extended list](../extended-lists/security-devsecops.md) → Security tool comparison
-- [DevSecOps Landscape 2026](../research/devsecops-landscape-2026.md) → Security paradigm deep dive
-- [Platform Engineering extended list](../extended-lists/platform-engineering.md) → IDP tool comparison
-- [CNCF Landscape Analysis](../research/cncf-landscape-analysis.md) → All CNCF projects mapped
+- [K8s extended list](../tools/container-orchestration.md) → Compare Kubernetes distributions
+- [GitOps extended list](../tools/gitops-tools.md) → ArgoCD vs Flux deep comparison
+- [DevSecOps extended list](../tools/security-devsecops.md) → Security tool comparison
+- [DevSecOps Landscape 2026](../paradigms/devsecops-landscape-2026.md) → Security paradigm deep dive
+- [Platform Engineering extended list](../tools/platform-engineering.md) → IDP tool comparison
+- [CNCF Landscape Analysis](../paradigms/cncf-landscape-analysis.md) → All CNCF projects mapped
 
 ---
 
@@ -109,16 +109,16 @@
 **Monthly Commitment**: ~50 hours client work (higher value, less hours)
 
 **📘 Internal resources for this stage**:
-- [MLOps & LLMOps extended list](../extended-lists/mlops-llmops-tools.md) → ML tool comparison
-- [AI for DevOps extended list](../extended-lists/ai-for-devops.md) → AI operations tools
-- [Cost Management & FinOps extended list](../extended-lists/cost-management-finops.md) → FinOps tool comparison
-- [Observability & Monitoring extended list](../extended-lists/observability-monitoring.md) → Observability stack comparison
-- [MLOps Landscape 2026](../research/mlops-landscape-2026.md) → MLOps paradigm deep dive
-- [LLMOps Landscape 2026](../research/llmops-landscape-2026.md) → LLMOps paradigm deep dive
-- [FinOps Landscape 2026](../research/finops-landscape-2026.md) → FinOps paradigm deep dive
-- [AIOps Landscape 2026](../research/aiops-landscape-2026.md) → AIOps paradigm deep dive
-- [Platform Engineering 2026](../research/platform-engineering-2026.md) → Platform engineering deep dive
-- [Academic References](../research/academic-references.md) → Research papers for proposals
+- [MLOps & LLMOps extended list](../tools/mlops-llmops-tools.md) → ML tool comparison
+- [AI for DevOps extended list](../tools/ai-for-devops.md) → AI operations tools
+- [Cost Management & FinOps extended list](../tools/cost-management-finops.md) → FinOps tool comparison
+- [Observability & Monitoring extended list](../tools/observability-monitoring.md) → Observability stack comparison
+- [MLOps Landscape 2026](../paradigms/mlops-landscape-2026.md) → MLOps paradigm deep dive
+- [LLMOps Landscape 2026](../paradigms/llmops-landscape-2026.md) → LLMOps paradigm deep dive
+- [FinOps Landscape 2026](../paradigms/finops-landscape-2026.md) → FinOps paradigm deep dive
+- [AIOps Landscape 2026](../paradigms/aiops-landscape-2026.md) → AIOps paradigm deep dive
+- [Platform Engineering 2026](../paradigms/platform-engineering-2026.md) → Platform engineering deep dive
+- [Academic References](../paradigms/academic-references.md) → Research papers for proposals
 
 ---
 

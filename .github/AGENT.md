@@ -97,11 +97,11 @@
 awesome-devops-freelance/
 ├── README.md                    ← Main curated list (lists + badges, NOT tables for tools)
 ├── docs/
-│   ├── research/                ← Deep dives (standalone documents)
-│   ├── extended-lists/          ← Detailed tool references
-│   └── guides/                  ← User-facing guides
-├── research/
-│   └── methodology.md           ← Research process documentation
+│   ├── paradigms/               ← Deep dives (standalone documents)
+│   ├── tools/                   ← Detailed tool references
+│   ├── careers/                 ← Freelancer career data and rates
+│   ├── get-started/             ← Entry-level guides and roadmap
+│   └── reference/               ← Project methodology and meta
 └── .github/                     ← Templates and workflows
 ```
 

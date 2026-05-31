@@ -18,12 +18,12 @@ Dates in YYYY-MM-DD format.
 
 ### Changed
 - `AGENT.md` moved to `.github/AGENT.md` — removed root-level AI config file
-- `research/methodology.md` moved to `docs/research/methodology.md`
-- `research/paradigm-familiarization.md` moved to `docs/research/paradigm-familiarization.md`
+- `research/methodology.md` moved to `docs/paradigms/methodology.md`
+- `research/paradigm-familiarization.md` moved to `docs/paradigms/paradigm-familiarization.md`
 - `data/freelancer-profiles/real/README.md` — count 85→87, verification summary updated
 - `data/freelancer-profiles/README.md` — count synced to 87
 - `PHASES.md` archived to `.github/PHASES.md` (historical planning); architecture docs now in `docs/ARCHITECTURE.md`
-- `README.md` cross-references updated: `./research/` → `./docs/research/`
+- `README.md` cross-references updated: `./research/` → `./docs/paradigms/`
 - `.github/workflows/weekly-update-check.yml` — search paths updated (`research/` removed)
 - Hugo site now mounts root `docs/` directly instead of maintaining `site/content/docs/` copy
 - Added `_index.md` files to root `docs/` subdirectories for Hugo section pages

@@ -2,7 +2,7 @@
 
 > **Purpose**: Documents the project's structure, principles, and maintenance strategy. This is a living reference for contributors and maintainers.
 
-**Last updated**: 2026-05-31
+**Last updated**: 2026-05-31 (restructured docs/)
 
 ---
 
@@ -10,7 +10,7 @@
 
 1. **Accuracy over breadth** → Fewer entries, higher quality, verified information
 2. **Freelancer-first** → Every entry answers "Why does this matter for freelancers?"
-3. **Progressive disclosure** → README = summary; docs/research = deep detail; docs/extended-lists = full comparisons
+3. **Progressive disclosure** → README = summary; docs/paradigms = deep detail; docs/tools = full comparisons
 4. **Anti-hallucination** → Every claim traced to source; cross-referenced data; explicit uncertainty markers
 5. **Living document** → Monthly review cycle; community contributions welcome
 
@@ -26,7 +26,11 @@ awesome-devops-freelance/
 ├── CHANGELOG.md                     ← Change log
 ├── docs/
 │   ├── ARCHITECTURE.md              ← This file
-│   ├── research/                    ← Deep dives (13+ documents)
+│   ├── get-started/                 ← Entry-level guides
+│   │   ├── how-to-use-this-list.md
+│   │   └── freelance-devops-roadmap.md
+│   ├── paradigms/                   ← Deep dives (12 documents)
+│   │   ├── paradigm-familiarization.md
 │   │   ├── devops-landscape-2026.md
 │   │   ├── devsecops-landscape-2026.md
 │   │   ├── dataops-landscape-2026.md
@@ -37,12 +41,8 @@ awesome-devops-freelance/
 │   │   ├── platform-engineering-2026.md
 │   │   ├── sre-landscape-2026.md
 │   │   ├── cncf-landscape-analysis.md
-│   │   ├── freelancer-profile-analysis.md
-│   │   ├── academic-references.md
-│   │   ├── research-review-notes.md
-│   │   ├── methodology.md           ← Research validation process
-│   │   └── paradigm-familiarization.md
-│   ├── extended-lists/              ← Detailed tool references (12 documents)
+│   │   └── academic-references.md
+│   ├── tools/                       ← Detailed tool references (12 documents)
 │   │   ├── ci-cd-tools.md
 │   │   ├── iaac-tools.md
 │   │   ├── container-orchestration.md
@@ -55,10 +55,12 @@ awesome-devops-freelance/
 │   │   ├── mlops-llmops-tools.md
 │   │   ├── messaging-streaming.md
 │   │   └── sre-tools.md
-│   └── guides/                     ← User-facing guides
-│       ├── how-to-use-this-list.md
-│       ├── how-to-contribute.md
-│       └── freelance-devops-roadmap.md
+│   ├── careers/                     ← Freelancer career data
+│   │   └── freelancer-profile-analysis.md
+│   └── reference/                   ← Project reference docs
+│       ├── methodology.md
+│       ├── research-review-notes.md
+│       └── how-to-contribute.md
 ├── data/                           ← Machine-readable data
 │   └── freelancer-profiles/
 │       ├── real/                   ← 87+ individual profile files
@@ -86,8 +88,8 @@ awesome-devops-freelance/
 | Component | Justification |
 |-----------|---------------|
 | **README** (curated list) | Primary entry point. Must be scannable in < 30 seconds. Contains top tools, quick navigation, and paradigm overview. |
-| **Research docs** (docs/research/) | Deep references for when a user needs to go beyond the summary. Each is a standalone document for a specific paradigm. |
-| **Extended lists** (docs/extended-lists/) | Full tool comparisons with licensing, pricing, and freelance relevance. Allows README to stay concise. |
+| **Paradigm docs** (docs/paradigms/) | Deep references for when a user needs to go beyond the summary. Each is a standalone document for a specific paradigm. |
+| **Tool lists** (docs/tools/) | Full tool comparisons with licensing, pricing, and freelance relevance. Allows README to stay concise. |
 | **Freelancer analysis** | Distills real-world patterns from 87+ freelancer profiles. Actionable insights for positioning and pricing. |
 | **Academic references** | Grounds the project in research. Optional for most readers but essential for credibility and future work. |
 | **Methodology doc** | Documents validation process. Critical for anti-hallucination and trust. |
@@ -144,8 +146,8 @@ awesome-devops-freelance/
 | Metric | Target (3 months) | Target (1 year) |
 |--------|-------------------|-----------------|
 | GitHub stars | 100+ | 500+ |
-| Research documents | 13 | 15+ |
-| Extended lists | 12 | 15+ |
+| Paradigm documents | 12 | 15+ |
+| Tool lists | 12 | 15+ |
 | Open issues/PRs responded | < 48h | < 24h |
 | Link rot | < 2% | < 1% |
 | Community contributors | 3+ | 10+ |
@@ -196,7 +198,8 @@ awesome-devops-freelance/
 
 All 28+ documentation files across the project, organized by section:
 
-### Research Docs (docs/research/)
+### Paradigms (docs/paradigms/)
+- `paradigm-familiarization.md` — Entry-level overview of all Ops paradigms
 - `devops-landscape-2026.md` — Core DevOps trends, platform engineering, GitOps, IaC
 - `devsecops-landscape-2026.md` — Shift-smart security, AI-driven preemptive security
 - `dataops-landscape-2026.md` — Data pipelines, data versioning, quality
@@ -207,13 +210,9 @@ All 28+ documentation files across the project, organized by section:
 - `platform-engineering-2026.md` — Internal developer platforms, Backstage
 - `sre-landscape-2026.md` — SLI/SLO frameworks, error budgets, incident management
 - `cncf-landscape-analysis.md` — All CNCF projects mapped by maturity
-- `freelancer-profile-analysis.md` — Top profile patterns, rates, strategies
 - `academic-references.md` — SLRs and papers for each paradigm
-- `research-review-notes.md` — Quality audit across all research docs
-- `methodology.md` — Research validation process
-- `paradigm-familiarization.md` — Entry-level overview of all Ops paradigms
 
-### Extended Lists (docs/extended-lists/)
+### Tools (docs/tools/)
 - `ci-cd-tools.md` — 15+ CI/CD tools with comparison, pricing
 - `gitops-tools.md` — ArgoCD vs Flux, multi-cluster GitOps
 - `iaac-tools.md` — 15+ IaC tools, comparison matrix
@@ -227,10 +226,17 @@ All 28+ documentation files across the project, organized by section:
 - `mlops-llmops-tools.md` — 20+ MLOps/LLMOps tools, lifecycle coverage
 - `messaging-streaming.md` — 8+ messaging tools, Kafka alternatives
 
-### Guides (docs/guides/)
+### Get Started (docs/get-started/)
 - `how-to-use-this-list.md` — Navigation guide, progressive disclosure
-- `how-to-contribute.md` — Contribution guide with quality standards
 - `freelance-devops-roadmap.md` — 12-month learning path to $150+/hr
+
+### Careers (docs/careers/)
+- `freelancer-profile-analysis.md` — Top profile patterns, rates, strategies
+
+### Reference (docs/reference/)
+- `methodology.md` — Research validation process
+- `research-review-notes.md` — Quality audit across all research docs
+- `how-to-contribute.md` — Contribution guide with quality standards
 
 ---
 

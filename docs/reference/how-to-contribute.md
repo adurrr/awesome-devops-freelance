@@ -33,7 +33,7 @@ AND is **relevant to DevOps freelancers** (used in client work, proposals, or op
 
 | Tool Type | Where to Add |
 |---|---|
-| New tool in existing category | The corresponding extended list in `docs/extended-lists/` |
+| New tool in existing category | The corresponding extended list in `../tools/` |
 | New category entirely | Propose first via issue, then add to README + new extended list |
 | Correction or update | PR directly against the affected document |
 
@@ -106,7 +106,7 @@ Categories are accepted based on:
 
 Help ground the project in research by contributing academic references:
 
-1. Open a PR against `docs/research/academic-references.md`
+1. Open a PR against `../paradigms/academic-references.md`
 2. Include for each reference:
    - Full citation (APA or IEEE format)
    - DOI or arXiv ID
