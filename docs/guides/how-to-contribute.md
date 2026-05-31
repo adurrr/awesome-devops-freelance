@@ -1,6 +1,6 @@
 # 🤝 How to Contribute
 
-> A detailed guide for contributing to Awesome DevOps Freelance → beyond the quick start in [`CONTRIBUTING.md`](../../CONTRIBUTING.md).
+> A detailed guide for contributing to Awesome DevOps Freelance → beyond the quick start in [`CONTRIBUTING.md`](https://github.com/adurrr/awesome-devops-freelance/blob/main/CONTRIBUTING.md).
 
 **Last updated**: 2026-05-26
 
@@ -185,4 +185,4 @@ Examples:
 
 Open an issue with the `question` label. For urgent matters, ping a maintainer on the PR.
 
-See also: [`CONTRIBUTING.md`](../../CONTRIBUTING.md) for the quick-reference version.
+See also: [`CONTRIBUTING.md`](https://github.com/adurrr/awesome-devops-freelance/blob/main/CONTRIBUTING.md) for the quick-reference version.

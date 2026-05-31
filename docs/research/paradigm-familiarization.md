@@ -48,9 +48,9 @@ DevOps bridges development and operations through culture, automation, and measu
 
 ### Project Docs
 
-- [DevOps Landscape 2026](../docs/research/devops-landscape-2026.md) → Full research
-- [CI/CD & GitOps Tools](../docs/extended-lists/ci-cd-tools.md) → Tool comparisons
-- [IaC Tools](../docs/extended-lists/iaac-tools.md) → Infrastructure as Code
+- [DevOps Landscape 2026](./devops-landscape-2026.md) → Full research
+- [CI/CD & GitOps Tools](../extended-lists/ci-cd-tools.md) → Tool comparisons
+- [IaC Tools](../extended-lists/iaac-tools.md) → Infrastructure as Code
 
 ---
 
@@ -84,8 +84,8 @@ DevSecOps integrates security into every phase of the DevOps lifecycle → not a
 
 ### Project Docs
 
-- [DevSecOps Landscape 2026](../docs/research/devsecops-landscape-2026.md) → Full research
-- [DevSecOps & Security Tools](../docs/extended-lists/security-devsecops.md) → Tool comparisons
+- [DevSecOps Landscape 2026](./devsecops-landscape-2026.md) → Full research
+- [DevSecOps & Security Tools](../extended-lists/security-devsecops.md) → Tool comparisons
 
 ---
 
@@ -117,7 +117,7 @@ DataOps applies DevOps principles (CI/CD, versioning, monitoring) to data pipeli
 
 ### Project Docs
 
-- [DataOps Landscape 2026](../docs/research/dataops-landscape-2026.md) → Full research
+- [DataOps Landscape 2026](./dataops-landscape-2026.md) → Full research
 
 ---
 
@@ -151,8 +151,8 @@ MLOps manages the full ML lifecycle: experiment tracking, model training, deploy
 
 ### Project Docs
 
-- [MLOps Landscape 2026](../docs/research/mlops-landscape-2026.md) → Full research
-- [MLOps & LLMOps Tools](../docs/extended-lists/mlops-llmops-tools.md) → Tool comparisons
+- [MLOps Landscape 2026](./mlops-landscape-2026.md) → Full research
+- [MLOps & LLMOps Tools](../extended-lists/mlops-llmops-tools.md) → Tool comparisons
 
 ---
 
@@ -185,7 +185,7 @@ AIOps applies machine learning to IT operations data (logs, metrics, traces) to 
 
 ### Project Docs
 
-- [AIOps Landscape 2026](../docs/research/aiops-landscape-2026.md) → Full research
+- [AIOps Landscape 2026](./aiops-landscape-2026.md) → Full research
 
 ---
 
@@ -218,8 +218,8 @@ FinOps brings financial governance to cloud spending → combining engineering, 
 
 ### Project Docs
 
-- [FinOps Landscape 2026](../docs/research/finops-landscape-2026.md) → Full research
-- [Cost Management & FinOps Tools](../docs/extended-lists/cost-management-finops.md) → Tool comparisons
+- [FinOps Landscape 2026](./finops-landscape-2026.md) → Full research
+- [Cost Management & FinOps Tools](../extended-lists/cost-management-finops.md) → Tool comparisons
 
 ---
 
@@ -252,8 +252,8 @@ LLMOps operationalizes Large Language Models in production → covering prompt e
 
 ### Project Docs
 
-- [LLMOps Landscape 2026](../docs/research/llmops-landscape-2026.md) → Full research
-- [MLOps & LLMOps Tools](../docs/extended-lists/mlops-llmops-tools.md) → Tool comparisons
+- [LLMOps Landscape 2026](./llmops-landscape-2026.md) → Full research
+- [MLOps & LLMOps Tools](../extended-lists/mlops-llmops-tools.md) → Tool comparisons
 
 ---
 
@@ -287,8 +287,8 @@ Platform Engineering builds Internal Developer Platforms (IDPs) → a layer of t
 
 ### Project Docs
 
-- [Platform Engineering 2026](../docs/research/platform-engineering-2026.md) → Full research
-- [Platform Engineering Tools](../docs/extended-lists/platform-engineering.md) → Tool comparisons
+- [Platform Engineering 2026](./platform-engineering-2026.md) → Full research
+- [Platform Engineering Tools](../extended-lists/platform-engineering.md) → Tool comparisons
 
 ---
 
@@ -320,8 +320,8 @@ GitOps uses Git as the single source of truth for declarative infrastructure and
 
 ### Project Docs
 
-- [GitOps Tools](../docs/extended-lists/gitops-tools.md) → Tool comparisons
-- [DevOps Landscape 2026](../docs/research/devops-landscape-2026.md) → GitOps section
+- [GitOps Tools](../extended-lists/gitops-tools.md) → Tool comparisons
+- [DevOps Landscape 2026](./devops-landscape-2026.md) → GitOps section
 
 ---
 
@@ -440,7 +440,7 @@ If you're new to the Ops landscape, learn in this order:
 
 - [arXiv:2401.XXXXX] → Systematic literature reviews on each paradigm
 - [ACM Computing Surveys] → Comprehensive survey papers
-- Full list in [Academic References](../docs/research/academic-references.md)
+- Full list in [Academic References](./academic-references.md)
 
 ---
 
@@ -448,15 +448,15 @@ If you're new to the Ops landscape, learn in this order:
 
 | Paradigm | Research Doc | Extended List | Guide |
 |---|---|---|---|
-| DevOps | ✅ [Landscape](../docs/research/devops-landscape-2026.md) | ✅ [CI/CD](../docs/extended-lists/ci-cd-tools.md), [IaC](../docs/extended-lists/iaac-tools.md), [Container](../docs/extended-lists/container-orchestration.md), [Observability](../docs/extended-lists/observability-monitoring.md), [Messaging](../docs/extended-lists/messaging-streaming.md) | ✅ [Roadmap](../docs/guides/freelance-devops-roadmap.md) |
+| DevOps | ✅ [Landscape](./devops-landscape-2026.md) | ✅ [CI/CD](../extended-lists/ci-cd-tools.md), [IaC](../extended-lists/iaac-tools.md), [Container](../extended-lists/container-orchestration.md), [Observability](../extended-lists/observability-monitoring.md), [Messaging](../extended-lists/messaging-streaming.md) | ✅ [Roadmap](../guides/freelance-devops-roadmap.md) |
 | GitOps | ✅ (in DevOps doc) | □ Pending | - |
-| DevSecOps | ✅ [Landscape](../docs/research/devsecops-landscape-2026.md) | ✅ [Security Tools](../docs/extended-lists/security-devsecops.md) | - |
-| DataOps | ✅ [Landscape](../docs/research/dataops-landscape-2026.md) | - | → |
-| MLOps | ✅ [Landscape](../docs/research/mlops-landscape-2026.md) | □ Pending | - |
-| AIOps | ✅ [Landscape](../docs/research/aiops-landscape-2026.md) | ✅ [AI for DevOps](../docs/extended-lists/ai-for-devops.md) | - |
-| FinOps | ✅ [Landscape](../docs/research/finops-landscape-2026.md) | □ Pending | - |
-| LLMOps | ✅ [Landscape](../docs/research/llmops-landscape-2026.md) | □ Pending | - |
-| Platform Eng | ✅ [Landscape](../docs/research/platform-engineering-2026.md) | □ Pending | - |
+| DevSecOps | ✅ [Landscape](./devsecops-landscape-2026.md) | ✅ [Security Tools](../extended-lists/security-devsecops.md) | - |
+| DataOps | ✅ [Landscape](./dataops-landscape-2026.md) | - | → |
+| MLOps | ✅ [Landscape](./mlops-landscape-2026.md) | □ Pending | - |
+| AIOps | ✅ [Landscape](./aiops-landscape-2026.md) | ✅ [AI for DevOps](../extended-lists/ai-for-devops.md) | - |
+| FinOps | ✅ [Landscape](./finops-landscape-2026.md) | □ Pending | - |
+| LLMOps | ✅ [Landscape](./llmops-landscape-2026.md) | □ Pending | - |
+| Platform Eng | ✅ [Landscape](./platform-engineering-2026.md) | □ Pending | - |
 | SRE | ✅ (across docs) | - | → |
 
 ---

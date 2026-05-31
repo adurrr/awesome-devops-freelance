@@ -4,7 +4,7 @@
 
 **Last updated**: 2026-05-26
 
-> **📚 Related resources**: [How to Use This List](./how-to-use-this-list.md) • [Freelancer Profile Analysis](../research/freelancer-profile-analysis.md) • [Freelance Career Patterns](../../README.md#-freelance-career-patterns)
+> **📚 Related resources**: [How to Use This List](./how-to-use-this-list.md) • [Freelancer Profile Analysis](../research/freelancer-profile-analysis.md) • [Freelance Career Patterns](https://github.com/adurrr/awesome-devops-freelance#-freelance-career-patterns)
 
 ---
 
@@ -41,7 +41,7 @@
 
 **📘 Internal resources for this stage**:
 - [DevOps Landscape 2026](../research/devops-landscape-2026.md) → Understand the DevOps ecosystem
-- [Paradigm Familiarization](../../research/paradigm-familiarization.md) → Foundational overview of all Ops paradigms
+- [Paradigm Familiarization](../research/paradigm-familiarization.md) → Foundational overview of all Ops paradigms
 - [CI/CD extended list](../extended-lists/ci-cd-tools.md) → Compare CI/CD tools
 - [IaC extended list](../extended-lists/iaac-tools.md) → Compare Terraform, OpenTofu, Pulumi, Crossplane
 

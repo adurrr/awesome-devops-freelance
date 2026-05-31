@@ -2,7 +2,7 @@
 
 > **Purpose**: Documents the intermediate research review (Phase 1, Task 1.12) → ensures consistent depth, sourcing, and anti-hallucination compliance across all research docs.
 
-**Last updated**: 2026-05-26
+**Last updated**: 2026-05-29
 
 ---
 

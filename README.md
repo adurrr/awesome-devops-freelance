@@ -7,7 +7,7 @@
 
 ---
 
-**Last updated**: 2026-05-26
+**Last updated**: 2026-05-29
 
 ---
 
@@ -105,6 +105,7 @@
 | [Container Orchestration](#container-orchestration) | 12+ | Kubernetes expertise = premium rates | 📖 |
 | [DataOps](#dataops) | 10+ | Data pipeline demand surges with AI | 📖 |
 | [Observability & Monitoring](#observability--monitoring) | 18+ | Essential for SRE/DevOps engagements | 📖 |
+| [SRE](#site-reliability-engineering-sre) | 25+ | Reliability engineering = premium rate niche | 📖 |
 | [DevSecOps & Security](#devsecops--security) | 20+ | Fastest growing demand in 2026 | 📖 |
 | [Platform Engineering](#platform-engineering) | 10+ | Highest job growth category | 📖 |
 | [AI for DevOps](#ai-for-devops) | 30+ | Cutting-edge premium niche | 📖 |
@@ -183,6 +184,19 @@
 - **[SigNoz](https://signoz.io/)** ![GitHub stars](https://img.shields.io/github/stars/SigNoz/signoz?style=flat-square) ![License](https://img.shields.io/badge/license-MIT-green) → OpenTelemetry-native, self-hosted observability. **Freelance use**: Open-source alternative to Datadog/New Relic.
 
 > [Full observability comparison →](./docs/extended-lists/observability-monitoring.md)
+
+---
+
+### Site Reliability Engineering (SRE)
+
+- **[PagerDuty](https://pagerduty.com/)** ![PagerDuty](https://img.shields.io/badge/PagerDuty-06AC38?logo=pagerduty&logoColor=white) → Enterprise incident response standard. 700+ integrations. **Freelance use**: Opsgenie migrations (EOL 2027) = massive upgrade opportunity.
+- **[incident.io](https://incident.io/)** ![incident.io](https://img.shields.io/badge/incident.io-000000?logo=incident&logoColor=white) → Slack-native incident coordination with AI SRE. **Freelance use**: Modern incident response setup for Slack-native shops.
+- **[Nobl9](https://nobl9.com/)** ![Nobl9](https://img.shields.io/badge/Nobl9-FF6B35?logo=nobl9&logoColor=white) → SLO platform. OpenSLO co-creator. **Freelance use**: Design SLO frameworks; the defining SRE consulting skill.
+- **[LitmusChaos](https://litmuschaos.io/)** ![GitHub stars](https://img.shields.io/github/stars/litmuschaos/litmus?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Incubating-orange) → Cloud-native chaos engineering. **Freelance use**: Set up resilience testing programs for K8s teams (only 17% do this).
+- **[Prometheus](https://prometheus.io/)** ![GitHub stars](https://img.shields.io/github/stars/prometheus/prometheus?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Graduated-blue) → Monitoring + alerting. PromQL for SLO calculations. **Freelance use**: Baseline SLI instrumentation.
+- **[Squadcast](https://squadcast.com/)** → Incident response + SLO monitoring in one platform. **Freelance use**: Mid-market SRE teams wanting unified incident + SLO platform.
+
+> [SRE research: practices, trends, maturity →](./docs/research/sre-landscape-2026.md) • [Full SRE tools comparison →](./docs/extended-lists/sre-tools.md)
 
 ---
 
@@ -376,7 +390,7 @@ Senior:    $130-200/hr (retainer clients, referrals, established brand)
 
 | Document | Covers |
 |---|---|
-| [Paradigm Familiarization](./research/paradigm-familiarization.md) | Entry-level overview of all 10 Ops paradigms with reading paths |
+| [Paradigm Familiarization](./docs/research/paradigm-familiarization.md) | Entry-level overview of all 10 Ops paradigms with reading paths |
 | [DevOps Landscape 2026](./docs/research/devops-landscape-2026.md) | Core DevOps trends, platform engineering, GitOps, IaC |
 | [DevSecOps Landscape 2026](./docs/research/devsecops-landscape-2026.md) | Shift-smart security, AI-driven preemptive security, supply chain |
 | [DataOps Landscape 2026](./docs/research/dataops-landscape-2026.md) | Data pipelines, data versioning, quality, orchestration |
@@ -384,6 +398,7 @@ Senior:    $130-200/hr (retainer clients, referrals, established brand)
 | [AIOps Landscape 2026](./docs/research/aiops-landscape-2026.md) | AI for IT operations, incident correlation, self-healing |
 | [FinOps Landscape 2026](./docs/research/finops-landscape-2026.md) | Cloud cost management, chargeback, reserved capacity |
 | [LLMOps Landscape 2026](./docs/research/llmops-landscape-2026.md) | LLM operations, RAG systems, prompt security, guardrails |
+| [SRE Landscape 2026](./docs/research/sre-landscape-2026.md) | SLI/SLO frameworks, error budgets, incident management, chaos engineering |
 | [Platform Engineering 2026](./docs/research/platform-engineering-2026.md) | Internal developer platforms, Backstage, Crossplane |
 | [CNCF Landscape Analysis](./docs/research/cncf-landscape-analysis.md) | All CNCF projects mapped with maturity levels |
 | [Freelancer Profile Analysis](./docs/research/freelancer-profile-analysis.md) | Top 50 profiles analyzed: patterns, rates, strategies |
@@ -400,6 +415,7 @@ Senior:    $130-200/hr (retainer clients, referrals, established brand)
 | [Infrastructure as Code](./docs/extended-lists/iaac-tools.md) | 15+ | IaC comparison matrix, migration guides |
 | [Container Orchestration](./docs/extended-lists/container-orchestration.md) | 12+ | Managed K8s comparison, Helm charts ecosystem |
 | [Observability & Monitoring](./docs/extended-lists/observability-monitoring.md) | 18+ | Stack recommendations, cost analysis |
+| [SRE](./docs/extended-lists/sre-tools.md) | 25+ | SLI/SLO platforms, incident management, chaos engineering, AI SRE |
 | [DevSecOps & Security](./docs/extended-lists/security-devsecops.md) | 20+ | Tool categories, integration patterns, compliance |
 | [Platform Engineering](./docs/extended-lists/platform-engineering.md) | 10+ | IDP frameworks, developer portal comparison |
 | [AI for DevOps](./docs/extended-lists/ai-for-devops.md) | 30+ | MCP servers, AI agents, incident tools |

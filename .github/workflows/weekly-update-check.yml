@@ -22,7 +22,7 @@ jobs:
           stale_count=0
           report=""
           
-          find docs/ research/ -name "*.md" -mtime +90 | while read file; do
+          find docs/ -name "*.md" -mtime +90 | while read file; do
             modified=$(date -r "$file" '+%Y-%m-%d')
             days=$(( ($(date +%s) - $(date -r "$file" +%s) ) / 86400 ))
             echo "| \`$file\` | $modified | $days |" >> $GITHUB_STEP_SUMMARY
@@ -47,7 +47,7 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
           
           missing=0
-          find docs/ research/ -name "*.md" | while read file; do
+          find docs/ -name "*.md" | while read file; do
             if ! head -20 "$file" | grep -qi "last updated"; then
               echo "- \`$file\`" >> $GITHUB_STEP_SUMMARY
               missing=$((missing + 1))

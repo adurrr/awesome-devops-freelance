@@ -3,6 +3,12 @@ site/public/
 site/resources/
 site/.hugo_build.lock
 
+# Freelancer profile data (individual profiles not committed to repo)
+data/freelancer-profiles/real/
+data/freelancer-profiles/profiles.json
+data/freelancer-profiles/profiles.csv
+data/freelancer-profiles/README.md
+
 # OS files
 .DS_Store
 Thumbs.db
