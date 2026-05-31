@@ -29,17 +29,18 @@ awesome-devops-freelance/
 │   ├── get-started/                 ← Entry-level guides
 │   │   ├── how-to-use-this-list.md
 │   │   └── freelance-devops-roadmap.md
-│   ├── paradigms/                   ← Deep dives (12 documents)
+│   ├── paradigms/                   ← Deep dives
 │   │   ├── paradigm-familiarization.md
-│   │   ├── devops-landscape-2026.md
-│   │   ├── devsecops-landscape-2026.md
-│   │   ├── dataops-landscape-2026.md
-│   │   ├── mlops-landscape-2026.md
-│   │   ├── aiops-landscape-2026.md
-│   │   ├── finops-landscape-2026.md
-│   │   ├── llmops-landscape-2026.md
-│   │   ├── platform-engineering-2026.md
-│   │   ├── sre-landscape-2026.md
+│   │   ├── landscape/               ← 9 paradigm landscape docs
+│   │   │   ├── devops.md
+│   │   │   ├── devsecops.md
+│   │   │   ├── dataops.md
+│   │   │   ├── mlops.md
+│   │   │   ├── aiops.md
+│   │   │   ├── finops.md
+│   │   │   ├── llmops.md
+│   │   │   ├── platform-engineering.md
+│   │   │   └── sre.md
 │   │   ├── cncf-landscape-analysis.md
 │   │   └── academic-references.md
 │   ├── tools/                       ← Detailed tool references (12 documents)
@@ -200,15 +201,16 @@ All 28+ documentation files across the project, organized by section:
 
 ### Paradigms (docs/paradigms/)
 - `paradigm-familiarization.md` — Entry-level overview of all Ops paradigms
-- `devops-landscape-2026.md` — Core DevOps trends, platform engineering, GitOps, IaC
-- `devsecops-landscape-2026.md` — Shift-smart security, AI-driven preemptive security
-- `dataops-landscape-2026.md` — Data pipelines, data versioning, quality
-- `mlops-landscape-2026.md` — ML lifecycle management, model registry
-- `aiops-landscape-2026.md` — AI for IT operations, self-healing
-- `finops-landscape-2026.md` — Cloud cost management, chargeback
-- `llmops-landscape-2026.md` — LLM operations, RAG systems, guardrails
-- `platform-engineering-2026.md` — Internal developer platforms, Backstage
-- `sre-landscape-2026.md` — SLI/SLO frameworks, error budgets, incident management
+- `landscape/` — 9 paradigm landscape docs (2026)
+  - `landscape/devops.md` — Core DevOps trends, platform engineering, GitOps, IaC
+  - `landscape/devsecops.md` — Shift-smart security, AI-driven preemptive security
+  - `landscape/dataops.md` — Data pipelines, data versioning, quality
+  - `landscape/mlops.md` — ML lifecycle management, model registry
+  - `landscape/aiops.md` — AI for IT operations, self-healing
+  - `landscape/finops.md` — Cloud cost management, chargeback
+  - `landscape/llmops.md` — LLM operations, RAG systems, guardrails
+  - `landscape/platform-engineering.md` — Internal developer platforms, Backstage
+  - `landscape/sre.md` — SLI/SLO frameworks, error budgets, incident management
 - `cncf-landscape-analysis.md` — All CNCF projects mapped by maturity
 - `academic-references.md` — SLRs and papers for each paradigm
 

@@ -40,7 +40,7 @@
 **Monthly Commitment**: ~60 hours study + 20 hours applying
 
 **📘 Internal resources for this stage**:
-- [DevOps Landscape 2026](../paradigms/devops-landscape-2026.md) → Understand the DevOps ecosystem
+- [DevOps Landscape 2026](../paradigms/landscape/devops.md) → Understand the DevOps ecosystem
 - [Paradigm Familiarization](../paradigms/paradigm-familiarization.md) → Foundational overview of all Ops paradigms
 - [CI/CD extended list](../tools/ci-cd-tools.md) → Compare CI/CD tools
 - [IaC extended list](../tools/iaac-tools.md) → Compare Terraform, OpenTofu, Pulumi, Crossplane
@@ -76,7 +76,7 @@
 - [K8s extended list](../tools/container-orchestration.md) → Compare Kubernetes distributions
 - [GitOps extended list](../tools/gitops-tools.md) → ArgoCD vs Flux deep comparison
 - [DevSecOps extended list](../tools/security-devsecops.md) → Security tool comparison
-- [DevSecOps Landscape 2026](../paradigms/devsecops-landscape-2026.md) → Security paradigm deep dive
+- [DevSecOps Landscape 2026](../paradigms/landscape/devsecops.md) → Security paradigm deep dive
 - [Platform Engineering extended list](../tools/platform-engineering.md) → IDP tool comparison
 - [CNCF Landscape Analysis](../paradigms/cncf-landscape-analysis.md) → All CNCF projects mapped
 
@@ -113,11 +113,11 @@
 - [AI for DevOps extended list](../tools/ai-for-devops.md) → AI operations tools
 - [Cost Management & FinOps extended list](../tools/cost-management-finops.md) → FinOps tool comparison
 - [Observability & Monitoring extended list](../tools/observability-monitoring.md) → Observability stack comparison
-- [MLOps Landscape 2026](../paradigms/mlops-landscape-2026.md) → MLOps paradigm deep dive
-- [LLMOps Landscape 2026](../paradigms/llmops-landscape-2026.md) → LLMOps paradigm deep dive
-- [FinOps Landscape 2026](../paradigms/finops-landscape-2026.md) → FinOps paradigm deep dive
-- [AIOps Landscape 2026](../paradigms/aiops-landscape-2026.md) → AIOps paradigm deep dive
-- [Platform Engineering 2026](../paradigms/platform-engineering-2026.md) → Platform engineering deep dive
+- [MLOps Landscape 2026](../paradigms/landscape/mlops.md) → MLOps paradigm deep dive
+- [LLMOps Landscape 2026](../paradigms/landscape/llmops.md) → LLMOps paradigm deep dive
+- [FinOps Landscape 2026](../paradigms/landscape/finops.md) → FinOps paradigm deep dive
+- [AIOps Landscape 2026](../paradigms/landscape/aiops.md) → AIOps paradigm deep dive
+- [Platform Engineering 2026](../paradigms/landscape/platform-engineering.md) → Platform engineering deep dive
 - [Academic References](../paradigms/academic-references.md) → Research papers for proposals
 
 ---

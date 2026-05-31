@@ -12,14 +12,14 @@ All 11 research documents in `../paradigms/` were audited against the AGENT.md q
 
 | # | File | Lines Reviewed |
 |---|------|---------------|
-| 1 | `devops-landscape-2026.md` | 126 |
-| 2 | `devsecops-landscape-2026.md` | 111 |
-| 3 | `dataops-landscape-2026.md` | 83 |
-| 4 | `mlops-landscape-2026.md` | 141 |
-| 5 | `aiops-landscape-2026.md` | 93 |
-| 6 | `finops-landscape-2026.md` | 93 |
-| 7 | `llmops-landscape-2026.md` | 84 |
-| 8 | `platform-engineering-2026.md` | 90 |
+| 1 | `landscape/devops.md` | 126 |
+| 2 | `landscape/devsecops.md` | 111 |
+| 3 | `landscape/dataops.md` | 83 |
+| 4 | `landscape/mlops.md` | 141 |
+| 5 | `landscape/aiops.md` | 93 |
+| 6 | `landscape/finops.md` | 93 |
+| 7 | `landscape/llmops.md` | 84 |
+| 8 | `landscape/platform-engineering.md` | 90 |
 | 9 | `cncf-landscape-analysis.md` | 167 |
 | 10 | `freelancer-profile-analysis.md` | 221 |
 | 11 | `academic-references.md` | 134 |
@@ -48,14 +48,14 @@ Each doc was checked against these standards (from AGENT.md):
 
 | File | C1 | C2 | C3 | C4 | C5 | C6 | C7 | C8 | C9 |
 |------|----|----|----|----|----|----|----|----|----|
-| devops-landscape-2026.md | ❌ | ✅ | ✅ | ✅ | ⚠️ | ⚠️ | ⚠️ | ✅ | ⚠️ |
-| devsecops-landscape-2026.md | ❌ | ✅ | ✅ | ✅ | ✅ | ⚠️ | ⚠️ | ✅ | ⚠️ |
-| dataops-landscape-2026.md | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ⚠️ | ❌ |
-| mlops-landscape-2026.md | ❌ | ✅ | ✅ | ✅ | ✅ | ⚠️ | ⚠️ | ✅ | ⚠️ |
-| aiops-landscape-2026.md | ❌ | ✅ | ✅ | ✅ | ⚠️ | ⚠️ | ⚠️ | ✅ | ⚠️ |
-| finops-landscape-2026.md | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ❌ |
-| llmops-landscape-2026.md | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ⚠️ | ❌ |
-| platform-engineering-2026.md | ❌ | ✅ | ✅ | ✅ | ⚠️ | ⚠️ | ⚠️ | ✅ | ⚠️ |
+| landscape/devops.md | ❌ | ✅ | ✅ | ✅ | ⚠️ | ⚠️ | ⚠️ | ✅ | ⚠️ |
+| landscape/devsecops.md | ❌ | ✅ | ✅ | ✅ | ✅ | ⚠️ | ⚠️ | ✅ | ⚠️ |
+| landscape/dataops.md | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ⚠️ | ❌ |
+| landscape/mlops.md | ❌ | ✅ | ✅ | ✅ | ✅ | ⚠️ | ⚠️ | ✅ | ⚠️ |
+| landscape/aiops.md | ❌ | ✅ | ✅ | ✅ | ⚠️ | ⚠️ | ⚠️ | ✅ | ⚠️ |
+| landscape/finops.md | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ❌ |
+| landscape/llmops.md | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ⚠️ | ❌ |
+| landscape/platform-engineering.md | ❌ | ✅ | ✅ | ✅ | ⚠️ | ⚠️ | ⚠️ | ✅ | ⚠️ |
 | cncf-landscape-analysis.md | ❌ | ✅ | ✅ | ✅ | ⚠️ | ⚠️ | ⚠️ | ✅ | ⚠️ |
 | freelancer-profile-analysis.md | ❌ | N/A | N/A | N/A | ⚠️ | ⚠️ | ⚠️ | ✅ | N/A |
 | academic-references.md | ❌ | N/A | N/A | N/A | ✅ | N/A | N/A | ✅ | N/A |
@@ -76,20 +76,20 @@ Each doc was checked against these standards (from AGENT.md):
 ### 1. Universal Fix → "Last updated" added
 Added `**Last updated**: 2026-05-26` to all 11 research docs.
 
-### 2. dataops-landscape-2026.md (50 → 83 lines)
+### 2. landscape/dataops.md (50 → 83 lines)
 - **Added** "Key Trends in 2026" section (5 trends with academic sources)
 - **Added** "Freelance DataOps Opportunities" section (6 service categories with rates)
 - **Added** "Academic References" section (5 citations: arXiv, ACM, IEEE)
 - **Improved** source tagging and softened unsourced claims
 - **Renumbered** sections to accommodate new content
 
-### 3. finops-landscape-2026.md (59 → 93 lines)
+### 3. landscape/finops.md (59 → 93 lines)
 - **Expanded** trend bullet points into full "Key FinOps Trends in 2026" section (5 subsections)
 - **Added** "Academic References" section (4 citations: arXiv, IEEE, ACM)
 - **Added** market demand note to freelance opportunities
 - **Improved** source tagging and uncertainty markers throughout
 
-### 4. llmops-landscape-2026.md (57 → 84 lines)
+### 4. landscape/llmops.md (57 → 84 lines)
 - **Added** "Key LLMOps Trends in 2026" section (5 trends: RAG, Guardrails, vLLM, Agents, Cost Management)
 - **Added** "Academic References" section (5 citations: arXiv, ACM)
 - **Added** freelance demand context and market notes
