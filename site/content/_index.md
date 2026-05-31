@@ -41,7 +41,7 @@ title: "Awesome DevOps Freelance"
 3. **Browse tools** → Use [Quick Navigation](#-quick-navigation-by-category) to find your category
 4. **Go deep** → Click any "Explore" link or "Full list →" for extended docs with comparisons, pricing, and learning resources
 5. **Explore careers** → See [Freelance Career Patterns](#-freelance-career-patterns) for rates, platform strategies, and portfolio tips
-6. **Get detailed guidance** → The [How to Use This List](./docs/guides/how-to-use-this-list.md) guide explains every layer of the project
+6. **Get detailed guidance** → The [How to Use This List](./docs/get-started/how-to-use-this-list.md) guide explains every layer of the project
 
 **Already know what you need?** Jump straight to [Top Tools by Category](#-top-tools-by-category).
 
@@ -123,7 +123,7 @@ flowchart BT
 - **[CircleCI](https://circleci.com/)** ![CircleCI](https://img.shields.io/badge/CircleCI-343434?logo=circleci&logoColor=white) → Cloud CI/CD with strong parallelism. **Freelance use**: Monorepo builds, fast feedback loops.
 - **[Tekton](https://tekton.dev/)** ![GitHub stars](https://img.shields.io/github/stars/tektoncd/pipeline?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Graduated-blue) → Kubernetes-native CI/CD pipelines. **Freelance use**: Cloud-native teams avoiding vendor lock-in.
 
-> [Full CI/CD comparison →](./docs/extended-lists/ci-cd-tools.md)
+> [Full CI/CD comparison →](./docs/tools/ci-cd-tools.md)
 
 ### GitOps
 
@@ -131,7 +131,7 @@ flowchart BT
 - **[Flux](https://fluxcd.io)** ![GitHub stars](https://img.shields.io/github/stars/fluxcd/flux2?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Graduated-blue) → Lightweight GitOps toolkit for K8s. **Freelance use**: Simpler alternative to ArgoCD; great for smaller teams.
 - **[Kargo](https://kargo.akuity.io/)** ![License](https://img.shields.io/badge/license-Apache%202.0-green) → Multi-stage promotion engine for GitOps. **Freelance use**: Progressive delivery, canary deployments.
 
-> [Full GitOps comparison →](./docs/extended-lists/gitops-tools.md)
+> [Full GitOps comparison →](./docs/tools/gitops-tools.md)
 
 ---
 
@@ -143,7 +143,7 @@ flowchart BT
 - **[Crossplane](https://crossplane.io/)** ![GitHub stars](https://img.shields.io/github/stars/crossplane/crossplane?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Graduated-blue) → Kubernetes-native control plane for cloud resources. **Freelance use**: Platform engineering + K8s-centric orgs. +30-40% rate premium.
 - **[Ansible](https://www.ansible.com/)** ![GitHub stars](https://img.shields.io/github/stars/ansible/ansible?style=flat-square) ![License](https://img.shields.io/badge/license-GPLv3-blue) → Configuration management and app deployment. **Freelance use**: Server config, app deployment, hybrid cloud.
 
-> [Full IaC comparison →](./docs/extended-lists/iaac-tools.md)
+> [Full IaC comparison →](./docs/tools/iaac-tools.md)
 
 ---
 
@@ -156,7 +156,7 @@ flowchart BT
 - **[KEDA](https://keda.sh/)** ![GitHub stars](https://img.shields.io/github/stars/kedacore/keda?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Graduated-blue) → Event-driven autoscaling for K8s. **Freelance use**: Cost optimization, event-driven architectures.
 - **[Nomad](https://www.nomadproject.io/)** ![GitHub stars](https://img.shields.io/github/stars/hashicorp/nomad?style=flat-square) → Simple, flexible orchestrator for containers + VMs + batch. **Freelance use**: Multi-workload environments, HashiCorp stacks.
 
-> [Full orchestration comparison →](./docs/extended-lists/container-orchestration.md)
+> [Full orchestration comparison →](./docs/tools/container-orchestration.md)
 
 ---
 
@@ -168,7 +168,7 @@ flowchart BT
 - **[DVC](https://dvc.org/)** ![GitHub stars](https://img.shields.io/github/stars/iterative/dvc?style=flat-square) ![License](https://img.shields.io/badge/license-Apache%202.0-green) → Data and ML experiment version control. **Freelance use**: Data versioning for MLOps teams.
 - **[LakeFS](https://lakefs.io/)** ![GitHub stars](https://img.shields.io/github/stars/treeverse/lakeFS?style=flat-square) ![License](https://img.shields.io/badge/license-Apache%202.0-green) → Git-like version control for data lakes. **Freelance use**: Data lake management, rollback, branching.
 
-> [DataOps research →](./docs/research/dataops-landscape-2026.md) • [Data pipeline tools →](./docs/extended-lists/ci-cd-tools.md) (CI/CD) • [MLOps tools →](./docs/extended-lists/mlops-llmops-tools.md)
+> [DataOps research →](./docs/paradigms/dataops-landscape-2026.md) • [Data pipeline tools →](./docs/tools/ci-cd-tools.md) (CI/CD) • [MLOps tools →](./docs/tools/mlops-llmops-tools.md)
 
 ---
 
@@ -181,7 +181,7 @@ flowchart BT
 - **[Grafana Loki](https://grafana.com/oss/loki/)** ![GitHub stars](https://img.shields.io/github/stars/grafana/loki?style=flat-square) → Log aggregation for cloud-native. **Freelance use**: Cost-effective ELK alternative for K8s.
 - **[SigNoz](https://signoz.io/)** ![GitHub stars](https://img.shields.io/github/stars/SigNoz/signoz?style=flat-square) ![License](https://img.shields.io/badge/license-MIT-green) → OpenTelemetry-native, self-hosted observability. **Freelance use**: Open-source alternative to Datadog/New Relic.
 
-> [Full observability comparison →](./docs/extended-lists/observability-monitoring.md)
+> [Full observability comparison →](./docs/tools/observability-monitoring.md)
 
 ---
 
@@ -194,7 +194,7 @@ flowchart BT
 - **[Prometheus](https://prometheus.io/)** ![GitHub stars](https://img.shields.io/github/stars/prometheus/prometheus?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Graduated-blue) → Monitoring + alerting. PromQL for SLO calculations. **Freelance use**: Baseline SLI instrumentation.
 - **[Squadcast](https://squadcast.com/)** → Incident response + SLO monitoring in one platform. **Freelance use**: Mid-market SRE teams wanting unified incident + SLO platform.
 
-> [SRE research: practices, trends, maturity →](./docs/research/sre-landscape-2026.md) • [Full SRE tools comparison →](./docs/extended-lists/sre-tools.md)
+> [SRE research: practices, trends, maturity →](./docs/paradigms/sre-landscape-2026.md) • [Full SRE tools comparison →](./docs/tools/sre-tools.md)
 
 ---
 
@@ -220,7 +220,7 @@ flowchart BT
 - **[Kyverno](https://kyverno.io/)** ![GitHub stars](https://img.shields.io/github/stars/kyverno/kyverno?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Incubating-orange) → Kubernetes-native policy management. **Freelance use**: Policy-as-code without learning Rego.
 - **[OPA/Gatekeeper](https://www.openpolicyagent.org/)** ![GitHub stars](https://img.shields.io/github/stars/open-policy-agent/opa?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Graduated-blue) → General-purpose policy engine. **Freelance use**: Advanced policy needs, multi-environment governance.
 
-> [Full security comparison →](./docs/extended-lists/security-devsecops.md)
+> [Full security comparison →](./docs/tools/security-devsecops.md)
 
 ---
 
@@ -232,7 +232,7 @@ flowchart BT
 - **[Port](https://www.getport.io/)** ![Port](https://img.shields.io/badge/Port-Developer%20Portal-blue) → SaaS developer portal alternative to Backstage. **Freelance use**: Faster setup than Backstage; less maintenance.
 - **[Humanitec](https://humanitec.com/)** ![Humanitec](https://img.shields.io/badge/Humanitec-Platform%20Orchestrator-blue) → Internal platform orchestrator. **Freelance use**: Enterprise IDP implementation.
 
-> [Full platform engineering comparison →](./docs/extended-lists/platform-engineering.md)
+> [Full platform engineering comparison →](./docs/tools/platform-engineering.md)
 
 ---
 
@@ -244,7 +244,7 @@ flowchart BT
 - **[Kagent](https://kagent.dev/)** ![CNCF](https://img.shields.io/badge/CNCF-Sandbox-yellow) → AI agents for Kubernetes operations. **Freelance use**: Agentic AI in K8s; early adopter advantage.
 - **[Runme](https://runme.dev/)** ![GitHub stars](https://img.shields.io/github/stars/stateful/runme?style=flat-square) ![CNCF](https://img.shields.io/badge/CNCF-Sandbox-yellow) → Interactive DevOps notebooks from Markdown. **Freelance use**: Documentation + executable runbooks.
 
-> [Full AI for DevOps list →](./docs/extended-lists/ai-for-devops.md)
+> [Full AI for DevOps list →](./docs/tools/ai-for-devops.md)
 
 ---
 
@@ -268,7 +268,7 @@ flowchart BT
 - **[LangSmith](https://www.langchain.com/langsmith)** ![LangSmith](https://img.shields.io/badge/LangSmith-LLM%20Observability-yellow) → LLM tracing and evaluation. **Freelance use**: Production LLM monitoring.
 - **[Guardrails AI](https://www.guardrailsai.com/)** ![Guardrails](https://img.shields.io/badge/Guardrails-LLM%20Safety-blue) → Input/output validation for LLMs. **Freelance use**: Compliance-critical LLM deployments.
 
-> [Full MLOps/LLMOps comparison →](./docs/extended-lists/mlops-llmops-tools.md)
+> [Full MLOps/LLMOps comparison →](./docs/tools/mlops-llmops-tools.md)
 
 ---
 
@@ -279,7 +279,7 @@ flowchart BT
 - **[Vantage](https://www.vantage.sh/)** ![Vantage](https://img.shields.io/badge/Vantage-Cloud%20Cost%20Visibility-blue) → Multi-cloud cost management. **Freelance use**: Cross-cloud cost analysis for enterprise clients.
 - **[AWS Cost Explorer](https://aws.amazon.com/aws-cost-management/)** ![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazon-aws&logoColor=white) → Native AWS cost analysis. **Freelance use**: Every AWS engagement starts here.
 
-> [Full FinOps comparison →](./docs/extended-lists/cost-management-finops.md)
+> [Full FinOps comparison →](./docs/tools/cost-management-finops.md)
 
 ---
 
@@ -291,13 +291,13 @@ flowchart BT
 - **[Redpanda](https://redpanda.com/)** ![Redpanda](https://img.shields.io/badge/Redpanda-Kafka%20Compatible-blue) → Kafka-compatible streaming without ZooKeeper. **Freelance use**: Simpler ops, lower latency.
 - **[RabbitMQ](https://www.rabbitmq.com/)** ![GitHub stars](https://img.shields.io/github/stars/rabbitmq/rabbitmq-server?style=flat-square) ![License](https://img.shields.io/badge/license-MPL%202.0-green) → Reliable message broker. **Freelance use**: Traditional queuing, AMQP compatibility.
 
-> [Full messaging comparison →](./docs/extended-lists/messaging-streaming.md)
+> [Full messaging comparison →](./docs/tools/messaging-streaming.md)
 
 ---
 
 ## 🏛 CNCF Projects Map
 
-**CNCF graduated + incubating projects** most relevant to freelancers (full list in [CNCF Landscape Analysis](./docs/research/cncf-landscape-analysis.md)):
+**CNCF graduated + incubating projects** most relevant to freelancers (full list in [CNCF Landscape Analysis](./docs/paradigms/cncf-landscape-analysis.md)):
 
 | Category | Graduated (Production Ready) | Incubating (Growing) |
 |---|---|---|
@@ -331,7 +331,7 @@ flowchart BT
 
 ### Top-Converting Freelancer Profile Patterns
 
-Analysis of **50 top-rated DevOps freelancers** reveals these common success patterns (full analysis in [docs/research/freelancer-profile-analysis.md](./docs/research/freelancer-profile-analysis.md)):
+Analysis of **50 top-rated DevOps freelancers** reveals these common success patterns (full analysis in [docs/careers/freelancer-profile-analysis.md](./docs/careers/freelancer-profile-analysis.md)):
 
 **1. Headline Formula**
 ```
@@ -388,43 +388,43 @@ Senior:    $130-200/hr (retainer clients, referrals, established brand)
 
 | Document | Covers |
 |---|---|
-| [Paradigm Familiarization](./docs/research/paradigm-familiarization.md) | Entry-level overview of all 10 Ops paradigms with reading paths |
-| [DevOps Landscape 2026](./docs/research/devops-landscape-2026.md) | Core DevOps trends, platform engineering, GitOps, IaC |
-| [DevSecOps Landscape 2026](./docs/research/devsecops-landscape-2026.md) | Shift-smart security, AI-driven preemptive security, supply chain |
-| [DataOps Landscape 2026](./docs/research/dataops-landscape-2026.md) | Data pipelines, data versioning, quality, orchestration |
-| [MLOps Landscape 2026](./docs/research/mlops-landscape-2026.md) | ML lifecycle management, model registry, drift monitoring |
-| [AIOps Landscape 2026](./docs/research/aiops-landscape-2026.md) | AI for IT operations, incident correlation, self-healing |
-| [FinOps Landscape 2026](./docs/research/finops-landscape-2026.md) | Cloud cost management, chargeback, reserved capacity |
-| [LLMOps Landscape 2026](./docs/research/llmops-landscape-2026.md) | LLM operations, RAG systems, prompt security, guardrails |
-| [SRE Landscape 2026](./docs/research/sre-landscape-2026.md) | SLI/SLO frameworks, error budgets, incident management, chaos engineering |
-| [Platform Engineering 2026](./docs/research/platform-engineering-2026.md) | Internal developer platforms, Backstage, Crossplane |
-| [CNCF Landscape Analysis](./docs/research/cncf-landscape-analysis.md) | All CNCF projects mapped with maturity levels |
-| [Freelancer Profile Analysis](./docs/research/freelancer-profile-analysis.md) | Top 50 profiles analyzed: patterns, rates, strategies |
-| [Academic References](./docs/research/academic-references.md) | SLRs, papers, and academic sources for each paradigm |
-| [Research Review Notes](./docs/research/research-review-notes.md) | Quality audit and compliance check across all research docs |
+| [Paradigm Familiarization](./docs/paradigms/paradigm-familiarization.md) | Entry-level overview of all 10 Ops paradigms with reading paths |
+| [DevOps Landscape 2026](./docs/paradigms/devops-landscape-2026.md) | Core DevOps trends, platform engineering, GitOps, IaC |
+| [DevSecOps Landscape 2026](./docs/paradigms/devsecops-landscape-2026.md) | Shift-smart security, AI-driven preemptive security, supply chain |
+| [DataOps Landscape 2026](./docs/paradigms/dataops-landscape-2026.md) | Data pipelines, data versioning, quality, orchestration |
+| [MLOps Landscape 2026](./docs/paradigms/mlops-landscape-2026.md) | ML lifecycle management, model registry, drift monitoring |
+| [AIOps Landscape 2026](./docs/paradigms/aiops-landscape-2026.md) | AI for IT operations, incident correlation, self-healing |
+| [FinOps Landscape 2026](./docs/paradigms/finops-landscape-2026.md) | Cloud cost management, chargeback, reserved capacity |
+| [LLMOps Landscape 2026](./docs/paradigms/llmops-landscape-2026.md) | LLM operations, RAG systems, prompt security, guardrails |
+| [SRE Landscape 2026](./docs/paradigms/sre-landscape-2026.md) | SLI/SLO frameworks, error budgets, incident management, chaos engineering |
+| [Platform Engineering 2026](./docs/paradigms/platform-engineering-2026.md) | Internal developer platforms, Backstage, Crossplane |
+| [CNCF Landscape Analysis](./docs/paradigms/cncf-landscape-analysis.md) | All CNCF projects mapped with maturity levels |
+| [Freelancer Profile Analysis](./docs/careers/freelancer-profile-analysis.md) | Top 50 profiles analyzed: patterns, rates, strategies |
+| [Academic References](./docs/paradigms/academic-references.md) | SLRs, papers, and academic sources for each paradigm |
+| [Research Review Notes](./docs/reference/research-review-notes.md) | Quality audit and compliance check across all research docs |
 
 
 ### Extended Tool Lists (Full Details)
 
 | Document | # Tools | Includes |
 |---|---|---|
-| [CI/CD](./docs/extended-lists/ci-cd-tools.md) | 15+ | Comparison, pricing, use cases, learning resources |
-| [GitOps](./docs/extended-lists/gitops-tools.md) | 6+ | ArgoCD vs Flux, multi-cluster GitOps, freelance ops |
-| [Infrastructure as Code](./docs/extended-lists/iaac-tools.md) | 15+ | IaC comparison matrix, migration guides |
-| [Container Orchestration](./docs/extended-lists/container-orchestration.md) | 12+ | Managed K8s comparison, Helm charts ecosystem |
-| [Observability & Monitoring](./docs/extended-lists/observability-monitoring.md) | 18+ | Stack recommendations, cost analysis |
-| [SRE](./docs/extended-lists/sre-tools.md) | 25+ | SLI/SLO platforms, incident management, chaos engineering, AI SRE |
-| [DevSecOps & Security](./docs/extended-lists/security-devsecops.md) | 20+ | Tool categories, integration patterns, compliance |
-| [Platform Engineering](./docs/extended-lists/platform-engineering.md) | 10+ | IDP frameworks, developer portal comparison |
-| [AI for DevOps](./docs/extended-lists/ai-for-devops.md) | 30+ | MCP servers, AI agents, incident tools |
-| [Cost Management & FinOps](./docs/extended-lists/cost-management-finops.md) | 8+ | Savings strategies, tool comparisons |
-| [MLOps & LLMOps](./docs/extended-lists/mlops-llmops-tools.md) | 20+ | Full lifecycle coverage, cost comparison |
-| [Messaging & Streaming](./docs/extended-lists/messaging-streaming.md) | 8+ | Comparison, Kafka alternatives |
+| [CI/CD](./docs/tools/ci-cd-tools.md) | 15+ | Comparison, pricing, use cases, learning resources |
+| [GitOps](./docs/tools/gitops-tools.md) | 6+ | ArgoCD vs Flux, multi-cluster GitOps, freelance ops |
+| [Infrastructure as Code](./docs/tools/iaac-tools.md) | 15+ | IaC comparison matrix, migration guides |
+| [Container Orchestration](./docs/tools/container-orchestration.md) | 12+ | Managed K8s comparison, Helm charts ecosystem |
+| [Observability & Monitoring](./docs/tools/observability-monitoring.md) | 18+ | Stack recommendations, cost analysis |
+| [SRE](./docs/tools/sre-tools.md) | 25+ | SLI/SLO platforms, incident management, chaos engineering, AI SRE |
+| [DevSecOps & Security](./docs/tools/security-devsecops.md) | 20+ | Tool categories, integration patterns, compliance |
+| [Platform Engineering](./docs/tools/platform-engineering.md) | 10+ | IDP frameworks, developer portal comparison |
+| [AI for DevOps](./docs/tools/ai-for-devops.md) | 30+ | MCP servers, AI agents, incident tools |
+| [Cost Management & FinOps](./docs/tools/cost-management-finops.md) | 8+ | Savings strategies, tool comparisons |
+| [MLOps & LLMOps](./docs/tools/mlops-llmops-tools.md) | 20+ | Full lifecycle coverage, cost comparison |
+| [Messaging & Streaming](./docs/tools/messaging-streaming.md) | 8+ | Comparison, Kafka alternatives |
 
 ### Guides
-- [How to Use This List](./docs/guides/how-to-use-this-list.md) → Navigation guide with progressive disclosure patterns
-- [How to Contribute](./docs/guides/how-to-contribute.md) → Detailed contribution guide with formatting and quality standards
-- [Freelance DevOps Roadmap](./docs/guides/freelance-devops-roadmap.md) → 12-month learning path to $150+/hr
+- [How to Use This List](./docs/get-started/how-to-use-this-list.md) → Navigation guide with progressive disclosure patterns
+- [How to Contribute](./docs/reference/how-to-contribute.md) → Detailed contribution guide with formatting and quality standards
+- [Freelance DevOps Roadmap](./docs/get-started/freelance-devops-roadmap.md) → 12-month learning path to $150+/hr
 
 ---
 

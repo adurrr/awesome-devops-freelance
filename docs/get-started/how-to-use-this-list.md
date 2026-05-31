@@ -14,7 +14,7 @@ If you only have 5 minutes, start here:
 2. **Looking for tools?** → Use the [Quick Navigation by Category](https://github.com/adurrr/awesome-devops-freelance#-quick-navigation-by-category) table to jump to your area
 3. **Need a learning plan?** → Check the [12-Month Freelance DevOps Roadmap](./freelance-devops-roadmap.md)
 4. **Want to go deep?** → Pick a paradigm from the [Research Papers](#research-papers-deep-dives) section
-5. **Ready to contribute?** → See [How to Contribute](./how-to-contribute.md)
+5. **Ready to contribute?** → See [How to Contribute](../reference/how-to-contribute.md)
 
 ---
 
@@ -24,9 +24,9 @@ The project follows a **progressive disclosure** model → each layer adds more 
 
 ```
 README.md                     ← Summary + top tools + navigation (5 minute read)
-├── docs/extended-lists/       ← Full tool comparisons + pricing + freelance context
-├── docs/research/             ← Deep paradigm research with academic references
-├── docs/guides/               ← Practical guides and roadmaps
+├── ../tools/       ← Full tool comparisons + pricing + freelance context
+├── ../paradigms/             ← Deep paradigm research with academic references
+├── ../get-started/               ← Practical guides and roadmaps
 └── research/                  ← Methodology and foundational knowledge
 ```
 
@@ -71,7 +71,7 @@ Use research papers when you need to **understand a paradigm** deeply or write p
 ### Layer 4: Freelance Career Resources
 
 - **[Freelance DevOps Roadmap](./freelance-devops-roadmap.md)** → 12-month structured plan from $40/hr to $150+/hr
-- **[Freelancer Profile Analysis](../research/freelancer-profile-analysis.md)** → patterns from 50 top-rated freelancers
+- **[Freelancer Profile Analysis](../careers/freelancer-profile-analysis.md)** → patterns from 50 top-rated freelancers
 - **[Freelance Career Patterns](https://github.com/adurrr/awesome-devops-freelance#-freelance-career-patterns)** → platforms, certifications, engagement process
 
 ---
@@ -95,7 +95,7 @@ Use research papers when you need to **understand a paradigm** deeply or write p
 ### I'm Planning a Freelance Career
 
 1. Study the [Freelance Career Patterns](https://github.com/adurrr/awesome-devops-freelance#-freelance-career-patterns) section
-2. Read the [Freelancer Profile Analysis](../research/freelancer-profile-analysis.md)
+2. Read the [Freelancer Profile Analysis](../careers/freelancer-profile-analysis.md)
 3. Follow the [12-Month DevOps Roadmap](./freelance-devops-roadmap.md)
 4. Build portfolio projects listed in the roadmap
 

@@ -8,11 +8,17 @@ weight: 1
 
 Browse the full Awesome DevOps Freelance documentation:
 
-## [Research](research/)
+## [Get Started](get-started/)
+Entry-level guides, quick-start orientation, and the 12-month freelance DevOps roadmap.
+
+## [Paradigms](paradigms/)
 Deep research documents for each Ops paradigm — market data, trends, academic grounding, and freelance opportunities.
 
-## [Extended Tool Lists](extended-lists/)
+## [Tools](tools/)
 Extended tool comparisons with pricing, licensing, feature matrices, and freelance-specific recommendations.
 
-## [Guides](guides/)
-Practical guides for navigating this resource, contributing, and planning your DevOps freelance career.
+## [Careers](careers/)
+Freelancer career data: rate analysis, platform comparisons, certification guides, and profile patterns.
+
+## [Reference](reference/)
+Project methodology, contribution guidelines, and architecture documentation.

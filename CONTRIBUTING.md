@@ -23,7 +23,7 @@ First off, thank you for considering contributing! This project aims to be the m
 - New paradigm emerging? Suggest a new category
 
 ### 🔬 Academic References
-- Have a relevant SLR or paper? Open a PR adding it to `docs/research/academic-references.md`
+- Have a relevant SLR or paper? Open a PR adding it to `docs/paradigms/academic-references.md`
 - Include: full citation, DOI/arXiv ID, and 2-3 sentence summary of findings
 
 ### 💼 Freelancer Insights

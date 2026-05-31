@@ -46,29 +46,34 @@ copyright = '[AGPL v3](https://www.gnu.org/licenses/agpl-3.0)'
   weight = 1
 
 [[menu.home]]
-  name = 'Research'
-  pageRef = '/docs/research/'
+  name = 'Get Started'
+  pageRef = '/docs/get-started/'
   weight = 2
 
 [[menu.home]]
-  name = 'Tools'
-  pageRef = '/docs/extended-lists/'
+  name = 'Paradigms'
+  pageRef = '/docs/paradigms/'
   weight = 3
 
 [[menu.home]]
-  name = 'Guides'
-  pageRef = '/docs/guides/'
+  name = 'Tools'
+  pageRef = '/docs/tools/'
   weight = 4
 
 [[menu.home]]
-  name = 'Career'
-  pageRef = '/career/'
+  name = 'Careers'
+  pageRef = '/docs/careers/'
   weight = 5
+
+[[menu.home]]
+  name = 'Reference'
+  pageRef = '/docs/reference/'
+  weight = 6
 
 [[menu.home]]
   name = 'GitHub'
   url = 'https://github.com/adurrr/awesome-devops-freelance'
-  weight = 6
+  weight = 7
 
 [params]
   BookTheme = 'auto'

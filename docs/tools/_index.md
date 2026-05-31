@@ -1,9 +1,9 @@
 ---
-title: "Extended Tool Lists"
-weight: 2
+title: "Tools"
+weight: 3
 ---
 
-# Extended Tool Lists
+# Tools
 
 Full tool comparisons with pricing, licensing, use cases, and freelance relevance.
 
