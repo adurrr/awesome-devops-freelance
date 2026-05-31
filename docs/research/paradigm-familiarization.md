@@ -358,7 +358,7 @@ Site Reliability Engineering applies software engineering to operations problems
 
 ---
 
-## 🧭 The Ops Spectrum → How They Relate
+## 🧭 The Ops Landscape → How They Relate
 
 ```
                          ┌─────────────────────────────────────┐

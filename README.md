@@ -15,7 +15,7 @@
 
 - [Quick Start](#-quick-start)
 - [Paradigms Overview](#-paradigms-overview)
-- [The Ops Spectrum](#-the-ops-spectrum)
+- [The Ops Landscape](#-the-ops-landscape)
 - [Quick Navigation by Category](#-quick-navigation-by-category)
 - [Top Tools by Category](#-top-tools-by-category)
 - [CNCF Projects Map](#-cncf-projects-map)
@@ -33,7 +33,7 @@
 **New to the Ops landscape?** Here's how to navigate this resource:
 
 1. **Start here** → Read the [Paradigms Overview](#-paradigms-overview) to understand the landscape
-2. **Study the map** → The [Ops Spectrum](#-the-ops-spectrum) shows how paradigms relate
+2. **Study the map** → The [Ops Landscape](#-the-ops-landscape) shows how paradigms relate
 3. **Browse tools** → Use [Quick Navigation](#-quick-navigation-by-category) to find your category
 4. **Go deep** → Click any "Explore" link or "Full list →" for extended docs with comparisons, pricing, and learning resources
 5. **Explore careers** → See [Freelance Career Patterns](#-freelance-career-patterns) for rates, platform strategies, and portfolio tips
@@ -62,28 +62,34 @@
 
 ---
 
-## 🔬 The Ops Spectrum
+## 🔬 The Ops Landscape
 
 ```
-                        ┌─────────────────────────────────────┐
-                        │         PLATFORM ENGINEERING        │
-                        │   (The unifying abstraction layer)   │
-                        └─────────────────────────────────────┘
-                                    ▲        ▲        ▲
-                    ┌───────────────┘        │        └───────────────┐
-                    ▼                        ▼                        ▼
-           ┌────────────────┐     ┌──────────────────┐     ┌──────────────────┐
-           │    DevSecOps   │     │   DataOps/MLOps  │     │   FinOps/AIOps   │
-           │  (Security)    │     │   (Data + AI)    │     │   (Cost + Ops)   │
-           └────────────────┘     └──────────────────┘     └──────────────────┘
-                    ▲                        ▲                        ▲
-                    └───────────────┬────────┘───────────────────────┘
-                                    ▼
-                          ┌──────────────────┐
-                          │   CORE DEVOPS    │
-                          │  (CI/CD + IaC +  │
-                          │   Containers)    │
-                          └──────────────────┘
+                  ┌───────────────────────────────────┐
+                  │       PLATFORM ENGINEERING        │
+                  │   Developer portals • IDPs        │
+                  │   Backstage • Crossplane • Port   │
+                  └──────────────┬────────────────────┘
+                                │ unifies
+          ┌─────────────────────┼──────────────────────┐
+          │                     │                      │
+    ┌─────▼──────────┐  ┌──────▼─────────┐  ┌────────▼──────┐
+    │   DevSecOps    │  │  Data + AI Ops │  │ Cost + Auto   │
+    │                │  │                │  │               │
+    │ Policy-as-Code │  │ DataOps        │  │ FinOps        │
+    │ SAST • DAST    │  │ MLOps • LLMOps │  │ AIOps         │
+    │ Trivy • Falco  │  │ MLflow • Lang  │  │ Kubecost      │
+    └─────┬──────────┘  └──────┬─────────┘  └────────┬──────┘
+          │                    │                      │
+          └────────────────────┼──────────────────────┘
+                               │
+                    ┌──────────▼───────────┐
+                    │     CORE DEVOPS      │
+                    │   Foundation Layer   │
+                    │                      │
+                    │ CI/CD • IaC • K8s    │
+                    │ GitOps • SRE • Obs   │
+                    └──────────────────────┘
 ```
 
 **The convergence in 2026:**
