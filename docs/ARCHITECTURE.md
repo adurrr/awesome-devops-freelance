@@ -21,7 +21,7 @@
 ```
 awesome-devops-freelance/
 ├── README.md                        ← Curated list (summary, navigation, top tools)
-├── LICENSE                          ← AGPL v3
+├── LICENSE                          ← CC0 1.0
 ├── CONTRIBUTING.md                  ← Contribution guidelines
 ├── CHANGELOG.md                     ← Change log
 ├── docs/
