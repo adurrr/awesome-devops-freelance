@@ -22,13 +22,13 @@ jobs:
           stale_count=0
           report=""
           
-          find docs/ -name "*.md" -mtime +90 | while read file; do
+          while IFS= read -r file; do
             modified=$(date -r "$file" '+%Y-%m-%d')
             days=$(( ($(date +%s) - $(date -r "$file" +%s) ) / 86400 ))
             echo "| \`$file\` | $modified | $days |" >> $GITHUB_STEP_SUMMARY
             report="$report\n⚠️ $file (last modified: $modified, $days days ago)"
             stale_count=$((stale_count + 1))
-          done
+          done < <(find docs/ -name "*.md" -mtime +90)
           
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "**Total stale documents: $stale_count**" >> $GITHUB_STEP_SUMMARY
@@ -47,12 +47,12 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
           
           missing=0
-          find docs/ -name "*.md" | while read file; do
+          while IFS= read -r file; do
             if ! head -20 "$file" | grep -qi "last updated"; then
               echo "- \`$file\`" >> $GITHUB_STEP_SUMMARY
               missing=$((missing + 1))
             fi
-          done
+          done < <(find docs/ -name "*.md")
           
           if [ "$missing" -eq 0 ]; then
             echo "✅ All documents have a 'Last updated' header" >> $GITHUB_STEP_SUMMARY
