@@ -8,7 +8,7 @@
 
 **Name**: awesome-devops-freelance  
 **Type**: Curated awesome list + research documentation  
-**License**: AGPL-3.0  
+**License**: CC0-1.0  
 **Audience**: DevOps freelancers, platform engineers, SRE consultants  
 **Scope**: All Ops paradigms (DevOps, DevSecOps, DataOps, MLOps, AIOps, FinOps, LLMOps, Platform Engineering, SRE, GitOps)
 

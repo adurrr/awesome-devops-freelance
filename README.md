@@ -1,9 +1,11 @@
-# Awesome DevOps Freelance [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0) [![GitHub Stars](https://img.shields.io/github/stars/adurrr/awesome-devops-freelance?style=flat-square&logo=github)](https://github.com/adurrr/awesome-devops-freelance)
+# Awesome DevOps Freelance [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: CC0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/) [![GitHub Stars](https://img.shields.io/github/stars/adurrr/awesome-devops-freelance?style=flat-square&logo=github)](https://github.com/adurrr/awesome-devops-freelance)
 
 > A curated list of awesome DevOps platforms, tools, practices, and resources for freelancers.  
 > Covers **DevOps, DevSecOps, DataOps, MLOps, AIOps, FinOps, LLMOps** → all paradigms in the 2026 state of the art.
 
 **Why this list?** The "Ops" landscape has fragmented into a dozen specialized disciplines. Freelancers need to navigate tools, practices, platforms, and career patterns across all of them. This list is your single-entry point → curated, categorized, and justified.
+
+> ⭐ **Like this resource?** [Star it on GitHub](https://github.com/adurrr/awesome-devops-freelance) — it helps other freelancers discover it!
 
 ---
 
@@ -459,10 +461,10 @@ Contributions are welcome! See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelin
 
 ## 📄 License
 
-[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+[![License: CC0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
-This work is licensed under the GNU Affero General Public License v3.0 or later.  
-Because this is a curated knowledge resource, AGPL ensures that anyone who modifies and publishes it (even as a web service) must share their changes under the same license.
+This work is dedicated to the public domain under [CC0 1.0 Universal](http://creativecommons.org/publicdomain/zero/1.0/).  
+Free to copy, modify, distribute, and use — no attribution required, though appreciated.
 
 ---
 
