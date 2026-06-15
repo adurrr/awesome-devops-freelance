@@ -31,7 +31,7 @@ jobs:
           # Find all markdown files under docs/ and data/
           while IFS= read -r file; do
             # Extract "Last updated: YYYY-MM-DD" from file
-            last_updated=$(grep -i "last updated.*[12][0-9][0-9][0-9]-[0-1][0-9]-[0-3][0-9]" "$file" | head -1 | grep -oP '[12][0-9][0-9][0-9]-[0-1][0-9]-[0-3][0-9]')
+            last_updated=$(grep -i "last updated.*[12][0-9][0-9][0-9]-[0-1][0-9]-[0-3][0-9]" "$file" | head -1 | grep -oP '[12][0-9][0-9][0-9]-[0-1][0-9]-[0-3][0-9]' || true)
             if [ -z "$last_updated" ]; then
               # Skip files without "Last updated" header
               continue
